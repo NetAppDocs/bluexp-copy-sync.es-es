@@ -66,9 +66,9 @@ Las cargas de recursos están relacionadas con los costes de informática y alma
 
 
 
-=== ¿Cómo se factura Cloud Sync?
+=== ¿Cómo se factura a Cloud Sync y cómo se gestiona mi suscripción?
 
-Hay dos formas de pagar las relaciones de sincronización después de que termine su prueba gratuita de 14 días. La primera opción es suscribirse a AWS o Azure, lo que le permite pagar por uso o anualmente. La segunda opción consiste en comprar licencias directamente a NetApp.
+Hay dos formas de pagar las relaciones de sincronización después de que termine su prueba gratuita de 14 días. La primera opción es suscribirse a AWS o Azure, lo que le permite pagar por uso o anualmente. La segunda opción consiste en comprar licencias directamente a NetApp. En cada caso, su suscripción se gestionará a través de su plataforma de proveedores y *no* a través de la interfaz de usuario de Cloud Sync.
 
 
 
