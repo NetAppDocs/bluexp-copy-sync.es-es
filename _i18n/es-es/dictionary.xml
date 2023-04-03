@@ -593,8 +593,6 @@
   <block id="5fdd04411ca447ba46cb4f395b6144e5" category="list-text">Defina los tipos de archivo que se van a incluir en cada sincronización: Archivos, directorios y enlaces simbólicos.</block>
   <block id="ab02bb0c1a43b674af1de544e1af3831" category="list-text">Excluir extensiones de archivo</block>
   <block id="3ac7c94d925c145faa4e821d6da327ac" category="list-text">Especifique las extensiones de archivo que desea excluir de la sincronización escribiendo la extensión de archivo y pulsando *Intro*. Por ejemplo, escriba _log_ o _.log_ para excluir archivos *.log. No es necesario un separador para varias extensiones. El siguiente vídeo proporciona una breve demostración:</block>
-  <block id="f8fb6587a32dba313e626666cb0364a8" category="list-text">Excluir nombres de directorio</block>
-  <block id="baf659a0894b31eff8d9e87af59af9e5" category="list-text">Especifique un máximo de 15 directorios para excluir de la sincronización escribiendo su nombre y pulsando *Intro*. Los directorios .copy-fload, .snapshot, ~snapshot se excluyen de forma predeterminada. Si desea incluirlas en su sincronización, póngase en contacto con nosotros.</block>
   <block id="a00fe904aecabd4bff74d8776e6da2c5" category="list-text">Tamaño de archivo</block>
   <block id="9c8cecb2075d9547b74e5e71bf16ab79" category="list-text">Elija sincronizar todos los archivos independientemente de su tamaño o sólo los archivos que se encuentren en un rango de tamaño específico.</block>
   <block id="80ccccd39ce6134340fccbf76eb379ae" category="list-text">Fecha de modificación</block>
@@ -730,7 +728,6 @@
   <block id="305844c9f0d8d39ccc49abc28fe261cc" category="list-text">m5n.xlarge cuando esté disponible en la región, de lo contrario m5.xlarge</block>
   <block id="a87ff679a2f3e71d9181a67b7542122c" category="list-text">4</block>
   <block id="752a423b7896d2c8176434adcd527e26" category="list-text">16 GB</block>
-  <block id="0129054e0108c57f3077a26c197cd09b" category="list-text">Amazon Linux 2022</block>
   <block id="c5a333964ee323aaba5e5b42ff247d6b" category="list-text">SSD GP2 DE 10 GB</block>
   <block id="5e4e330a68fd5b85b32d86b44717f091" category="summary">Al crear una relación de sincronización que requiera credenciales de Amazon S3, Azure o Google Cloud, debe especificar dichas credenciales a través de la interfaz de usuario o la API de Cloud Sync. Una alternativa es establecer el corredor de datos para acceder a las credenciales directamente desde un almacén HashiCorp externo.</block>
   <block id="34a36f0a41c390743b7c28311304c570" category="doc">Configuración de un grupo de corredores de datos para usar un almacén externo de HashiCorp</block>
@@ -1762,7 +1759,6 @@
   <block id="ad0ae9ea1f2e8d973a9a0f6bb169f494" category="inline-image-macro">Icono con tres puntos que aparece en la última columna de la tabla</block>
   <block id="98efef1c8a47ed5791b41944e8ff4ec2" category="list-text">Gestione un caso existente haciendo clic en <block ref="a0b152b50a56901a75affebabc26ed61" category="inline-image-macro-rx" type="image"></block> y seleccione una de las opciones disponibles:</block>
   <block id="6d9dd74e7709ef802d299966f7898f6b" category="list-text">*Ver caso*: Ver todos los detalles sobre un caso específico.</block>
-  <block id="482429810c2b00a4fa04f9900c560232" category="list-text">*Actualizar notas de caso*: Proporcione detalles adicionales sobre su problema.</block>
   <block id="f791bc685c526af8296381acff10f6a0" category="list-text">*Cerrar caso*: Proporcione detalles sobre por qué cierra el caso y haga clic en *Cerrar caso*.</block>
   <block id="e93217b2f709a398ce3c0fb753beb05f" category="inline-image-macro">Captura de pantalla que muestra las acciones que puede realizar después de seleccionar el menú de la última columna de la tabla.</block>
   <block id="e9a5c374fb47ed2ae5cc6108fb36d829" category="paragraph"><block ref="e9a5c374fb47ed2ae5cc6108fb36d829" category="inline-image-macro-rx" type="image"></block></block>
@@ -1786,4 +1782,19 @@
   <block id="cf76271f717860ca93c6825568b0690d" category="list-text">Rocky Linux 9</block>
   <block id="596076690835c26754302829a7e9d63a" category="section-title">¿Cómo se factura a Cloud Sync y cómo se gestiona mi suscripción?</block>
   <block id="0e7db6545d4c588d1ef20cc2f2744070" category="paragraph">Hay dos formas de pagar las relaciones de sincronización después de que termine su prueba gratuita de 14 días. La primera opción es suscribirse a AWS o Azure, lo que le permite pagar por uso o anualmente. La segunda opción consiste en comprar licencias directamente a NetApp. En cada caso, su suscripción se gestionará a través de su plataforma de proveedores y *no* a través de la interfaz de usuario de Cloud Sync.</block>
+  <block id="f2eca1a3494c7396a49a597072cc600d" category="list-text">Amazon Linux 2023</block>
+  <block id="36df1b975561708b246ef1801ea416e5" category="list-text">FSX para ONTAP</block>
+  <block id="a37b0a91d7c4d8ac6ce924a7f8e1ce5a" category="list-text">ONTAP en las instalaciones</block>
+  <block id="9e1b606dc521567131be8e8f6b621511" category="list-text">Excluir directorios</block>
+  <block id="303de3e45b2f15b7f37aa50b2824f981" category="list-text">Especifique un máximo de 15 directorios para excluir de la sincronización escribiendo su nombre o ruta completa de directorio y pulsando *Intro*. Los directorios .copy-fload, .snapshot, ~snapshot se excluyen de forma predeterminada. Si desea incluirlas en su sincronización, póngase en contacto con nosotros.</block>
+  <block id="c7326baf2ea51b61fafa4f4680d916c0" category="section-title">2 de abril de 2023</block>
+  <block id="9c305cf5f9f8051acc945eda0fc8a1be" category="section-title">Compatibilidad adicional para las relaciones de Gen2 de Azure Data Lake Storage</block>
+  <block id="61babc330ca2ea0af752965dd3965d41" category="paragraph">Ahora puede crear relaciones de sincronización con Azure Data Lake Storage Gen2 como origen y destino con lo siguiente:</block>
+  <block id="ad5a82acd30f0d971a29fdb4632bd7d4" category="section-title">Filtrar directorios por ruta completa</block>
+  <block id="b7395f4da221ab7779cce11224436fb3" category="paragraph">Además de filtrar directorios por nombre, ahora puede filtrar directorios por su ruta completa.</block>
+  <block id="d1624b8f3b686e981a178c03616a370b" category="inline-link">Obtenga más información acerca del valor excluir directorios</block>
+  <block id="c73e2e476b1a94d1d032f8e0828dcd20" category="paragraph"><block ref="f4b5f7467e10befa1f2855925c118fa5" category="inline-link-rx"></block>.</block>
+  <block id="c7f5c1a75acc58c6f004efc0ce1eba09" category="list-text">*Accesorio (opcional)*: Cargue hasta cinco archivos adjuntos, uno a la vez.</block>
+  <block id="bfa80e7aaad6da353b431bff3a0e12d6" category="paragraph">Los archivos adjuntos están limitados a 25 MB por archivo. Se admiten las siguientes extensiones de archivo: Txt, log, pdf, jpg/jpeg, rtf, doc/docx, xls/xlsx y csv.</block>
+  <block id="8e6b52a532a4fbbfc98dca3ebfa5f1e6" category="list-text">*Actualizar notas de caso*: Proporcione detalles adicionales sobre su problema o seleccione *cargar archivos* para adjuntar hasta un máximo de cinco archivos.</block>
 </blocks>

@@ -123,6 +123,6 @@ Cloud Sync crea un agente de datos en AWS utilizando la siguiente configuración
 Tipo de instancia:: m5n.xlarge cuando esté disponible en la región, de lo contrario m5.xlarge
 VCPU:: 4
 RAM:: 16 GB
-De NetApp:: Amazon Linux 2022
+De NetApp:: Amazon Linux 2023
 Tamaño y tipo del disco:: SSD GP2 DE 10 GB
 
