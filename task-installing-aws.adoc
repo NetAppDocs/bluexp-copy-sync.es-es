@@ -2,7 +2,7 @@
 sidebar: sidebar 
 permalink: task-installing-aws.html 
 keywords: data broker, install, aws, networking, permissions, regions, install data broker in aws, install in aws, deploy in aws, deploy data broker in aws, cft, template, iam role, use your own iam role, regions, supported regions, networking requirements, port, ports, 443, port 443, ntp, network time protocol, permissions, iam role, iam permissions, aws data broker 
-summary: Al crear un nuevo agente de datos, elija la opción AWS Data Broker para implementar el software de agente de datos en una nueva instancia de EC2 en un VPC. Cloud Sync le guía durante el proceso de instalación, pero en esta página se repiten los requisitos y los pasos que le ayudarán a preparar la instalación. 
+summary: Al crear un nuevo agente de datos, elija la opción AWS Data Broker para implementar el software de agente de datos en una nueva instancia de EC2 en un VPC. La copia y sincronización de BlueXP te guía por el proceso de instalación, pero los requisitos y los pasos se repiten en esta página para ayudarte a preparar la instalación. 
 ---
 = Crear un nuevo agente de datos en AWS
 :hardbreaks:
@@ -14,7 +14,7 @@ summary: Al crear un nuevo agente de datos, elija la opción AWS Data Broker par
 
 
 [role="lead"]
-Al crear un nuevo grupo de agentes de datos, elija Amazon Web Services para implementar el software de agente de datos en una nueva instancia de EC2 en un VPC. Cloud Sync le guía durante el proceso de instalación, pero en esta página se repiten los requisitos y los pasos que le ayudarán a preparar la instalación.
+Al crear un nuevo grupo de agentes de datos, elija Amazon Web Services para implementar el software de agente de datos en una nueva instancia de EC2 en un VPC. La copia y sincronización de BlueXP te guía por el proceso de instalación, pero los requisitos y los pasos se repiten en esta página para ayudarte a preparar la instalación.
 
 También tiene la opción de instalar el agente de datos en un host Linux existente en el cloud o en sus instalaciones. link:task-installing-linux.html["Leer más"].
 
@@ -34,9 +34,9 @@ El software de Data broker se ejecuta automáticamente como root en el host Linu
 
 == Requisitos de red
 
-* El agente de datos necesita una conexión saliente a Internet para que pueda sondear el servicio Cloud Sync para las tareas a través del puerto 443.
+* El agente de datos necesita una conexión a Internet de salida para que pueda sondear el servicio de copia y sincronización de BlueXP para tareas a través del puerto 443.
 +
-Cuando Cloud Sync implementa el agente de datos en AWS, crea un grupo de seguridad que permite la comunicación saliente necesaria. Tenga en cuenta que puede configurar el agente de datos para que utilice un servidor proxy durante el proceso de instalación.
+Cuando la copia y sincronización de BlueXP pone en marcha el agente de datos en AWS, crea un grupo de seguridad que permite la comunicación saliente necesaria. Tenga en cuenta que puede configurar el agente de datos para que utilice un servidor proxy durante el proceso de instalación.
 
 +
 Si necesita limitar la conectividad saliente, consulte link:reference-networking.html["lista de puntos finales con los que se contacta el data broker"].
@@ -54,7 +54,7 @@ La cuenta de usuario de AWS que utiliza para implementar el el agente de datos d
 
 == [[iam]]requisitos para utilizar su propia función de IAM con el agente de datos de AWS
 
-Cuando Cloud Sync implementa el Data broker, crea una función IAM para la instancia de Data broker. Si lo prefiere, puede implementar el agente de datos con su propio rol de IAM. Puede usar esta opción si su organización tiene políticas de seguridad estrictas.
+Cuando la copia y sincronización de BlueXP implementa el agente de datos, crea un rol de IAM para la instancia de agente de datos. Si lo prefiere, puede implementar el agente de datos con su propio rol de IAM. Puede usar esta opción si su organización tiene políticas de seguridad estrictas.
 
 El rol del IAM debe cumplir los siguientes requisitos:
 
@@ -81,7 +81,7 @@ Complete los pasos hasta llegar a la página *Grupo de agentes de datos*.
 image:screenshot-aws.png["Captura de pantalla de la página Data Broker que le permita elegir entre AWS, Azure, Google Cloud y un agente de datos en las instalaciones."]
 
 . Introduzca un nombre para el Data broker y haga clic en *continuar*.
-. Introduzca una clave de acceso de AWS para que Cloud Sync pueda crear el agente de datos en AWS en su nombre.
+. Introduce una clave de acceso de AWS para que la copia y sincronización de BlueXP pueda crear el agente de datos en AWS en tu nombre.
 +
 Las teclas no se guardan ni utilizan para ningún otro propósito.
 
@@ -93,7 +93,7 @@ Si prefiere no proporcionar claves de acceso, haga clic en el vínculo situado e
 
 +
 video::video_cloud_sync.mp4[width=848,height=480]
-. Si introdujo una clave de acceso de AWS, seleccione una ubicación para la instancia, seleccione un par de claves, elija si desea habilitar una dirección IP pública y seleccione un rol de IAM existente o deje el campo vacío para que Cloud Sync cree el rol para usted. También tiene la opción de cifrar el agente de datos con una clave KMS.
+. Si introdujo una clave de acceso de AWS, seleccione una ubicación para la instancia, seleccione un par de claves, elija si desea habilitar una dirección IP pública y seleccionar un rol de IAM existente o deje el campo en blanco para que la copia y sincronización de BlueXP creen el rol para usted. También tiene la opción de cifrar el agente de datos con una clave KMS.
 +
 Si elige su propio rol de IAM, <<iam,deberá proporcionar los permisos necesarios>>.
 
@@ -101,7 +101,7 @@ Si elige su propio rol de IAM, <<iam,deberá proporcionar los permisos necesario
 image:screenshot_aws_data_broker.png["Una captura de pantalla de la información que debe proporcionar al implementar un agente de datos en AWS."]
 
 . Especifique una configuración de proxy, si se requiere un proxy para el acceso a Internet en el VPC.
-. Después de que el Data broker esté disponible, haga clic en *continuar* en Cloud Sync.
+. Una vez que el agente de datos esté disponible, haga clic en *Continuar* en la copia y sincronización de BlueXP.
 +
 En la siguiente imagen se muestra una instancia implementada correctamente en AWS:
 
@@ -118,7 +118,7 @@ Ha implementado un agente de datos en AWS y creado una nueva relación de sincro
 
 == Detalles sobre la instancia de Data broker
 
-Cloud Sync crea un agente de datos en AWS utilizando la siguiente configuración.
+La copia y sincronización de BlueXP crea un agente de datos en AWS mediante la siguiente configuración.
 
 Tipo de instancia:: m5n.xlarge cuando esté disponible en la región, de lo contrario m5.xlarge
 VCPU:: 4

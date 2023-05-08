@@ -2,9 +2,9 @@
 sidebar: sidebar 
 permalink: task-quick-start.html 
 keywords: quick start, overview, deploying, getting started, get started, signing up, free trial 
-summary: Primeros pasos en el servicio Cloud Sync incluyen algunos pasos. 
+summary: Para empezar a utilizar el servicio de copia y sincronización de BlueXP se incluyen unos pocos pasos. 
 ---
-= Inicio rápido de Cloud Sync
+= Inicio rápido para copiar y sincronizar BlueXP
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 
@@ -13,7 +13,7 @@ summary: Primeros pasos en el servicio Cloud Sync incluyen algunos pasos.
 :imagesdir: ./media/
 
 
-Primeros pasos en el servicio Cloud Sync incluyen algunos pasos.
+Para empezar a utilizar el servicio de copia y sincronización de BlueXP se incluyen unos pocos pasos.
 
 .image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-1.png["Uno"] Inicie sesión y configure BlueXP
 [role="quick-margin-para"]
@@ -48,10 +48,10 @@ Compruebe que el origen y el destino son compatibles y están configurados. El r
 
 .image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-3.png["Tres"] Prepare una ubicación para el agente de datos de NetApp
 [role="quick-margin-para"]
-El software de agente de datos de NetApp sincroniza los datos de un origen con un destino (lo que se denomina _Sync Relationship_). Puede ejecutar el agente de datos en AWS, Azure, Google Cloud Platform o en sus instalaciones. Un grupo de agentes de datos, que consta de uno o más agentes de datos, necesita una conexión a Internet saliente a través del puerto 443 para poder comunicarse con el servicio Cloud Sync y ponerse en contacto con otros servicios y repositorios. link:reference-networking.html#networking-endpoints["Consulte la lista de extremos"].
+El software de agente de datos de NetApp sincroniza los datos de un origen con un destino (lo que se denomina _Sync Relationship_). Puede ejecutar el agente de datos en AWS, Azure, Google Cloud Platform o en sus instalaciones. Un grupo de agentes de datos, que consta de uno o varios agentes de datos, necesita una conexión a Internet de salida a través del puerto 443 para poder comunicarse con el servicio de copia y sincronización de BlueXP y ponerse en contacto con otros servicios y repositorios. link:reference-networking.html#networking-endpoints["Consulte la lista de extremos"].
 
 [role="quick-margin-para"]
-Cloud Sync le guía por el proceso de instalación cuando crea una relación de sincronización, en cuyo momento puede implementar un agente de datos en el cloud o descargar un script de instalación para su propio host Linux.
+La copia y sincronización de BlueXP te guía a través del proceso de instalación cuando creas una relación de sincronización, en el que puedes poner en marcha un agente de datos en la nube o descargar un script de instalación para tu propio host de Linux.
 
 [role="quick-margin-list"]
 * link:task-installing-aws.html["Revise la instalación de AWS"]
@@ -66,4 +66,4 @@ Inicie sesión en https://console.bluexp.netapp.com/["BlueXP"^], haga clic en *S
 
 .image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-5.png["Cinco"] Pague por sus relaciones de sincronización una vez que finalice su prueba gratuita
 [role="quick-margin-para"]
-Suscríbase a AWS o Azure para pagar según el uso o anualmente. O adquiera licencias directamente a NetApp. Sólo tiene que ir a la página Configuración de licencia de Cloud Sync para configurarlo. link:task-licensing.html["Leer más"].
+Suscríbase a AWS o Azure para pagar según el uso o anualmente. O adquiera licencias directamente a NetApp. Solo tienes que ir a la página de ajustes de licencia en la copia y sincronización de BlueXP para configurarla. link:task-licensing.html["Leer más"].

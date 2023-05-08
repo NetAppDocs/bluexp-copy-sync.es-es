@@ -102,7 +102,7 @@ Tenga en cuenta lo siguiente:
 +
 *** Si desea utilizar un grupo de Data broker existente, el grupo debe tener sólo un agente de datos. No se admiten varios gestores de datos en un grupo con relaciones de sincronización cifradas.
 *** Si el agente de datos de origen actúa como oyente, debe ser un nuevo agente de datos.
-*** Si necesita un nuevo agente de datos, Cloud Sync le pedirá las instrucciones de instalación. Puede desplegar el agente de datos en el cloud o descargar un script de instalación para su propio host Linux.
+*** Si necesitas un nuevo agente de datos, la copia y sincronización de BlueXP te indica las instrucciones de instalación. Puede desplegar el agente de datos en el cloud o descargar un script de instalación para su propio host Linux.
 
 
 .. *directorios*: Elija los directorios que desea sincronizar seleccionando todos los directorios, o taladrando y seleccionando un subdirectorio.
@@ -134,4 +134,4 @@ image:screenshot_nfs_encryption_review.gif["\"Una captura de pantalla que muestr
 
 
 .Resultado
-Cloud Sync comienza a crear la nueva relación de sincronización. Cuando haya terminado, haga clic en *Ver en Panel* para ver detalles sobre la nueva relación.
+La copia y sincronización de BlueXP comienza a crear una nueva relación de sincronización. Cuando haya terminado, haga clic en *Ver en Panel* para ver detalles sobre la nueva relación.

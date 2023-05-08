@@ -2,7 +2,7 @@
 sidebar: sidebar 
 permalink: task-copying-acls.html 
 keywords: permissions, access control list, acls, ntfs, cifs, smb, shares, robocopy, copy, transfer, activate, operating system, os, ram, cpu, networking, copy acls to the target 
-summary: 'Cloud Sync puede copiar listas de control de acceso (ACL) entre recursos compartidos de SMB y entre un recurso compartido de SMB y el almacenamiento de objetos (excepto ONTAP S3). Si es necesario, también se dispone de la opción de conservar manualmente las ACL entre las unidades SMB mediante robocopy.' 
+summary: 'La copia y sincronización de BlueXP puede copiar listas de control de acceso (ACL) entre recursos compartidos de SMB y entre un recurso compartido de SMB y el almacenamiento de objetos (excepto para ONTAP S3). Si es necesario, también se dispone de la opción de conservar manualmente las ACL entre las unidades SMB mediante robocopy.' 
 ---
 = Copiar ACL de recursos compartidos de SMB
 :hardbreaks:
@@ -14,16 +14,16 @@ summary: 'Cloud Sync puede copiar listas de control de acceso (ACL) entre recurs
 
 
 [role="lead"]
-Cloud Sync puede copiar listas de control de acceso (ACL) entre recursos compartidos de SMB y entre un recurso compartido de SMB y el almacenamiento de objetos (excepto ONTAP S3). Si es necesario, también se dispone de la opción de conservar manualmente las ACL entre las unidades SMB mediante robocopy.
+La copia y sincronización de BlueXP puede copiar listas de control de acceso (ACL) entre recursos compartidos de SMB y entre un recurso compartido de SMB y el almacenamiento de objetos (excepto para ONTAP S3). Si es necesario, también se dispone de la opción de conservar manualmente las ACL entre las unidades SMB mediante robocopy.
 
 .Opciones
-* <<Setting up Cloud Sync to copy ACLs from an SMB server,Configure Cloud Sync para que copie automáticamente las ACL>>
+* <<Setting up BlueXP copy and sync to copy ACLs from an SMB server,Configura la copia y sincronización de BlueXP para copiar automáticamente las ACL>>
 * <<Copia manual de ACL entre recursos compartidos de SMB,Copiar manualmente las ACL entre los recursos compartidos de SMB>>
 
 
 
 
-== Configuración de Cloud Sync para copiar ACL
+== Configurar la copia y sincronización de BlueXP para copiar listas de control de acceso
 
 Copiar ACL entre recursos compartidos de SMB y entre recursos compartidos de SMB y el almacenamiento de objetos. Para ello, se habilita una configuración cuando se crea una relación o después de crear una relación.
 
@@ -31,7 +31,7 @@ Copiar ACL entre recursos compartidos de SMB y entre recursos compartidos de SMB
 Esta función funciona con _any_ type de agente de datos: AWS, Azure, Google Cloud Platform o agente de datos en las instalaciones. Se puede ejecutar el agente de datos en las instalaciones link:task-installing-linux.html["cualquier sistema operativo compatible"].
 
 .Pasos para una nueva relación
-. En Cloud Sync, haga clic en *Crear nueva sincronización*.
+. Desde la copia y sincronización de BlueXP, haz clic en *Crear nueva sincronización*.
 . Arrastre y suelte un servidor SMB o un almacenamiento de objetos como origen y un servidor SMB o almacenamiento de objetos como destino y haga clic en *continuar*.
 . En la página *SMB Server*:
 +
@@ -63,7 +63,7 @@ image:screenshot-sync-tags-metadata.png["Captura de pantalla del sexto paso del 
 
 
 .Resultado
-Al sincronizar datos, Cloud Sync conserva las ACL entre el origen y el destino.
+Al sincronizar los datos, la copia y sincronización de BlueXP conserva las listas de control de acceso entre el origen y el destino.
 
 
 
@@ -77,7 +77,7 @@ Se pueden conservar manualmente las ACL entre recursos compartidos de SMB median
 +
 Debe realizar este paso antes de utilizar robocopy.
 
-. En Cloud Sync, cree una nueva relación entre los recursos compartidos de SMB de origen y de destino, o sincronice una relación existente.
+. Desde la copia y sincronización de BlueXP, cree una nueva relación entre los recursos compartidos de SMB de origen y destino o sincronice una relación existente.
 . Una vez finalizada la sincronización de datos, ejecute el siguiente comando desde el host de Windows para sincronizar las ACL y la propiedad:
 +
  robocopy /E /COPY:SOU /secfix [source] [target] /w:0 /r:0 /XD ~snapshots /UNILOG:”[logfilepath]

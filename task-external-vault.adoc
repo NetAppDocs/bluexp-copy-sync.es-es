@@ -2,7 +2,7 @@
 sidebar: sidebar 
 permalink: task-external-vault.html 
 keywords: hashicorp, vault, credentials, secrets, API 
-summary: Al crear una relación de sincronización que requiera credenciales de Amazon S3, Azure o Google Cloud, debe especificar dichas credenciales a través de la interfaz de usuario o la API de Cloud Sync. Una alternativa es establecer el corredor de datos para acceder a las credenciales directamente desde un almacén HashiCorp externo. 
+summary: Cuando creas una relación de sincronización que requiera credenciales de Amazon S3, Azure o Google Cloud, tienes que especificar esas credenciales a través de la interfaz de usuario o la API de copia y sincronización de BlueXP. Una alternativa es establecer el corredor de datos para acceder a las credenciales directamente desde un almacén HashiCorp externo. 
 ---
 = Configuración de un grupo de corredores de datos para usar un almacén externo de HashiCorp
 :hardbreaks:
@@ -13,9 +13,9 @@ summary: Al crear una relación de sincronización que requiera credenciales de 
 :imagesdir: ./media/
 
 
-Al crear una relación de sincronización que requiera credenciales de Amazon S3, Azure o Google Cloud, debe especificar dichas credenciales a través de la interfaz de usuario o la API de Cloud Sync. Una alternativa es establecer el grupo de corredores de datos para acceder a las credenciales (o _Secrets_) directamente desde un almacén externo de HashiCorp.
+Cuando creas una relación de sincronización que requiera credenciales de Amazon S3, Azure o Google Cloud, tienes que especificar esas credenciales a través de la interfaz de usuario o la API de copia y sincronización de BlueXP. Una alternativa es establecer el grupo de corredores de datos para acceder a las credenciales (o _Secrets_) directamente desde un almacén externo de HashiCorp.
 
-Esta función es compatible a través de la API de Cloud Sync con relaciones sincronizadas que requieren las credenciales de Amazon S3, Azure o Google Cloud.
+Esta función es compatible con la API de copia y sincronización de BlueXP con relaciones de sincronización que requieren credenciales de Amazon S3, Azure o Google Cloud.
 
 .image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-1.png["Uno"] Prepare el almacén
 [role="quick-margin-para"]
@@ -33,7 +33,7 @@ Ahora que todo está configurado, puede enviar una llamada a la API para crear u
 
 == Preparación del almacén
 
-Deberá proporcionar a Cloud Sync la URL de los secretos del almacén. Prepare el almacén configurando esas URL. Debe configurar URL para las credenciales de cada origen y destino en las relaciones de sincronización que desea crear.
+Tendrás que proporcionar copia y sincronización de BlueXP con la URL de los secretos de tu almacén. Prepare el almacén configurando esas URL. Debe configurar URL para las credenciales de cada origen y destino en las relaciones de sincronización que desea crear.
 
 La dirección URL debe configurarse de la siguiente manera:
 
@@ -217,7 +217,7 @@ link:task-installing-gcp.html#permissions-required-for-the-service-account["Más
 
 Ahora que todo está configurado, puede enviar una llamada a la API para crear una relación de sincronización que utilice su almacén para obtener los secretos.
 
-Coloque la relación mediante la API DE REST de Cloud Sync.
+Publica la relación mediante la API de REST DE copia y sincronización de BlueXP.
 
 ....
 Headers:

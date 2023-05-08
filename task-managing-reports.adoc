@@ -1,7 +1,7 @@
 ---
 sidebar: sidebar 
 permalink: task-managing-reports.html 
-keywords: reports, sync reports, cloud sync reports, report errors, path reports 
+keywords: reports, sync reports, BlueXP copy and sync reports, report errors, path reports 
 summary: Cree y vea informes para obtener información que puede usar con la ayuda del personal de NetApp para ajustar la configuración de un agente de datos y mejorar el rendimiento. 
 ---
 = Creación y visualización de informes para ajustar la configuración
@@ -25,7 +25,7 @@ Cada informe proporciona detalles en profundidad sobre una ruta en una relación
 
 == Crear informes
 
-Cada vez que se crea un informe, Cloud Sync analiza la ruta y compila los detalles en un informe.
+Cada vez que creas un informe, BlueXP copia y sincronización escanea la ruta y, a continuación, compila los detalles en un informe.
 
 .Pasos
 . Haga clic en *Sincronizar > Informes*.
@@ -67,9 +67,9 @@ image:screenshot-sync-download-report.png["Una captura de pantalla de la opción
 
 == Ver errores de informe
 
-La tabla de rutas de acceso identifica si hay algún error en el informe más reciente. Un error identifica un problema que Cloud Sync enfrentó al analizar la ruta.
+La tabla de rutas de acceso identifica si hay algún error en el informe más reciente. Un error identifica un problema al que se ha enfrentado la copia y sincronización de BlueXP al analizar la ruta.
 
-Por ejemplo, un informe puede contener errores de permiso denegado. Este tipo de error puede afectar a la capacidad de Cloud Sync para analizar todo el conjunto de archivos y directorios.
+Por ejemplo, un informe puede contener errores de permiso denegado. Este tipo de error puede afectar a la capacidad de la copia de BlueXP y SYNC para analizar todo el conjunto de archivos y directorios.
 
 Después de ver la lista de errores, puede abordar los problemas y volver a ejecutar el informe.
 

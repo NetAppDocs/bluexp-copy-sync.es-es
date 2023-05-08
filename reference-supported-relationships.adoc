@@ -2,7 +2,7 @@
 sidebar: sidebar 
 permalink: reference-supported-relationships.html 
 keywords: supported sync relationships, support, supported target, supported source 
-summary: Cloud Sync le permite sincronizar datos de un origen en un destino. Esto se denomina relación de sincronización. Debe comprender las relaciones admitidas antes de comenzar. 
+summary: La copia y sincronización de BlueXP te permite sincronizar datos de un origen con un destino. Esto se denomina relación de sincronización. Debe comprender las relaciones admitidas antes de comenzar. 
 ---
 = Relaciones de sincronización compatibles
 :hardbreaks:
@@ -14,7 +14,7 @@ summary: Cloud Sync le permite sincronizar datos de un origen en un destino. Est
 
 
 [role="lead"]
-Cloud Sync le permite sincronizar datos de un origen en un destino. Esto se denomina relación de sincronización. Debe comprender las relaciones admitidas antes de comenzar.
+La copia y sincronización de BlueXP te permite sincronizar datos de un origen con un destino. Esto se denomina relación de sincronización. Debe comprender las relaciones admitidas antes de comenzar.
 
 [cols="20,25"]
 |===
@@ -325,7 +325,7 @@ Cloud Sync le permite sincronizar datos de un origen en un destino. Esto se deno
 Notas:
 
 . La compatibilidad con cajas está disponible como vista previa.
-. Las relaciones de sincronización con este origen/destino se admiten únicamente mediante la API de Cloud Sync.
+. Las relaciones de sincronización con este origen/destino son compatibles solo con la API de sincronización y copia de BlueXP.
 . Puede elegir un nivel de almacenamiento específico de Azure Blob cuando un contenedor Blob es el destino:
 +
 ** Almacenamiento en caliente

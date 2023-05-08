@@ -2,7 +2,7 @@
 sidebar: sidebar 
 permalink: task-installing-azure.html 
 keywords: data broker, install, azure, networking, permissions, regions, install data broker in azure, install in azure, deploy in azure, deploy data broker in azure, networking requirements, port, ports, 443, port 443, ntp, network time protocol, azure data broker 
-summary: Al crear un nuevo agente de datos, elija la opción de Azure Data Broker para implementar el software de agente de datos en una nueva máquina virtual en un vnet. Cloud Sync le guía durante el proceso de instalación, pero en esta página se repiten los requisitos y los pasos que le ayudarán a preparar la instalación. 
+summary: Al crear un nuevo agente de datos, elija la opción de Azure Data Broker para implementar el software de agente de datos en una nueva máquina virtual en un vnet. La copia y sincronización de BlueXP te guía por el proceso de instalación, pero los requisitos y los pasos se repiten en esta página para ayudarte a preparar la instalación. 
 ---
 = Creación de un nuevo agente de datos en Azure
 :hardbreaks:
@@ -14,7 +14,7 @@ summary: Al crear un nuevo agente de datos, elija la opción de Azure Data Broke
 
 
 [role="lead"]
-Al crear un nuevo grupo de agentes de datos, elija Microsoft Azure para implementar el software de Data broker en una nueva máquina virtual en un vnet. Cloud Sync le guía durante el proceso de instalación, pero en esta página se repiten los requisitos y los pasos que le ayudarán a preparar la instalación.
+Al crear un nuevo grupo de agentes de datos, elija Microsoft Azure para implementar el software de Data broker en una nueva máquina virtual en un vnet. La copia y sincronización de BlueXP te guía por el proceso de instalación, pero los requisitos y los pasos se repiten en esta página para ayudarte a preparar la instalación.
 
 También tiene la opción de instalar el agente de datos en un host Linux existente en el cloud o en sus instalaciones. link:task-installing-linux.html["Leer más"].
 
@@ -34,9 +34,9 @@ El software de Data broker se ejecuta automáticamente como root en el host Linu
 
 == Requisitos de red
 
-* El agente de datos necesita una conexión saliente a Internet para que pueda sondear el servicio Cloud Sync para las tareas a través del puerto 443.
+* El agente de datos necesita una conexión a Internet de salida para que pueda sondear el servicio de copia y sincronización de BlueXP para tareas a través del puerto 443.
 +
-Cuando Cloud Sync implementa el agente de datos en Azure, crea un grupo de seguridad que permite la comunicación saliente necesaria.
+Cuando la copia y sincronización de BlueXP pone en marcha el agente de datos en Azure, crea un grupo de seguridad que permite la comunicación saliente necesaria.
 
 +
 Si necesita limitar la conectividad saliente, consulte link:reference-networking.html["lista de puntos finales con los que se contacta el data broker"].
@@ -176,7 +176,7 @@ NOTE: Si planea implementar una relación de sincronización continua, debe asig
 +
 El proceso puede tardar hasta 7 minutos.
 
-. En Cloud Sync, haga clic en *continuar* una vez que el Data broker esté disponible.
+. En la copia y sincronización de BlueXP, haz clic en *Continuar* una vez que el agente de datos esté disponible.
 . Complete las páginas del asistente para crear la nueva relación de sincronización.
 
 
@@ -185,7 +185,7 @@ Ha puesto en marcha un agente de datos en Azure y creado una nueva relación de 
 
 .¿obtiene un mensaje acerca de cómo se necesita el consentimiento de administrador?
 ****
-Si Microsoft le notifica que se requiere la aprobación del administrador porque Cloud Sync necesita permiso para acceder a los recursos de la organización en su nombre, dispone de dos opciones:
+Si Microsoft te notifica que se requiere aprobación de administrador porque la copia y sincronización de BlueXP necesitan permiso para acceder a los recursos de tu organización en tu nombre, tienes dos opciones:
 
 . Pida a su administrador de AD que le proporcione los siguientes permisos:
 +
@@ -205,7 +205,7 @@ Como se muestra en la URL, nuestra URL de aplicación es \https://cloudsync.neta
 
 == Información sobre el equipo virtual de Data broker
 
-Cloud Sync crea un agente de datos en Azure utilizando la siguiente configuración.
+La copia y sincronización de BlueXP crea un agente de datos en Azure con la siguiente configuración.
 
 Tipo de máquina virtual:: Estándar DS4 v2
 VCPU:: 8

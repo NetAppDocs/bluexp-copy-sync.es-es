@@ -24,7 +24,7 @@ link:concept-licensing.html["Obtenga más información sobre cómo funcionan las
 
 Si usted no paga inmediatamente después de que su prueba gratuita termina, usted no podrá crear ninguna relación adicional. Las relaciones existentes no se eliminan, pero no puede realizar ningún cambio hasta que se suscriba o introduzca una licencia.
 
-Las licencias se deben administrar a través de Cloud Sync o del sitio web correspondiente y *no* a través de una cartera digital.
+Las licencias deben gestionarse a través de la copia y sincronización de BlueXP o del sitio web correspondiente y *no* a través de una cartera digital.
 
 
 
@@ -36,7 +36,7 @@ AWS le permite pagar anualmente.
 . Haga clic en *Sincronizar > licencias*.
 . Seleccione *AWS*
 . Haga clic en *Suscribirse* y, a continuación, en *continuar*.
-. Suscríbase desde el mercado de AWS y, a continuación, vuelva a iniciar sesión en el servicio Cloud Sync para completar el registro.
+. Suscríbete en AWS Marketplace y, a continuación, vuelve a iniciar sesión en el servicio de copia y sincronización de BlueXP para completar el registro.
 +
 El siguiente vídeo muestra el proceso:
 
@@ -68,7 +68,7 @@ Cuenta de usuario de Azure con permisos de colaborador o propietario en la suscr
 Seleccione *Mensual* para pagar por hora, o *Anual* para pagar por un año antes de la fecha.
 
 . Una vez completada la implementación, haga clic en el nombre del recurso SaaS en la ventana emergente de notificaciones.
-. Haga clic en *Configurar cuenta* para volver a Cloud Sync.
+. Haz clic en *Configurar cuenta* para volver a la copia y sincronización de BlueXP.
 +
 El siguiente vídeo muestra el proceso:
 
@@ -78,9 +78,9 @@ video::video_cloud_sync_registering_azure.mp4[width=848,height=480]
 
 
 
-== [[licencias]]Compra de licencias de NetApp y añadirlas a Cloud Sync
+== [[licenses]]Comprar licencias de NetApp y añadirlas a la copia y sincronización de BlueXP
 
-Para pagar por adelantado sus relaciones de sincronización, debe adquirir una o más licencias y añadirlas al servicio de Cloud Sync.
+Para pagar por adelantado tus relaciones de sincronización, debes comprar una o más licencias y añadirlas al servicio de copia y sincronización de BlueXP.
 
 .Lo que necesitará
 Necesitará el número de serie de su licencia, así como el nombre de usuario y la contraseña de la cuenta del sitio de soporte de NetApp con la que está asociada la licencia.
@@ -106,7 +106,7 @@ Necesitará el número de serie de su licencia, así como el nombre de usuario y
 
 == Actualizar una licencia
 
-Si ha ampliado una licencia de Cloud Sync que ha comprado a NetApp, la nueva fecha de caducidad no se actualizará automáticamente en Cloud Sync. Debe volver a agregar la licencia para actualizar la fecha de caducidad. Las licencias se deben administrar a través de Cloud Sync o del sitio web correspondiente y *no* a través de una cartera digital.
+Si ampliaste una licencia de copia y sincronización de BlueXP que compraste a NetApp, la nueva fecha de caducidad no se actualizará automáticamente en la copia y sincronización de BlueXP. Debe volver a agregar la licencia para actualizar la fecha de caducidad. Las licencias deben gestionarse a través de la copia y sincronización de BlueXP o del sitio web correspondiente y *no* a través de una cartera digital.
 
 .Pasos
 . En BlueXP, haga clic en *Sincronizar > licencias*.
@@ -120,4 +120,4 @@ Si ha ampliado una licencia de Cloud Sync que ha comprado a NetApp, la nueva fec
 
 
 .Resultado
-Cloud Sync actualiza la licencia existente con la nueva fecha de caducidad.
+La copia y sincronización de BlueXP actualiza la licencia existente con la nueva fecha de vencimiento.

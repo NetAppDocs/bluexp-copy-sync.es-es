@@ -2,7 +2,7 @@
 sidebar: sidebar 
 permalink: task-installing-gcp.html 
 keywords: data broker, install, gcp, google, networking, permissions, regions, install data broker in gcp, install in gcp, deploy in gcp, deploy data broker in gcp, install data broker in google, install in google, deploy in google, deploy data broker in google, networking requirements, port, ports, 443, port 443, ntp, network time protocol, gcp data broker, service account 
-summary: Al crear un nuevo agente de datos, elija la opción Google Cloud Data Broker para implementar el software de agente de datos en una nueva instancia de máquina virtual en un VPC. Cloud Sync le guía durante el proceso de instalación, pero en esta página se repiten los requisitos y los pasos que le ayudarán a preparar la instalación. 
+summary: Al crear un nuevo agente de datos, elija la opción Google Cloud Data Broker para implementar el software de agente de datos en una nueva instancia de máquina virtual en un VPC. La copia y sincronización de BlueXP te guía por el proceso de instalación, pero los requisitos y los pasos se repiten en esta página para ayudarte a preparar la instalación. 
 ---
 = Creación de un nuevo agente de datos en Google Cloud
 :hardbreaks:
@@ -14,7 +14,7 @@ summary: Al crear un nuevo agente de datos, elija la opción Google Cloud Data B
 
 
 [role="lead"]
-Al crear un nuevo grupo de agentes de datos, elija Google Cloud Platform para implementar el software de agente de datos en una nueva instancia de máquina virtual en Google Cloud VPC. Cloud Sync le guía durante el proceso de instalación, pero en esta página se repiten los requisitos y los pasos que le ayudarán a preparar la instalación.
+Al crear un nuevo grupo de agentes de datos, elija Google Cloud Platform para implementar el software de agente de datos en una nueva instancia de máquina virtual en Google Cloud VPC. La copia y sincronización de BlueXP te guía por el proceso de instalación, pero los requisitos y los pasos se repiten en esta página para ayudarte a preparar la instalación.
 
 También tiene la opción de instalar el agente de datos en un host Linux existente en el cloud o en sus instalaciones. link:task-installing-linux.html["Leer más"].
 
@@ -34,9 +34,9 @@ El software de Data broker se ejecuta automáticamente como root en el host Linu
 
 == Requisitos de red
 
-* El agente de datos necesita una conexión saliente a Internet para que pueda sondear el servicio Cloud Sync para las tareas a través del puerto 443.
+* El agente de datos necesita una conexión a Internet de salida para que pueda sondear el servicio de copia y sincronización de BlueXP para tareas a través del puerto 443.
 +
-Cuando Cloud Sync implementa el agente de datos en Google Cloud, crea un grupo de seguridad que permite la comunicación saliente necesaria.
+Cuando la copia y sincronización de BlueXP pone en marcha el agente de datos en Google Cloud, crea un grupo de seguridad que permite establecer la comunicación saliente necesaria.
 
 +
 Si necesita limitar la conectividad saliente, consulte link:reference-networking.html["lista de puntos finales con los que se contacta el data broker"].
@@ -128,9 +128,9 @@ image:screenshot_data_broker_gcp.png["Captura de pantalla que muestra la informa
 +
 Si se necesita un proxy para el acceso a Internet, el proxy debe estar en Google Cloud y utilizar la misma cuenta de servicio que el agente de datos.
 
-. Una vez que el Data broker esté disponible, haga clic en *continuar* en Cloud Sync.
+. Una vez que el agente de datos esté disponible, haz clic en *Continuar* en la copia y sincronización de BlueXP.
 +
-La puesta en marcha de la instancia tarda entre 5 y 10 minutos, aproximadamente. Puede supervisar el progreso desde el servicio Cloud Sync, que se actualiza automáticamente cuando la instancia está disponible.
+La puesta en marcha de la instancia tarda entre 5 y 10 minutos, aproximadamente. Puede supervisar el progreso en el servicio de copia y sincronización de BlueXP, que se actualiza automáticamente cuando la instancia esté disponible.
 
 . Complete las páginas del asistente para crear la nueva relación de sincronización.
 
@@ -142,7 +142,7 @@ Ha puesto en marcha un agente de datos en Google Cloud y creado una nueva relaci
 
 == Proporciona permisos para utilizar bloques en otros proyectos de Google Cloud
 
-Al crear una relación de sincronización y elegir Google Cloud Storage como origen o destino, Cloud Sync le permite elegir entre los bloques que la cuenta de servicio del agente de datos tiene permisos para utilizar. De forma predeterminada, incluye los bloques que se encuentran en el proyecto _same_ como la cuenta de servicio de Data broker. Pero puede seleccionar cubos de proyectos _other_ si proporciona los permisos necesarios.
+Al crear una relación de sincronización y elegir Google Cloud Storage como origen o destino, la copia y sincronización de BlueXP te permite elegir entre los bloques que la cuenta de servicio del agente de datos tiene permisos para utilizar. De forma predeterminada, incluye los bloques que se encuentran en el proyecto _same_ como la cuenta de servicio de Data broker. Pero puede seleccionar cubos de proyectos _other_ si proporciona los permisos necesarios.
 
 .Pasos
 . Abra la consola de Google Cloud Platform y cargue el servicio Cloud Storage.
@@ -161,7 +161,7 @@ Al configurar una relación de sincronización, ahora puede elegir ese bloque co
 
 == Detalles sobre la instancia de VM de Data broker
 
-Cloud Sync crea un agente de datos en Google Cloud utilizando la siguiente configuración.
+La copia y sincronización de BlueXP crea un agente de datos en Google Cloud mediante la siguiente configuración.
 
 Tipo de máquina:: n2-estándar-4
 VCPU:: 4

@@ -2,7 +2,7 @@
 sidebar: sidebar 
 permalink: task-installing-linux.html 
 keywords: data broker, install, linux, on-prem data broker, on-prem, on prem, on premises, networking, permissions, os, operating system, rhel, red hat, ram, cpu, disk space, install data broker, installing data broker, install a data broker, data broker installation, linux installation, linux operating system, aws access, aws keys, keys, gcp access, aws permissions, gcp permissions, google permissions 
-summary: Al crear un nuevo agente de datos, elija la opción de Data Broker en las instalaciones para instalar el software de agente de datos en un host Linux local o en un host Linux existente en el cloud. Cloud Sync le guía durante el proceso de instalación, pero en esta página se repiten los requisitos y los pasos que le ayudarán a preparar la instalación. 
+summary: Al crear un nuevo agente de datos, elija la opción de Data Broker en las instalaciones para instalar el software de agente de datos en un host Linux local o en un host Linux existente en el cloud. La copia y sincronización de BlueXP te guía por el proceso de instalación, pero los requisitos y los pasos se repiten en esta página para ayudarte a preparar la instalación. 
 ---
 = Instalar el agente de datos en un host Linux
 :hardbreaks:
@@ -14,7 +14,7 @@ summary: Al crear un nuevo agente de datos, elija la opción de Data Broker en l
 
 
 [role="lead"]
-Cuando crea un nuevo grupo de agentes de datos, elija la opción On-Prem Data Broker para instalar el software de agente de datos en un host Linux local o en un host Linux existente en el cloud. Cloud Sync le guía durante el proceso de instalación, pero en esta página se repiten los requisitos y los pasos que le ayudarán a preparar la instalación.
+Cuando crea un nuevo grupo de agentes de datos, elija la opción On-Prem Data Broker para instalar el software de agente de datos en un host Linux local o en un host Linux existente en el cloud. La copia y sincronización de BlueXP te guía por el proceso de instalación, pero los requisitos y los pasos se repiten en esta página para ayudarte a preparar la instalación.
 
 
 
@@ -158,7 +158,7 @@ En los siguientes pasos se ofrecen detalles sobre cada posible opción de instal
 `curl <URI> -o data_broker_installer.sh -x <proxy_username>:<proxy_password>@<proxy_host>:<proxy_port>`
 
 +
-URI:: Cloud Sync muestra el URI del archivo de instalación en la página de instrucciones, que se carga cuando sigue los mensajes para implementar el agente de datos en las instalaciones. Ese URI no se repite aquí porque el enlace se genera dinámicamente y sólo se puede usar una vez. <<Instalación del Data broker,Siga estos pasos para obtener el URI de Cloud Sync>>.
+URI:: La copia y sincronización de BlueXP muestra el URI del archivo de instalación en la página de instrucciones, que se carga cuando sigue las instrucciones para implementar el agente de datos en las instalaciones. Ese URI no se repite aquí porque el enlace se genera dinámicamente y sólo se puede usar una vez. <<Instalación del Data broker,Sigue estos pasos para obtener el URI de copia y sincronización de BlueXP>>.
 
 
 
@@ -196,6 +196,6 @@ Archivo JSON:: Este es el archivo JSON que contiene una cuenta de servicio clave
 
 
 
-. Una vez que el Data broker esté disponible, haga clic en *continuar* en Cloud Sync.
+. Una vez que el agente de datos esté disponible, haz clic en *Continuar* en la copia y sincronización de BlueXP.
 . Complete las páginas del asistente para crear la nueva relación de sincronización.
 

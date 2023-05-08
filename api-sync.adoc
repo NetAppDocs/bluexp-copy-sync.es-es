@@ -2,9 +2,9 @@
 sidebar: sidebar 
 permalink: api-sync.html 
 keywords: api, apis, rest, restful, authorization, getting started, body, header, token, reference, expired token, expires, expired, token expired, list apis, 202, https status code 202, status code 202, id, id field, box 
-summary: Las funcionalidades Cloud Sync que están disponibles en la interfaz de usuario web también están disponibles mediante API RESTful. 
+summary: Las funcionalidades de copia y sincronización de BlueXP que están disponibles en la interfaz de usuario web también están disponibles mediante API RESTful. 
 ---
-= API de Cloud Sync
+= API de copia y sincronización de BlueXP
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 
@@ -14,13 +14,13 @@ summary: Las funcionalidades Cloud Sync que están disponibles en la interfaz de
 
 
 [role="lead"]
-Las funcionalidades Cloud Sync que están disponibles en la interfaz de usuario web también están disponibles mediante la API RESTful.
+Las funcionalidades de copia y sincronización de BlueXP que están disponibles en la interfaz de usuario web también están disponibles en la API RESTful.
 
 
 
 == Primeros pasos
 
-Para comenzar con la API de Cloud Sync, necesita obtener un token de usuario y su ID de cuenta de BlueXP. Deberá agregar el token y el ID de cuenta al encabezado de autorización cuando realice llamadas a la API.
+Para empezar a usar la API de copia y sincronización de BlueXP, necesitas obtener un token de usuario y tu ID de cuenta de BlueXP. Deberá agregar el token y el ID de cuenta al encabezado de autorización cuando realice llamadas a la API.
 
 .Pasos
 . Obtenga un token de usuario de BlueXP de NetApp.
@@ -94,7 +94,7 @@ La respuesta de la API incluye un campo "expires_in" que indica cuándo caduca e
 
 == Referencia de API
 
-Es posible acceder a la documentación para cada API de Cloud Sync en https://api.cloudsync.netapp.com/docs[].
+La documentación para cada API de sincronización y copia de BlueXP está disponible en https://api.cloudsync.netapp.com/docs[].
 
 
 

@@ -16,7 +16,7 @@ summary: Las limitaciones conocidas identifican plataformas, dispositivos o func
 [role="lead"]
 Las limitaciones conocidas identifican plataformas, dispositivos o funciones que no son compatibles con esta versión del producto o cuya interoperabilidad con esta no es óptima. Revise estas limitaciones detenidamente.
 
-Cloud Sync no se admite en las siguientes regiones:
+La copia y sincronización de BlueXP no son compatibles con las siguientes regiones:
 
 * Regiones gubernamentales de AWS
 * Regiones gubernamentales de Azure

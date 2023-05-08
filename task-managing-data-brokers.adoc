@@ -133,7 +133,7 @@ image:screenshot_sync_group_edit.gif["Captura de pantalla del menú de acción d
 
 
 .Resultado
-Cloud Sync actualiza el nombre del grupo de agentes de datos.
+La copia y sincronización de BlueXP actualiza el nombre del grupo de agentes de datos.
 
 
 
@@ -156,8 +156,8 @@ Tenga en cuenta lo siguiente:
 +
 ** Puede seleccionar y elegir los ajustes que desea cambiar: No es necesario cambiar los cuatro a la vez.
 ** Después de enviar una nueva configuración a un agente de datos, el Data broker se reinicia automáticamente y utiliza la nueva configuración.
-** Puede tardar hasta que este cambio se realice y sea visible en la interfaz de Cloud Sync.
-** Si un agente de datos no se está ejecutando, su configuración no cambiará porque Cloud Sync no se puede comunicar con él. La configuración cambiará después de reiniciar el Data broker.
+** Este cambio puede tardar hasta que tenga lugar y sea visible en la interfaz de copia y sincronización de BlueXP.
+** Si no se está ejecutando un agente de datos, la configuración no cambiará porque la copia y sincronización de BlueXP no se podrán comunicar con él. La configuración cambiará después de reiniciar el Data broker.
 ** Una vez establecida una configuración unificada, los nuevos agentes de datos utilizarán automáticamente la nueva configuración.
 
 
@@ -189,7 +189,7 @@ image:screenshot_sync_group_remove.png["Captura de pantalla del menú de acción
 
 
 .Resultado
-Cloud Sync traslada el agente de datos a un grupo de agente de datos nuevo o existente. Si no hay otros agentes de datos en el grupo anterior, Cloud Sync lo elimina.
+La copia y sincronización de BlueXP mueve el agente de datos a un grupo de agentes de datos nuevo o existente. Si no hay ningún otro agente de datos en el grupo anterior, la función de copia y sincronización de BlueXP los elimina.
 
 
 
@@ -206,7 +206,7 @@ Actualice la configuración de proxy de un agente de datos agregando detalles so
 
 
 .Resultado
-Cloud Sync actualiza el agente de datos para utilizar la configuración de proxy para el acceso a Internet.
+Copia y sincronización de BlueXP actualiza el agente de datos para utilizar la configuración del proxy para acceder a Internet.
 
 
 
@@ -214,7 +214,7 @@ Cloud Sync actualiza el agente de datos para utilizar la configuración de proxy
 
 Puede que desee ver detalles sobre un agente de datos para identificar elementos como su nombre de host, dirección IP, CPU y RAM disponibles, entre otros.
 
-Cloud Sync ofrece los siguientes detalles acerca de un agente de datos:
+La copia y sincronización de BlueXP ofrece los siguientes detalles sobre un agente de datos:
 
 * Información básica: ID de instancia, nombre de host, etc.
 * Red: Región, red, subred, IP privada, etc.
@@ -240,12 +240,12 @@ image:screenshot_sync_data_broker_details.gif["Captura de pantalla de informaci�
 
 == Solución de problemas con un agente de datos
 
-Cloud Sync muestra un estado para cada agente de datos que puede ayudarle a solucionar problemas.
+La copia y sincronización de BlueXP muestra un estado de cada agente de datos que puede ayudarle a solucionar problemas.
 
 .Pasos
 . Identifique los agentes de datos con el estado "Unknown" o "Failed".
 +
-image:screenshot_sync_broker_status.gif["Una captura de pantalla del estado de Cloud Sync donde un agente de datos tiene un estado \"desconocido\""]
+image:screenshot_sync_broker_status.gif["Una captura de pantalla del estado de copia y sincronización de BlueXP muestra donde un agente de datos tiene un estado «desconocido»."]
 
 . Pase el ratón sobre image:screenshot_sync_status_icon.gif["Un icono \"info\""] para ver el motivo del fallo.
 . Corrija el problema.
@@ -258,10 +258,10 @@ Por ejemplo, es posible que tenga que reiniciar simplemente el agente de datos s
 
 == Quitar un agente de datos de un grupo
 
-Puede quitar un agente de datos de un grupo si ya no es necesario o si la implementación inicial ha fallado. Esta acción solo elimina el agente de datos de los registros de Cloud Sync. Deberá eliminar manualmente el agente de datos y los recursos de cloud adicionales usted mismo.
+Puede quitar un agente de datos de un grupo si ya no es necesario o si la implementación inicial ha fallado. Esta acción solo elimina el agente de datos de los registros de la copia de BlueXP y Sync. Deberá eliminar manualmente el agente de datos y los recursos de cloud adicionales usted mismo.
 
 .Cosas que usted debe saber
-* Cloud Sync elimina un grupo cuando elimina el último intermediario de datos del grupo.
+* La copia y sincronización de BlueXP eliminan un grupo cuando eliminas el último agente de datos del grupo.
 * No se puede eliminar el último agente de datos de un grupo si existe una relación utilizando ese grupo.
 
 
@@ -276,15 +276,15 @@ image:screenshot_sync_group_remove.gif["Captura de pantalla del menú de acción
 
 
 .Resultado
-Cloud Sync quita el agente de datos del grupo.
+La copia y sincronización de BlueXP eliminan el agente de datos del grupo.
 
 
 
 == Eliminar un grupo de Data broker
 
-Si un grupo de agentes de datos ya no gestiona ninguna relación de sincronización, puede eliminar el grupo, que elimina todos los agentes de datos de Cloud Sync.
+Si un grupo de agentes de datos ya no gestiona ninguna relación de sincronización, puedes eliminar el grupo, que elimina todos los agentes de datos de la copia y sincronización de BlueXP.
 
-Los agentes de datos que Cloud Sync elimina solo se eliminan de los registros de Cloud Sync. Deberá eliminar manualmente la instancia de agente de datos de su proveedor de cloud y los recursos adicionales de cloud.
+Los agentes de datos que eliminan la copia y sincronización de BlueXP solo se eliminan de los registros de la copia y sincronización de BlueXP. Deberá eliminar manualmente la instancia de agente de datos de su proveedor de cloud y los recursos adicionales de cloud.
 
 .Pasos
 . Haga clic en *Sincronizar > gestionar agentes de datos*.
@@ -296,4 +296,4 @@ image:screenshot_sync_group_add.png["Captura de pantalla del menú de acción di
 
 
 .Resultado
-Cloud Sync elimina los intermediarios de datos y elimina el grupo.
+La copia y la sincronización de BlueXP eliminan los agentes de datos y eliminan el grupo.

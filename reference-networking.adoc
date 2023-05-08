@@ -2,9 +2,9 @@
 sidebar: sidebar 
 permalink: reference-networking.html 
 keywords: networking, 443, port, ports, port 443, connections, connectivity, path, paths, vpn 
-summary: Las redes para Cloud Sync incluyen la conectividad entre el grupo de agentes de datos y las ubicaciones de origen y destino, así como una conexión a Internet de salida de los agentes de datos a través del puerto 443. 
+summary: Las redes para la copia y sincronización de BlueXP incluyen conectividad entre el grupo de agentes de datos y las ubicaciones de origen y destino, así como una conexión a Internet saliente de los agentes de datos a través del puerto 443. 
 ---
-= Información general sobre redes para Cloud Sync
+= Información general de redes para copia y sincronización de BlueXP
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 
@@ -14,7 +14,7 @@ summary: Las redes para Cloud Sync incluyen la conectividad entre el grupo de ag
 
 
 [role="lead"]
-Las redes para Cloud Sync incluyen la conectividad entre el grupo de agentes de datos y las ubicaciones de origen y destino, así como una conexión a Internet de salida de los agentes de datos a través del puerto 443.
+Las redes para la copia y sincronización de BlueXP incluyen conectividad entre el grupo de agentes de datos y las ubicaciones de origen y destino, así como una conexión a Internet saliente de los agentes de datos a través del puerto 443.
 
 
 
@@ -29,9 +29,9 @@ Un grupo de agentes de datos está compuesto por uno o más agentes de datos ins
 La siguiente imagen muestra un agente de datos que se ejecuta en el cloud, ya sea en AWS, Google Cloud o Azure. El origen y el destino pueden encontrarse en cualquier ubicación, siempre que haya una conexión con el agente de datos. Por ejemplo, es posible que tenga una conexión VPN desde su centro de datos hacia su proveedor de cloud.
 
 
-NOTE: Cuando Cloud Sync implementa el agente de datos en AWS, Azure o Google Cloud, crea un grupo de seguridad que permite realizar las comunicaciones salientes necesarias.
+NOTE: Cuando la copia y sincronización de BlueXP pone en marcha el agente de datos en AWS, Azure o Google Cloud, crea un grupo de seguridad que permite establecer la comunicación saliente necesaria.
 
-image:diagram_networking_cloud.png["Un diagrama que muestra el servicio Cloud Sync, el agente de datos que se ejecuta en el cloud y conexiones con el origen y el destino"]
+image:diagram_networking_cloud.png["Un diagrama que muestra el servicio de copia y sincronización de BlueXP, el agente de datos que se ejecuta en la nube y conexiones al origen y el destino."]
 
 
 
@@ -39,7 +39,7 @@ image:diagram_networking_cloud.png["Un diagrama que muestra el servicio Cloud Sy
 
 La siguiente imagen muestra el agente de datos que se ejecuta en las instalaciones, en un centro de datos. De nuevo, el origen y el destino pueden encontrarse en cualquier ubicación, siempre que haya una conexión con el agente de datos.
 
-image:diagram_networking_onprem.png["Un diagrama que muestra el servicio Cloud Sync, el agente de datos que se ejecuta en las instalaciones y las conexiones con el origen y el destino"]
+image:diagram_networking_onprem.png["Un diagrama que muestra el servicio de copia y sincronización de BlueXP, el agente de datos que se ejecuta en las instalaciones y las conexiones al origen y el destino."]
 
 
 
@@ -49,7 +49,7 @@ image:diagram_networking_onprem.png["Un diagrama que muestra el servicio Cloud S
 +
 Por ejemplo, si un servidor NFS se encuentra en su centro de datos y existe un agente de datos en AWS, necesitará una conexión de red (VPN o Direct Connect) desde su red hasta el VPC.
 
-* Un agente de datos necesita una conexión saliente a Internet para que pueda sondear el servicio Cloud Sync para tareas a través del puerto 443.
+* Un agente de datos necesita una conexión a Internet de salida para que pueda sondear el servicio de copia y sincronización de BlueXP para tareas a través del puerto 443.
 * NetApp recomienda configurar el origen, el destino y los agentes de datos para que utilicen un servicio de protocolo de tiempo de redes (NTP). La diferencia de tiempo entre los tres componentes no debe superar los 5 minutos.
 
 
@@ -57,7 +57,7 @@ Por ejemplo, si un servidor NFS se encuentra en su centro de datos y existe un a
 
 == Extremos de red
 
-El agente de datos de NetApp requiere acceso saliente a Internet a través del puerto 443 para comunicarse con el servicio Cloud Sync y ponerse en contacto con algunos otros servicios y repositorios. El explorador web local también requiere acceder a extremos para determinadas acciones. Si necesita limitar la conectividad saliente, consulte la siguiente lista de puntos finales al configurar el firewall para el tráfico saliente.
+El agente de datos de NetApp requiere acceso a Internet saliente a través del puerto 443 para comunicarse con el servicio de copia y sincronización de BlueXP, y para contactar con otros servicios y repositorios. El explorador web local también requiere acceder a extremos para determinadas acciones. Si necesita limitar la conectividad saliente, consulte la siguiente lista de puntos finales al configurar el firewall para el tráfico saliente.
 
 
 
@@ -76,16 +76,16 @@ Un agente de datos se pone en contacto con los siguientes extremos:
 | \https://rpm.nodesource.com \https://registry.npmjs.org \https://nodejs.org: | Para ponerse en contacto con repositorios para actualizar los paquetes Node.js, npm y otros paquetes de terceros utilizados en desarrollo. 
 
 
-| \https://tgz.pm2.io | Para acceder a un repositorio para la actualización de Pm2, que es un paquete de terceros que se utiliza para supervisar Cloud Sync. 
+| \https://tgz.pm2.io | Para acceder a un repositorio de actualización PM2, que es un paquete de 3rd partes usado para supervisar la copia y sincronización de BlueXP. 
 
 
-| \https://sqs.us-east-1.amazonaws.com \https://kinesis.us-east-1.amazonaws.com | Para ponerse en contacto con los servicios de AWS que Cloud Sync utiliza en las operaciones (poner en cola archivos, registrar acciones y entregar actualizaciones al agente de datos). 
+| \https://sqs.us-east-1.amazonaws.com \https://kinesis.us-east-1.amazonaws.com | Para ponerse en contacto con los servicios de AWS que BlueXP usa para copiar y sincronizar para las operaciones (poner en cola archivos, registrar acciones y entregar actualizaciones al agente de datos). 
 
 
 | \https://s3._region_.amazonaws.com por ejemplo: s3.us-east-2.amazonaws.com:443https://docs.aws.amazon.com/general/latest/gr/rande.html#s3_region["Consulte la documentación de AWS para obtener una lista de extremos de S3"^] | Para ponerse en contacto con Amazon S3 cuando una relación de sincronización incluya un bloque de S3. 
 
 
-| \https://s3.amazonaws.com/ | Cuando se descargan registros del agente de datos de Cloud Sync, el agente de datos cierra su directorio de registros y carga los registros en un bloque S3 predefinido en la región de US-East-1. 
+| \https://s3.amazonaws.com/ | Al descargar registros del agente de datos de la copia y sincronización de BlueXP, el agente de datos comprimirá su directorio de registros y cargará los registros en un bloque predefinido de S3 en la región US-east-1. 
 
 
 | \https://storage.googleapis.com/ | Para ponerse en contacto con Google Cloud cuando una relación de sincronización utiliza un bloque de GCP. 
@@ -94,7 +94,7 @@ Un agente de datos se pone en contacto con los siguientes extremos:
 | https://_storage-account_.blob.core.windows.net[]Si se utiliza Azure Data Lake Gen2:https://_storage-account_.dfs.core.windows.net[]Donde _Storage-account_ es la cuenta de almacenamiento de origen del usuario. | Para abrir el proxy en la dirección de la cuenta de almacenamiento de Azure de un usuario. 
 
 
-| \https://cf.cloudsync.netapp.com \https://repo.cloudsync.netapp.com | Para ponerse en contacto con el servicio Cloud Sync. 
+| \https://cf.cloudsync.netapp.com \https://repo.cloudsync.netapp.com | Para contactar con el servicio de copia y sincronización de BlueXP. 
 
 
 | \https://support.netapp.com | Para ponerse en contacto con el soporte de NetApp cuando use una licencia BYOL para relaciones de sincronización. 

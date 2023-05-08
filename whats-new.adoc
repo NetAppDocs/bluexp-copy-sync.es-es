@@ -2,9 +2,9 @@
 sidebar: sidebar 
 permalink: whats-new.html 
 keywords: 'what"s new, features, new, release notes, enhancements, fixes' 
-summary: Descubra las novedades de Cloud Sync. 
+summary: Descubre las novedades en la copia y sincronización de BlueXP. 
 ---
-= Novedades de Cloud Sync
+= Novedades de la copia y sincronización de BlueXP
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 
@@ -14,7 +14,43 @@ summary: Descubra las novedades de Cloud Sync.
 
 
 [role="lead"]
-Descubra las novedades de Cloud Sync.
+Descubre las novedades en la copia y sincronización de BlueXP.
+
+
+
+== 8 de mayo de 2023
+
+
+
+=== Funciones de enlace físico
+
+Ahora los usuarios pueden incluir enlaces físicos para sincronizaciones que impliquen relaciones NFS a NFS no seguras.
+
+https://docs.netapp.com/us-en/cloud-manager-sync/task-creating-relationships.html#settings["Obtenga más información sobre la configuración Tipos de archivo"].
+
+
+
+=== Capacidad de añadir certificado de usuario para agentes de datos en relaciones NFS seguras
+
+Los usuarios ahora pueden establecer su propio certificado para el agente de datos de destino al crear una relación NFS segura. Deberán establecer un nombre de servidor y proporcionar una clave privada y un ID de certificado al hacerlo. Esta función está disponible para todos los agentes de datos.
+
+
+
+=== Período de exclusión extendido para archivos modificados recientemente
+
+Los usuarios ahora pueden excluir los archivos que se hayan modificado hasta 365 días antes de la sincronización programada.
+
+https://docs.netapp.com/us-en/cloud-manager-sync/task-creating-relationships.html#settings["Obtenga más información sobre la configuración Archivos modificados recientemente"].
+
+
+
+=== Filtre las relaciones en la interfaz de usuario por ID de relación
+
+Aquellos que usan la API RESTful ahora pueden filtrar relaciones usando identificadores de relaciones.
+
+https://docs.netapp.com/us-en/cloud-manager-sync/api-sync.html["Obtén más información sobre el uso de la API RESTful con la copia y sincronización de BlueXP"].
+
+https://docs.netapp.com/us-en/cloud-manager-sync/task-creating-relationships.html#settings["Obtenga más información acerca del valor excluir directorios"].
 
 
 

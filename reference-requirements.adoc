@@ -31,13 +31,13 @@ Por ejemplo, si un servidor NFS se encuentra en su centro de datos y existe un a
 
 == Directorio de destino
 
-Al crear una relación de sincronización, Cloud Sync le permite seleccionar un directorio de destino existente y, a continuación, crear opcionalmente una nueva carpeta dentro de ese directorio. Así que asegúrese de que su directorio de destino preferido ya existe.
+Cuando creas una relación de sincronización, la copia y sincronización de BlueXP te permiten seleccionar un directorio de destino existente y, de manera opcional, crear una nueva carpeta dentro de ese directorio. Así que asegúrese de que su directorio de destino preferido ya existe.
 
 
 
 == Permisos para leer directorios
 
-Para mostrar todos los directorios o carpetas de un origen o destino, Cloud Sync necesita permisos de lectura en el directorio o carpeta.
+Para mostrar cada directorio o carpeta en un origen o destino, la copia y sincronización de BlueXP necesitan permisos de lectura en el directorio o carpeta.
 
 NFS:: Los permisos deben definirse en el origen/destino con uid/gid en archivos y directorios.
 Almacenamiento de objetos::
@@ -64,7 +64,7 @@ Asegúrese de que su bloque de Amazon S3 cumple los siguientes requisitos.
 
 === Ubicaciones de agentes de datos compatibles para Amazon S3
 
-Las relaciones de sincronización que incluyen el almacenamiento S3 requieren un agente de datos implementado en AWS o en sus instalaciones. En cualquier caso, Cloud Sync le solicita que asocie el agente de datos con una cuenta de AWS durante la instalación.
+Las relaciones de sincronización que incluyen el almacenamiento S3 requieren un agente de datos implementado en AWS o en sus instalaciones. En cualquier caso, la copia y sincronización de BlueXP le solicita que asocie el agente de datos con una cuenta de AWS durante la instalación.
 
 * link:task-installing-aws.html["Descubra cómo implementar el agente de datos de AWS"]
 * link:task-installing-linux.html["Descubra cómo instalar el agente de datos en un Linux host"]
@@ -123,7 +123,7 @@ Todas las regiones cuentan con el apoyo de las regiones de China, la gobernadora
 
 === Cadena de conexión para relaciones que incluyen Azure Blob y NFS/SMB
 
-A la hora de crear una relación de sincronización entre un contenedor de Azure Blob y un servidor NFS o SMB, debe proporcionar a Cloud Sync la cadena de conexión de la cuenta de almacenamiento:
+Al crear una relación de sincronización entre un contenedor de Azure Blob y un servidor NFS o SMB, debe proporcionar la copia y sincronización de BlueXP con la cadena de conexión de la cuenta de almacenamiento:
 
 image:screenshot_connection_string.gif["Muestra una cadena de conexión, que está disponible en el portal de Azure. Para ello, seleccione una cuenta de almacenamiento y haga clic en claves de acceso."]
 
@@ -144,7 +144,7 @@ NOTE: Si decide implementar una relación de sincronización continua que incluy
 
 == Azure Data Lake Storage Gen2
 
-Al crear una relación de sincronización que incluya el lago de datos de Azure, debe proporcionar a Cloud Sync la cadena de conexión de la cuenta de almacenamiento. Debe ser una cadena de conexión normal, no una firma de acceso compartido (SAS).
+Cuando crees una relación de sincronización que incluya Azure Data Lake, debes proporcionar copia y sincronización de BlueXP con la cadena de conexión de la cuenta de almacenamiento. Debe ser una cadena de conexión normal, no una firma de acceso compartido (SAS).
 
 
 
@@ -194,7 +194,7 @@ Asegúrese de que su bloque de Google Cloud Storage cumpla con los siguientes re
 
 === Ubicaciones de agentes de datos compatibles para Google Cloud Storage
 
-Las relaciones de sincronización que incluyen Google Cloud Storage requieren que se ponga en marcha un agente de datos en Google Cloud o en sus instalaciones. Cloud Sync le guía por el proceso de instalación de Data broker cuando crea una relación de sincronización.
+Las relaciones de sincronización que incluyen Google Cloud Storage requieren que se ponga en marcha un agente de datos en Google Cloud o en sus instalaciones. La copia y sincronización de BlueXP te guía por el proceso de instalación de Data Broker al crear una relación de sincronización.
 
 * link:task-installing-gcp.html["Descubra cómo implementar el agente de datos de Google Cloud"]
 * link:task-installing-linux.html["Descubra cómo instalar el agente de datos en un Linux host"]
@@ -285,7 +285,7 @@ Al configurar una relación de sincronización que incluya https://docs.netapp.c
 == Requisitos del servidor SMB
 
 * El servidor SMB puede ser un sistema de NetApp o un sistema distinto de NetApp.
-* Debe proporcionar a Cloud Sync credenciales con permisos en el servidor SMB.
+* Debes proporcionar copia y sincronización de BlueXP con credenciales que tengan permisos en el servidor SMB.
 +
 ** Para un servidor SMB de origen, se requieren los siguientes permisos: List y Read.
 +
@@ -320,8 +320,8 @@ Una limitación de SMB afecta a directorios y archivos ocultos al sincronizar da
 
 El protocolo SMB no distingue mayúsculas y minúsculas, lo que significa que las letras mayúsculas y minúsculas se tratan como las mismas. Este comportamiento puede provocar errores de copia de directorio y archivos sobrescritos si una relación de sincronización incluye un servidor SMB y los datos ya existen en el destino.
 
-Por ejemplo, digamos que hay un archivo llamado "a" en el origen y un archivo llamado "A" en el destino. Cuando Cloud Sync copia el archivo denominado "a" en el destino, el archivo "A" se sobrescribe con el archivo "a" del origen.
+Por ejemplo, digamos que hay un archivo llamado "a" en el origen y un archivo llamado "A" en el destino. Cuando la copia y sincronización de BlueXP copia el archivo llamado «A» en el destino, el archivo «A» se sobrescribe con el archivo «A» del origen.
 
-En el caso de los directorios, digamos que hay un directorio llamado "b" en el origen y un directorio llamado "B" en el destino. Cuando Cloud Sync intenta copiar el directorio llamado "b" en el destino, Cloud Sync recibe un error que dice que el directorio ya existe. Como resultado, Cloud Sync siempre falla al copiar el directorio llamado “b.”.
+En el caso de los directorios, digamos que hay un directorio llamado "b" en el origen y un directorio llamado "B" en el destino. Cuando la copia y sincronización de BlueXP intenta copiar el directorio llamado «b» en el destino, la copia y sincronización de BlueXP reciben un error que indica que el directorio ya existe. Como resultado, la copia y la sincronización de BlueXP siempre fallan al copiar el directorio llamado «b.».
 
 La mejor manera de evitar esta limitación es asegurarse de que sincroniza los datos con un directorio vacío.
