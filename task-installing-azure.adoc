@@ -132,7 +132,7 @@ Además, el ámbito asignable debe definirse en el ámbito de suscripción y el 
 
 
 
-https://docs.netapp.com/us-en/cloud-manager-sync/task-creating-relationships.html#settings["Obtenga más información acerca de la configuración de sincronización continua"].
+https://docs.netapp.com/us-en/bluexp-copy-sync/task-creating-relationships.html#settings["Obtenga más información acerca de la configuración de sincronización continua"].
 
 
 

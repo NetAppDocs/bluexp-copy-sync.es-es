@@ -92,7 +92,7 @@ La copia y sincronización de BlueXP actualiza las credenciales en el agente de 
 
 Un ajuste de *Notificaciones* para cada relación de sincronización te permite elegir si deseas recibir notificaciones de copia y sincronización de BlueXP en el Centro de notificaciones de BlueXP. Es posible habilitar notificaciones para que la sincronización de los datos se haya realizado correctamente, que no se hayan podido sincronizar los datos y que se haya cancelado.
 
-image:https://raw.githubusercontent.com/NetAppDocs/cloud-manager-sync/main/media/screenshot-notification-center.png["Una captura de pantalla que muestra el Centro de notificaciones en BlueXP."]
+image:https://raw.githubusercontent.com/NetAppDocs/bluexp-copy-sync/main/media/screenshot-notification-center.png["Una captura de pantalla que muestra el Centro de notificaciones en BlueXP."]
 
 Además, también puede recibir notificaciones por correo electrónico.
 
