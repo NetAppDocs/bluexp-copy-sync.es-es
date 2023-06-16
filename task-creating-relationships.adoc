@@ -107,7 +107,7 @@ image:screenshot_bucket_setup.gif["Esta captura de pantalla muestra la página B
 . [[Settings]]en la página *Settings*, defina cómo se sincronizan y mantienen los archivos y carpetas de origen en la ubicación de destino:
 +
 Programación:: Elija una programación recurrente para sincronizar en el futuro o desactive la programación de sincronización. Puede programar una relación para que se sincronice datos con una frecuencia de hasta cada 1 minuto.
-Tiempo de espera de sincronización:: Define si la copia y sincronización de BlueXP debería cancelar una sincronización de datos si la sincronización no se ha completado en el número de horas o días especificado.
+Tiempo de espera de sincronización:: Define si la copia y sincronización de BlueXP debe cancelar una sincronización de datos si la sincronización no se ha completado en el número especificado de minutos, horas o días.
 Notificaciones:: Te permite elegir si deseas recibir notificaciones de copia y sincronización de BlueXP en el centro de notificaciones de BlueXP. Es posible habilitar notificaciones para que la sincronización de los datos se haya realizado correctamente, que no se hayan podido sincronizar los datos y que se haya cancelado.
 Reintentos:: Define la cantidad de veces que la copia y sincronización de BlueXP deben volver a intentar sincronizar un archivo antes de omitirlo.
 Sincronización continua:: Tras la sincronización de datos inicial, la copia y sincronización de BlueXP escucha los cambios en el bloque de S3 de origen o en el bloque de Google Cloud Storage y sincroniza continuamente los cambios en el destino a medida que se producen. No es necesario volver a analizar el origen a intervalos programados.

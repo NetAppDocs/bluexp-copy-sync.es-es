@@ -139,6 +139,10 @@ La página de instrucciones se carga en breve. Tendrá que seguir estas instrucc
 +
 .. Seleccione si desea activar el acceso a *AWS*, *Google Cloud* o ambos.
 .. Seleccione una opción de instalación: *sin proxy*, *usar servidor proxy* o *usar servidor proxy con autenticación*.
++
+
+NOTE: El usuario debe ser un usuario local. Los usuarios de dominio no son compatibles.
+
 .. Utilice los comandos para descargar e instalar el Data broker.
 +
 En los siguientes pasos se ofrecen detalles sobre cada posible opción de instalación. Siga la página de instrucciones para obtener el comando exacto según la opción de instalación.

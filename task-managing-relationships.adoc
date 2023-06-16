@@ -134,7 +134,7 @@ image:screenshot_sync_settings.png["Captura de pantalla que muestra la configura
 
 +
 Programación:: Elija una programación recurrente para sincronizar en el futuro o desactive la programación de sincronización. Puede programar una relación para que se sincronice datos con una frecuencia de hasta cada 1 minuto.
-Tiempo de espera de sincronización:: Define si la copia y sincronización de BlueXP debería cancelar una sincronización de datos si la sincronización no se ha completado en el número de horas o días especificado.
+Tiempo de espera de sincronización:: Define si la copia y sincronización de BlueXP debe cancelar una sincronización de datos si la sincronización no se ha completado en el número especificado de minutos, horas o días.
 Notificaciones:: Te permite elegir si deseas recibir notificaciones de copia y sincronización de BlueXP en el centro de notificaciones de BlueXP. Es posible habilitar notificaciones para que la sincronización de los datos se haya realizado correctamente, que no se hayan podido sincronizar los datos y que se haya cancelado.
 +
 --

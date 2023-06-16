@@ -1595,7 +1595,6 @@
   <block id="fafec3da88dda2aaace57da0275aa418" category="list-text">Las relaciones de sincronización con este origen/destino son compatibles solo con la API de sincronización y copia de BlueXP.</block>
   <block id="9884de3e76b128738e9b044e854c59b2" category="summary">Cuando creas una relación de sincronización, el servicio de copia y sincronización de BlueXP copia los archivos del origen en el destino. Después de la copia inicial, el servicio sincroniza los datos modificados cada 24 horas.</block>
   <block id="17a22599667444c8ead2e620d24daa16" category="paragraph">Si la copia y sincronización de BlueXP no pueden recuperar las exportaciones, haga clic en *Agregar exportación manualmente* e introduzca el nombre de una exportación NFS.</block>
-  <block id="5cd54d605c54fc35f035298798014895" category="list-text">Define si la copia y sincronización de BlueXP debería cancelar una sincronización de datos si la sincronización no se ha completado en el número de horas o días especificado.</block>
   <block id="bd171db960b7fb2897e98bf00be4815f" category="list-text">Te permite elegir si deseas recibir notificaciones de copia y sincronización de BlueXP en el centro de notificaciones de BlueXP. Es posible habilitar notificaciones para que la sincronización de los datos se haya realizado correctamente, que no se hayan podido sincronizar los datos y que se haya cancelado.</block>
   <block id="667141ecdc736f3d7ccf9a5f6e74cc7b" category="list-text">Define la cantidad de veces que la copia y sincronización de BlueXP deben volver a intentar sincronizar un archivo antes de omitirlo.</block>
   <block id="c7153d054eed1ef19444b255974772ee" category="list-text">Tras la sincronización de datos inicial, la copia y sincronización de BlueXP escucha los cambios en el bloque de S3 de origen o en el bloque de Google Cloud Storage y sincroniza continuamente los cambios en el destino a medida que se producen. No es necesario volver a analizar el origen a intervalos programados.</block>
@@ -1817,4 +1816,16 @@
   <block id="f5135b68b75a8404803a1eb438e40c5e" category="list-text">Actualizar el software Cloud Volumes ONTAP a la versión más reciente</block>
   <block id="39f382b97080640c75604b5890f3a5d3" category="paragraph">La asociación de credenciales de NSS con su cuenta de BlueXP es diferente de la cuenta de NSS asociada con un inicio de sesión de usuario de BlueXP.</block>
   <block id="e3bc6d35311568d55f1c8ea11984b964" category="paragraph">Estas credenciales de NSS están asociadas con tu ID de cuenta de BlueXP específico. Los usuarios que pertenecen a la cuenta BlueXP pueden acceder a estas credenciales desde *Soporte &gt; Gestión NSS*.</block>
+  <block id="860b2fc9627ec3a5cc3396995584e75b" category="list-text">Define si la copia y sincronización de BlueXP debe cancelar una sincronización de datos si la sincronización no se ha completado en el número especificado de minutos, horas o días.</block>
+  <block id="26d399293c97f500657ad4983fd0d9fa" category="list-text">Define si la copia y sincronización de BlueXP debe cancelar una sincronización de datos si la sincronización no se ha completado en el número especificado de minutos, horas o días.</block>
+  <block id="9b7d935c674579c8c8e305e2dcadc1b9" category="section-title">11 de junio de 2023</block>
+  <block id="b18ac5fa90a568a24f98c73b9192cb6d" category="section-title">Respalde la cancelación automática por minutos</block>
+  <block id="33c110842a0fe3f7891980d750e48fa2" category="paragraph">Las sincronizaciones activas que no se hayan completado ahora se pueden anular después de quince minutos utilizando la función *Tiempo de espera de sincronización*.</block>
+  <block id="44856e8753e0c19c0341499a434c7c97" category="inline-link">Obtenga más información sobre la configuración de tiempo de espera de sincronización</block>
+  <block id="3266d16b8714caecb4f4231dca5dae65" category="paragraph"><block ref="bfd432c58dd0bb0c71b937c5a3336867" category="inline-link-rx"></block>.</block>
+  <block id="69540ae9a9da395711f1e900d88e4cc5" category="section-title">Copiar metadatos de tiempo de acceso</block>
+  <block id="a706d4045e92e504f4aa9e79191d81f5" category="paragraph">En las relaciones que incluyen un sistema de archivos, la función *Copy for Objects* ahora copia los metadatos de tiempo de acceso.</block>
+  <block id="bac04a3b125486e43e5adcb9275b0cb7" category="inline-link">Obtenga más información sobre la configuración Copiar para objetos</block>
+  <block id="b9101f79b22863de2373d338b3f2fd49" category="paragraph"><block ref="61cd45fc857d1053eae8b58e970eda27" category="inline-link-rx"></block>.</block>
+  <block id="b9a11b90960ff803269429887ab4cff3" category="admonition">El usuario debe ser un usuario local. Los usuarios de dominio no son compatibles.</block>
 </blocks>
