@@ -163,6 +163,7 @@ Al configurar una relación de sincronización, ahora puede elegir ese bloque co
 
 La copia y sincronización de BlueXP crea un agente de datos en Google Cloud mediante la siguiente configuración.
 
+Compatibilidad con Node.js:: v20
 Tipo de máquina:: n2-estándar-4
 VCPU:: 4
 RAM:: 15 GB

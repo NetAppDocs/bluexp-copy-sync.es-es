@@ -20,6 +20,7 @@ Cuando crea un nuevo grupo de agentes de datos, elija la opción On-Prem Data Br
 
 == Requisitos del host Linux
 
+* *Compatibilidad Node.js*: V20
 * *sistema operativo*:
 +
 ** CentOS 8.0 y 8.5

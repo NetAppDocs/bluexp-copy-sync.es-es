@@ -35,7 +35,7 @@ La copia y sincronización de BlueXP inicia el proceso de sincronización de dat
 
 
 
-== Acelerando el rendimiento de la sincronización
+== Acelere el rendimiento de sincronización
 
 Acelere el rendimiento de una relación de sincronización añadiendo un agente de datos adicional al grupo que administra la relación. El agente de datos adicional debe ser un intermediario de datos _new_.
 
@@ -63,7 +63,7 @@ La copia y sincronización de BlueXP añaden el nuevo agente de datos al grupo. 
 
 
 
-== Actualizando credenciales
+== Elementos de actualización
 
 Puede actualizar el agente de datos con las credenciales más recientes del origen o destino en una relación de sincronización existente. La actualización de las credenciales puede ayudar si las políticas de seguridad requieren que actualice las credenciales de forma periódica.
 
@@ -88,7 +88,7 @@ La copia y sincronización de BlueXP actualiza las credenciales en el agente de 
 
 
 
-== Configuración de notificaciones
+== Configurar notificaciones
 
 Un ajuste de *Notificaciones* para cada relación de sincronización te permite elegir si deseas recibir notificaciones de copia y sincronización de BlueXP en el Centro de notificaciones de BlueXP. Es posible habilitar notificaciones para que la sincronización de los datos se haya realizado correctamente, que no se hayan podido sincronizar los datos y que se haya cancelado.
 
@@ -119,7 +119,7 @@ Ahora recibirás notificaciones relacionadas con la copia y sincronización de B
 
 
 
-== Cambiar la configuración de una relación de sincronización
+== Cambie la configuración de una relación de sincronización
 
 Modifique la configuración que define cómo se sincronizan y mantienen los archivos y carpetas de origen en la ubicación de destino.
 
@@ -189,7 +189,7 @@ Excluir directorios:: Especifique un máximo de 15 directorios para excluir de l
 Tamaño de archivo:: Elija sincronizar todos los archivos independientemente de su tamaño o sólo los archivos que se encuentren en un rango de tamaño específico.
 Fecha de modificación:: Elija todos los archivos independientemente de su fecha de última modificación, los archivos modificados después de una fecha específica, antes de una fecha específica o entre un intervalo de tiempo.
 Fecha de creación:: Cuando un servidor SMB es el origen, esta configuración le permite sincronizar archivos que se crearon después de una fecha específica, antes de una fecha específica o entre un rango de hora específico.
-ACL - Lista de control de acceso:: Copiar ACL de un servidor SMB habilitando una configuración cuando se crea una relación o después de crear una relación.
+ACL - Lista de control de acceso:: Copie sólo ACL, archivos o ACL y archivos de un servidor SMB mediante la activación de una configuración al crear una relación o después de crear una relación.
 
 
 . Haga clic en *Guardar configuración*.
@@ -204,10 +204,26 @@ La copia y sincronización de BlueXP modifican la relación de sincronización c
 
 Puede eliminar una relación de sincronización si ya no necesita sincronizar datos entre el origen y el destino. Esta acción no elimina el grupo de Data broker (o las instancias individuales de data broker) y no elimina los datos del destino.
 
+
+
+=== Opción 1: Eliminar una única relación de sincronización
+
 .Pasos
-. Desde *Dashboard*, desplácese hasta la relación de sincronización y haga clic en image:icon-sync-action.png["Captura de pantalla del botón que le permite realizar acciones en una relación de sincronización"]
+. En el *Dashboard*, navega a la relación de sincronización y selecciona image:icon-sync-action.png["Captura de pantalla del botón que le permite realizar acciones en una relación de sincronización"]
 . Haga clic en *Eliminar* y, a continuación, vuelva a hacer clic en *Eliminar* para confirmar.
 
 
 .Resultado
 La copia y sincronización de BlueXP eliminan la relación de sincronización.
+
+
+
+=== Opción 2: Eliminar varias relaciones de sincronización
+
+.Pasos
+. Desde el *Dashboard*, navega hasta el botón “Crear Nueva Sincronización” y selecciona image:icon-sync-action.png["Captura de pantalla del botón que le permite realizar acciones en una relación de sincronización"]
+. Seleccione las relaciones de sincronización que desea eliminar, dcick *Delete* y luego haga clic en *Delete* de nuevo para confirmar.
+
+
+.Resultado
+La copia y sincronización de BlueXP eliminan las relaciones de sincronización.

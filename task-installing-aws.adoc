@@ -120,6 +120,7 @@ Ha implementado un agente de datos en AWS y creado una nueva relación de sincro
 
 La copia y sincronización de BlueXP crea un agente de datos en AWS mediante la siguiente configuración.
 
+Compatibilidad con Node.js:: v20
 Tipo de instancia:: m5n.xlarge cuando esté disponible en la región, de lo contrario m5.xlarge
 VCPU:: 4
 RAM:: 16 GB

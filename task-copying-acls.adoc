@@ -18,28 +18,28 @@ La copia y sincronización de BlueXP puede copiar listas de control de acceso (A
 
 .Opciones
 * <<Setting up BlueXP copy and sync to copy ACLs from an SMB server,Configura la copia y sincronización de BlueXP para copiar automáticamente las ACL>>
-* <<Copia manual de ACL entre recursos compartidos de SMB,Copiar manualmente las ACL entre los recursos compartidos de SMB>>
+* <<Manually copying ACLs between SMB shares,Copiar manualmente las ACL entre los recursos compartidos de SMB>>
 
 
 
 
-== Configurar la copia y sincronización de BlueXP para copiar listas de control de acceso
+== Configura la copia y sincronización de BlueXP para copiar listas de control de acceso
 
 Copiar ACL entre recursos compartidos de SMB y entre recursos compartidos de SMB y el almacenamiento de objetos. Para ello, se habilita una configuración cuando se crea una relación o después de crear una relación.
 
-.Lo que necesitará
+.Antes de empezar
 Esta función funciona con _any_ type de agente de datos: AWS, Azure, Google Cloud Platform o agente de datos en las instalaciones. Se puede ejecutar el agente de datos en las instalaciones link:task-installing-linux.html["cualquier sistema operativo compatible"].
 
 .Pasos para una nueva relación
-. Desde la copia y sincronización de BlueXP, haz clic en *Crear nueva sincronización*.
+. Desde la copia y sincronización de BlueXP, selecciona *Crear nueva sincronización*.
 . Arrastre y suelte un servidor SMB o un almacenamiento de objetos como origen y un servidor SMB o almacenamiento de objetos como destino y haga clic en *continuar*.
 . En la página *SMB Server*:
 +
-.. Introduzca un nuevo servidor SMB o seleccione un servidor existente y haga clic en *continuar*.
+.. Ingrese un nuevo servidor SMB o seleccione un servidor existente y seleccione *Continuar*.
 .. Introduzca credenciales para el servidor SMB.
-.. Seleccione *Copiar listas de control de acceso al destino* y haga clic en *continuar*.
+.. Elija * Copiar solo archivos *, * Copiar solo ACL * o * Copiar archivos y ACL * y seleccione * Continuar *.
 +
-image:screenshot_acl_support.gif["Captura de pantalla que muestra la opción para activar las listas de control de acceso de copia en el destino."]
+image:screenshot_acl_support.png["Captura de pantalla que muestra la opción para activar las listas de control de acceso de copia en el destino."]
 
 
 
@@ -56,10 +56,10 @@ image:screenshot-sync-tags-metadata.png["Captura de pantalla del sexto paso del 
 
 
 .Pasos para una relación existente
-. Pase el ratón por la relación de sincronización y haga clic en el menú de acción.
-. Haga clic en *Configuración*.
-. Seleccione *Copiar listas de control de acceso al destino*.
-. Haga clic en *Guardar configuración*.
+. Pase el ratón sobre la relación de sincronización y seleccione el menú de acción.
+. Selecciona *Ajustes*.
+. Elija * Copiar solo archivos *, * Copiar solo ACL * o * Copiar archivos y ACL * y seleccione * Continuar *.
+. Selecciona *Guardar configuración*.
 
 
 .Resultado
@@ -67,7 +67,7 @@ Al sincronizar los datos, la copia y sincronización de BlueXP conserva las list
 
 
 
-== Copia manual de ACL entre recursos compartidos de SMB
+== Copie manualmente las ACL entre recursos compartidos de SMB
 
 Se pueden conservar manualmente las ACL entre recursos compartidos de SMB mediante el comando Windows robocopy.
 

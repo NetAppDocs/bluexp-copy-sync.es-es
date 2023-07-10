@@ -187,7 +187,7 @@ Excluir directorios:: Especifique un máximo de 15 directorios para excluir de l
 Tamaño de archivo:: Elija sincronizar todos los archivos independientemente de su tamaño o sólo los archivos que se encuentren en un rango de tamaño específico.
 Fecha de modificación:: Elija todos los archivos independientemente de su fecha de última modificación, los archivos modificados después de una fecha específica, antes de una fecha específica o entre un intervalo de tiempo.
 Fecha de creación:: Cuando un servidor SMB es el origen, esta configuración le permite sincronizar archivos que se crearon después de una fecha específica, antes de una fecha específica o entre un rango de hora específico.
-ACL - Lista de control de acceso:: Copiar ACL de un servidor SMB habilitando una configuración cuando se crea una relación o después de crear una relación.
+ACL - Lista de control de acceso:: Copie sólo ACL, archivos o ACL y archivos de un servidor SMB mediante la activación de una configuración al crear una relación o después de crear una relación.
 
 
 . En la página *Etiquetas/metadatos*, elija si desea guardar un par clave-valor como una etiqueta en todos los archivos transferidos al bloque de S3 o si desea asignar un par clave-valor de metadatos en todos los archivos.

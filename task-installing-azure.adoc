@@ -207,6 +207,7 @@ Como se muestra en la URL, nuestra URL de aplicación es \https://cloudsync.neta
 
 La copia y sincronización de BlueXP crea un agente de datos en Azure con la siguiente configuración.
 
+Compatibilidad con Node.js:: v20
 Tipo de máquina virtual:: Estándar DS4 v2
 VCPU:: 8
 RAM:: 28 GB
