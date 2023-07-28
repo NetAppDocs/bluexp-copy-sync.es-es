@@ -62,7 +62,7 @@ La copia y sincronización de BlueXP te guía a través del proceso de instalaci
 
 .image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-4.png["Cuatro"] Cree su primera relación de sincronización
 [role="quick-margin-para"]
-Inicie sesión en https://console.bluexp.netapp.com/["BlueXP"^], haga clic en *Sincronizar* y, a continuación, arrastre y suelte las selecciones para el origen y el destino. Siga las indicaciones para completar la configuración. link:task-creating-relationships.html["Leer más"].
+Inicie sesión en https://console.bluexp.netapp.com/["BlueXP"^], Seleccione *Sync*, y luego arrastre y suelte sus selecciones para el origen y el destino. Siga las indicaciones para completar la configuración. link:task-creating-relationships.html["Leer más"].
 
 .image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-5.png["Cinco"] Pague por sus relaciones de sincronización una vez que finalice su prueba gratuita
 [role="quick-margin-para"]

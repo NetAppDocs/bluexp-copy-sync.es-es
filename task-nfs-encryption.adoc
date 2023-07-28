@@ -89,7 +89,7 @@ Si aún no ha implementado un agente de datos, revise los requisitos de Data Bro
 Cree una nueva relación de sincronización entre dos servidores NFS o entre Azure NetApp Files, habilite la opción de cifrado en curso y siga las indicaciones.
 
 .Pasos
-. Haga clic en *Crear nueva sincronización*.
+. Selecciona *Crear nueva sincronización*.
 . Arrastre y suelte *servidor NFS* a las ubicaciones de origen y destino o *Azure NetApp Files* a las ubicaciones de origen y destino y seleccione *Sí* para activar el cifrado de datos en vuelo.
 . Siga las indicaciones para crear la relación:
 +
@@ -107,7 +107,7 @@ Tenga en cuenta lo siguiente:
 
 .. *directorios*: Elija los directorios que desea sincronizar seleccionando todos los directorios, o taladrando y seleccionando un subdirectorio.
 +
-Haga clic en *Filtrar objetos de origen* para modificar la configuración que define cómo se sincronizan y mantienen los archivos y carpetas de origen en la ubicación de destino.
+Seleccione *Filtrar objetos de origen* para modificar la configuración que define cómo se sincronizan y mantienen los archivos de origen y las carpetas en la ubicación de destino.
 
 +
 image:screenshot_directories.gif["Captura de pantalla que muestra la opción de seleccionar un directorio de nivel superior, examinar y seleccionar la opción Filtrar objetos de origen."]
@@ -125,7 +125,7 @@ image:screenshot_nfs_encryption_listener.gif["Captura de pantalla que muestra la
 
 .. *directorios de destino*: Seleccione un directorio de nivel superior o examine para seleccionar un subdirectorio existente o crear una nueva carpeta dentro de una exportación.
 .. *Configuración*: Defina cómo se sincronizan y mantienen los archivos y carpetas de origen en la ubicación de destino.
-.. *Revisión*: Revise los detalles de la relación de sincronización y haga clic en *Crear relación*.
+.. *Revisión*: Revisa los detalles de la relación de sincronización y luego selecciona *Crear relación*.
 +
 image:screenshot_nfs_encryption_review.gif["\"Una captura de pantalla que muestra la pantalla de revisión. Muestra los servidores NFS, los agentes de datos y la información de redes sobre cada uno»."]
 
@@ -134,4 +134,4 @@ image:screenshot_nfs_encryption_review.gif["\"Una captura de pantalla que muestr
 
 
 .Resultado
-La copia y sincronización de BlueXP comienza a crear una nueva relación de sincronización. Cuando haya terminado, haga clic en *Ver en Panel* para ver detalles sobre la nueva relación.
+La copia y sincronización de BlueXP comienza a crear una nueva relación de sincronización. Cuando haya terminado, seleccione *Ver en el panel* para ver detalles sobre la nueva relación.

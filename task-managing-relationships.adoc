@@ -26,8 +26,8 @@ Puede gestionar las relaciones de sincronización en cualquier momento sincroniz
 En lugar de esperar a la siguiente sincronización programada, puede pulsar un botón para sincronizar inmediatamente los datos entre la fuente y el destino.
 
 .Pasos
-. Desde *Dashboard*, desplácese hasta la relación de sincronización y haga clic en image:icon-sync-action.png["Captura de pantalla del botón que le permite realizar acciones en una relación de sincronización"]
-. Haga clic en *Sincronizar ahora* y, a continuación, en *Sincronizar* para confirmar.
+. En el *Dashboard*, navega a la relación de sincronización y selecciona image:icon-sync-action.png["Captura de pantalla del botón que le permite realizar acciones en una relación de sincronización"]
+. Seleccione *Sincronizar ahora* y luego seleccione *Sincronizar* para confirmar.
 
 
 .Resultado
@@ -53,8 +53,8 @@ Desea acelerar el rendimiento de la relación 1 para agregar un nuevo agente de 
 
 .Pasos
 . Asegúrese de que al menos uno de los agentes de datos existentes en la relación esté en línea.
-. Desde *Dashboard*, desplácese hasta la relación de sincronización y haga clic en image:icon-sync-action.png["Captura de pantalla del botón que le permite realizar acciones en una relación de sincronización"]
-. Haga clic en *acelerar*.
+. En el *Dashboard*, navega a la relación de sincronización y selecciona image:icon-sync-action.png["Captura de pantalla del botón que le permite realizar acciones en una relación de sincronización"]
+. Selecciona *Acelerar*.
 . Siga las indicaciones para crear un nuevo Data broker.
 
 
@@ -70,11 +70,11 @@ Puede actualizar el agente de datos con las credenciales más recientes del orig
 La actualización de las credenciales es compatible con cualquier origen o destino en el que la copia y sincronización de BlueXP requiera credenciales para los servidores Azure Blob, Box, IBM Cloud Object Storage, StorageGRID, ONTAP S3 Storage, SFTP y SMB.
 
 .Pasos
-. En *Consola de sincronización*, vaya a una relación de sincronización que requiere credenciales y, a continuación, haga clic en *Actualizar credenciales*.
+. Desde el *Panel de control de sincronización*, ve a una relación de sincronización que requiere credenciales y luego selecciona *Actualizar credenciales*.
 +
 image:screenshot_sync_update_credentials.png["Captura de pantalla que muestra la opción Actualizar credenciales en la página Relaciones de sincronización justo debajo del nombre del origen o destino."]
 
-. Introduzca las credenciales y haga clic en *Actualizar*.
+. Ingrese las credenciales y seleccione *Actualizar*.
 +
 Una nota sobre los servidores SMB: Si el dominio es nuevo, deberá especificarlo al actualizar las credenciales. Si el dominio no ha cambiado, no es necesario volver a introducirlo.
 
@@ -99,17 +99,17 @@ Además, también puede recibir notificaciones por correo electrónico.
 .Pasos
 . Modifique la configuración de una relación de sincronización:
 +
-.. Desde *Dashboard*, desplácese hasta la relación de sincronización y haga clic en image:icon-sync-action.png["Captura de pantalla del botón que le permite realizar acciones en una relación de sincronización"]
-.. Haga clic en *Configuración*.
+.. En el *Dashboard*, navega a la relación de sincronización y selecciona image:icon-sync-action.png["Captura de pantalla del botón que le permite realizar acciones en una relación de sincronización"]
+.. Selecciona *Ajustes*.
 .. Activar *Notificaciones*.
-.. Haga clic en *Guardar configuración*.
+.. Selecciona *Guardar configuración*.
 
 
 . Si desea recibir notificaciones por correo electrónico, configure los ajustes de alerta y notificaciones:
 +
-.. Haga clic en *Configuración > Configuración de alertas y notificaciones*.
+.. Selecciona *Ajustes > Configuración de alertas y notificaciones*.
 .. Seleccione un usuario o varios usuarios y elija el tipo de notificación *Info*.
-.. Haga clic en *aplicar*.
+.. Seleccione *aplicar*.
 
 
 
@@ -123,8 +123,8 @@ Ahora recibirás notificaciones relacionadas con la copia y sincronización de B
 
 Modifique la configuración que define cómo se sincronizan y mantienen los archivos y carpetas de origen en la ubicación de destino.
 
-. Desde *Dashboard*, desplácese hasta la relación de sincronización y haga clic en image:icon-sync-action.png["Captura de pantalla del botón que le permite realizar acciones en una relación de sincronización"]
-. Haga clic en *Configuración*.
+. En el *Dashboard*, navega a la relación de sincronización y selecciona image:icon-sync-action.png["Captura de pantalla del botón que le permite realizar acciones en una relación de sincronización"]
+. Selecciona *Ajustes*.
 . Modifique cualquiera de los ajustes.
 +
 image:screenshot_sync_settings.png["Captura de pantalla que muestra la configuración de una relación de sincronización."]
@@ -192,7 +192,7 @@ Fecha de creación:: Cuando un servidor SMB es el origen, esta configuración le
 ACL - Lista de control de acceso:: Copie sólo ACL, archivos o ACL y archivos de un servidor SMB mediante la activación de una configuración al crear una relación o después de crear una relación.
 
 
-. Haga clic en *Guardar configuración*.
+. Selecciona *Guardar configuración*.
 
 
 .Resultado
@@ -210,7 +210,7 @@ Puede eliminar una relación de sincronización si ya no necesita sincronizar da
 
 .Pasos
 . En el *Dashboard*, navega a la relación de sincronización y selecciona image:icon-sync-action.png["Captura de pantalla del botón que le permite realizar acciones en una relación de sincronización"]
-. Haga clic en *Eliminar* y, a continuación, vuelva a hacer clic en *Eliminar* para confirmar.
+. Seleccione *Eliminar* y luego seleccione *Eliminar* de nuevo para confirmar.
 
 
 .Resultado
@@ -222,7 +222,7 @@ La copia y sincronización de BlueXP eliminan la relación de sincronización.
 
 .Pasos
 . Desde el *Dashboard*, navega hasta el botón “Crear Nueva Sincronización” y selecciona image:icon-sync-action.png["Captura de pantalla del botón que le permite realizar acciones en una relación de sincronización"]
-. Seleccione las relaciones de sincronización que desea eliminar, dcick *Delete* y luego haga clic en *Delete* de nuevo para confirmar.
+. Seleccione las relaciones de sincronización que desea eliminar, seleccione *Eliminar* y luego seleccione *Eliminar* de nuevo para confirmar.
 
 
 .Resultado

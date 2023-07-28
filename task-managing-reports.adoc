@@ -28,12 +28,12 @@ Cada informe proporciona detalles en profundidad sobre una ruta en una relación
 Cada vez que creas un informe, BlueXP copia y sincronización escanea la ruta y, a continuación, compila los detalles en un informe.
 
 .Pasos
-. Haga clic en *Sincronizar > Informes*.
+. Selecciona *Sincronizar > Informes*.
 +
 Las rutas (origen o destino) de cada una de las relaciones de sincronización se muestran en una tabla.
 
-. En la columna *acciones de Informes*, vaya a una ruta de acceso específica y haga clic en *Crear*, o haga clic en el menú de acciones y seleccione *Crear nuevo*.
-. Cuando el informe esté listo, haga clic en el menú de acciones y seleccione *Ver*.
+. En la columna Acciones de informes*, ve a una ruta específica y selecciona *Crear*, o selecciona el menú de acción y selecciona *Crear nuevo*.
+. Cuando el informe esté listo, selecciona el menú de acción y selecciona *Ver*.
 +
 Aquí tiene un informe de ejemplo para una ruta de acceso al sistema de archivos.
 
@@ -55,11 +55,11 @@ image:screenshot_sync_report_object.gif["Informe que muestra el número de eleme
 Puede descargar un informe en PDF para poder verlo sin conexión o compartirlo.
 
 .Pasos
-. Haga clic en *Sincronizar > Informes*.
-. En la columna *acciones de informes*, haga clic en el menú de acciones y seleccione *Ver*.
-. En la parte superior derecha del informe, haga clic en el menú de acción y seleccione *Descargar pdf*.
+. Selecciona *Sincronizar > Informes*.
+. En la columna Acciones de informes*, selecciona el menú de acción y selecciona *Ver*.
+. En la parte superior derecha del informe, selecciona el menú de acción y selecciona *Descargar pdf*.
 +
-image:screenshot-sync-download-report.png["Una captura de pantalla de la opción Descargar pdf que aparece después de hacer clic en el menú de acción de un informe."]
+image:screenshot-sync-download-report.png["Una captura de pantalla de la opción Descargar pdf que aparece después de seleccionar el menú de acción en un informe."]
 
 
 
@@ -74,9 +74,9 @@ Por ejemplo, un informe puede contener errores de permiso denegado. Este tipo de
 Después de ver la lista de errores, puede abordar los problemas y volver a ejecutar el informe.
 
 .Pasos
-. Haga clic en *Sincronizar > Informes*.
+. Selecciona *Sincronizar > Informes*.
 . En la columna *errores*, identifique si hay algún error presente en un informe.
-. Si hay errores, haga clic en la flecha situada junto al número de errores.
+. Si hay errores, seleccione la flecha junto al número de errores.
 +
 image:screenshot_sync_report_errors.gif["Captura de pantalla de la tabla Paths que muestra el número de errores y una pequeña flecha para hacer clic en la columna Errors."]
 
@@ -93,7 +93,7 @@ Después de resolver el problema, el error no debería aparecer la próxima vez 
 Puede eliminar un informe que contenía un error corregido o si el informe está relacionado con una relación de sincronización que ha eliminado.
 
 .Pasos
-. Haga clic en *Sincronizar > Informes*.
-. En la columna *acciones de Informes*, haga clic en el menú de acciones de una ruta y seleccione *Eliminar último informe* o *Eliminar todos los informes*.
+. Selecciona *Sincronizar > Informes*.
+. En la columna Acciones de informes*, selecciona el menú de acción de una ruta y selecciona *Eliminar último informe* o *Eliminar todos los informes*.
 . Confirme que desea eliminar el informe o los informes.
 

@@ -590,7 +590,7 @@ Ahora es posible crear una relación de sincronización desde SFTP a Amazon S3 e
 
 === Mejora de la vista de tabla
 
-Hemos rediseñado la vista de tabla de la Consola para facilitar su uso. Si hace clic en *más información*, Cloud Sync filtra el panel para mostrar más información acerca de esa relación específica.
+Hemos rediseñado la vista de tabla de la Consola para facilitar su uso. Si selecciona *Más información*, Cloud Sync filtra el panel de control para mostrarle más información sobre esa relación específica.
 
 image:screenshot-sync-table.png["Captura de pantalla de la vista de tabla del panel."]
 

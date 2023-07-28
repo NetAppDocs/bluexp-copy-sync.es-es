@@ -149,17 +149,17 @@ Para obtener ayuda sobre la creación de un par de claves, consulte https://docs
 Hay varias formas de crear un nuevo agente de datos. Estos pasos describen cómo instalar un agente de datos en Azure al crear una relación de sincronización.
 
 .Pasos
-. Haga clic en *Crear nueva sincronización*.
-. En la página *definir relación de sincronización*, elija un origen y un destino y haga clic en *continuar*.
+. Selecciona *Crear nueva sincronización*.
+. En la página *Definir relación de sincronización*, elige un origen y un destino y selecciona *Continuar*.
 +
 Complete los pasos hasta llegar a la página *Grupo de agentes de datos*.
 
-. En la página *Grupo de agentes de datos*, haga clic en *Crear agente de datos* y, a continuación, seleccione *Microsoft Azure*.
+. En la página *Data Broker Group*, selecciona *Crear Data Broker* y luego selecciona *Microsoft Azure*.
 +
 image:screenshot-azure.png["Captura de pantalla de la página Data Broker que le permita elegir entre AWS, Azure, Google Cloud y un agente de datos en las instalaciones."]
 
-. Introduzca un nombre para el Data broker y haga clic en *continuar*.
-. Si se le solicita, inicie sesión en su cuenta de Microsoft. Si no se le solicita, haga clic en *Iniciar sesión en Azure*.
+. Introduzca un nombre para el broker de datos y seleccione *Continuar*.
+. Si se le solicita, inicie sesión en su cuenta de Microsoft. Si no se le solicita, seleccione *Iniciar sesión en Azure*.
 +
 El formulario es propiedad de Microsoft y está alojado en él. Sus credenciales no se proporcionan a NetApp.
 
@@ -172,11 +172,11 @@ image:screenshot_azure_data_broker.gif["Una captura de pantalla de la página de
 NOTE: Si planea implementar una relación de sincronización continua, debe asignar una función personalizada a su agente de datos. También se puede realizar manualmente después de crear el broker.
 
 . Especifique una configuración de proxy, si se requiere un proxy para el acceso a Internet en la vnet.
-. Haga clic en *continuar* y mantenga la página abierta hasta que finalice la implementación.
+. Seleccione *Continuar* y mantenga la página abierta hasta que se complete la implementación.
 +
 El proceso puede tardar hasta 7 minutos.
 
-. En la copia y sincronización de BlueXP, haz clic en *Continuar* una vez que el agente de datos esté disponible.
+. En la copia y sincronización de BlueXP, selecciona *Continuar* una vez que el agente de datos esté disponible.
 . Complete las páginas del asistente para crear la nueva relación de sincronización.
 
 

@@ -32,7 +32,7 @@ Esta función funciona con _any_ type de agente de datos: AWS, Azure, Google Clo
 
 .Pasos para una nueva relación
 . Desde la copia y sincronización de BlueXP, selecciona *Crear nueva sincronización*.
-. Arrastre y suelte un servidor SMB o un almacenamiento de objetos como origen y un servidor SMB o almacenamiento de objetos como destino y haga clic en *continuar*.
+. Arrastre y suelte un servidor SMB o almacenamiento de objetos como origen y un servidor SMB o almacenamiento de objetos como destino, y seleccione *Continuar*.
 . En la página *SMB Server*:
 +
 .. Ingrese un nuevo servidor SMB o seleccione un servidor existente y seleccione *Continuar*.

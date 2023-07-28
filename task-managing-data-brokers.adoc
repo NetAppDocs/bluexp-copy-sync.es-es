@@ -70,7 +70,7 @@ Hay varias formas de crear un nuevo Data broker:
 +
 link:task-creating-relationships.html["Aprenda a crear un nuevo agente de datos al crear una relación de sincronización"].
 
-* En la página *gestionar agentes de datos*, haga clic en *Agregar nuevo Data Broker* que crea el agente de datos en un nuevo grupo
+* Desde la página *Administrar corredores de datos* seleccionando *Agregar nuevo agente de datos* que crea el agente de datos en un nuevo grupo
 * Desde la página *gestionar agentes de datos* creando un nuevo agente de datos en un grupo existente
 
 
@@ -83,8 +83,8 @@ Por ejemplo, si un grupo incluye un agente de datos de AWS, puede crear un agent
 
 
 .Pasos para crear un agente de datos en un grupo nuevo
-. Haga clic en *Sincronizar > gestionar agentes de datos*.
-. Haga clic en *Agregar nuevo agente de datos*.
+. Selecciona *Sync > Manage Data Brokers*.
+. Selecciona *Añadir nuevo Data Broker*.
 . Siga las indicaciones para crear el Data broker.
 +
 Para obtener ayuda, consulte las siguientes páginas:
@@ -99,8 +99,8 @@ Para obtener ayuda, consulte las siguientes páginas:
 
 
 .Pasos para crear un agente de datos en un grupo existente
-. Haga clic en *Sincronizar > gestionar agentes de datos*.
-. Haga clic en el menú de acción y seleccione *Agregar agente de datos*.
+. Selecciona *Sync > Manage Data Brokers*.
+. Seleccione el menú de acción y seleccione *Agregar Data Broker*.
 +
 image:screenshot_sync_group_add.png["Captura de pantalla del menú de acción disponible para cada agente de datos individual de un grupo."]
 
@@ -124,12 +124,12 @@ Para obtener ayuda, consulte las siguientes páginas:
 Cambie el nombre de un grupo de Data broker en cualquier momento.
 
 .Pasos
-. Haga clic en *Sincronizar > gestionar agentes de datos*.
-. Haga clic en el menú de acción y seleccione *Editar nombre de grupo*.
+. Selecciona *Sync > Manage Data Brokers*.
+. Seleccione el menú de acción y seleccione *Editar nombre del grupo*.
 +
 image:screenshot_sync_group_edit.gif["Captura de pantalla del menú de acción disponible para cada agente de datos individual de un grupo."]
 
-. Introduzca un nuevo nombre y haga clic en *Guardar*.
+. Introduce un nuevo nombre y selecciona *Guardar*.
 
 
 .Resultado
@@ -144,12 +144,12 @@ Si una relación de sincronización detecta errores durante el proceso de sincro
 No recomendamos cambiar la configuración por su cuenta. Debe consultar con NetApp para saber cuándo cambiar la configuración y cómo modificarla.
 
 .Pasos
-. Haga clic en *gestionar agentes de datos*.
-. Haga clic en el icono Configuración de un grupo de Data broker.
+. Selecciona *Administrar Data Brokers*.
+. Seleccione el icono Configuración de un grupo de Data Broker.
 +
 image:screenshot_sync_group_settings.png["Captura de pantalla que muestra el icono Configuración de un grupo de Data broker."]
 
-. Cambie la configuración según sea necesario y, a continuación, haga clic en *Unify Configuration*.
+. Cambie la configuración según sea necesario y luego seleccione *Unify Configuration*.
 +
 Tenga en cuenta lo siguiente:
 
@@ -178,14 +178,14 @@ Por ejemplo, si un agente de datos ya no gestiona una relación de sincronizaci�
 
 
 .Pasos
-. Haga clic en *Sincronizar > gestionar agentes de datos*.
-. Haga clic en image:screenshot_sync_group_expand.gif["Captura de pantalla del botón que permite ampliar la lista de agentes de datos de un grupo."] para ampliar la lista de agentes de datos de un grupo.
-. Haga clic en el menú de acción de un agente de datos y seleccione *mover agente de datos*.
+. Selecciona *Sync > Manage Data Brokers*.
+. Seleccione image:screenshot_sync_group_expand.gif["Captura de pantalla del botón que permite ampliar la lista de agentes de datos de un grupo."] para ampliar la lista de agentes de datos de un grupo.
+. Seleccione el menú de acción de un broker de datos y seleccione *Mover Data Broker*.
 +
 image:screenshot_sync_group_remove.png["Captura de pantalla del menú de acción disponible para cada grupo de Data broker individual."]
 
 . Cree un nuevo grupo de Data broker o seleccione un grupo de Data broker existente.
-. Haga clic en *mover*.
+. Selecciona *Mover*.
 
 
 .Resultado
@@ -198,11 +198,11 @@ La copia y sincronización de BlueXP mueve el agente de datos a un grupo de agen
 Actualice la configuración de proxy de un agente de datos agregando detalles sobre una nueva configuración de proxy o editando la configuración de proxy existente.
 
 .Pasos
-. Haga clic en *Sincronizar > gestionar agentes de datos*.
-. Haga clic en image:screenshot_sync_group_expand.gif["Captura de pantalla del botón que permite ampliar la lista de agentes de datos de un grupo."] para ampliar la lista de agentes de datos de un grupo.
-. Haga clic en el menú de acción de un agente de datos y seleccione *Editar configuración de proxy*.
+. Selecciona *Sync > Manage Data Brokers*.
+. Seleccione image:screenshot_sync_group_expand.gif["Captura de pantalla del botón que permite ampliar la lista de agentes de datos de un grupo."] para ampliar la lista de agentes de datos de un grupo.
+. Seleccione el menú de acción de un agente de datos y seleccione *Editar configuración de proxy*.
 . Especifique detalles sobre el proxy: Nombre de host, número de puerto, nombre de usuario y contraseña.
-. Haga clic en *Actualizar*.
+. Seleccione *Actualizar*.
 
 
 .Resultado
@@ -228,9 +228,9 @@ TIP: El escáner escanea el origen y el destino y decide qué se debe copiar. El
 
 
 .Pasos
-. Haga clic en *Sincronizar > gestionar agentes de datos*.
-. Haga clic en image:screenshot_sync_group_expand.gif["Captura de pantalla del botón que permite ampliar la lista de agentes de datos de un grupo."] para ampliar la lista de agentes de datos de un grupo.
-. Haga clic en image:screenshot_sync_group_expand.gif["Captura de pantalla del botón que le permite ampliar los detalles sobre un agente de datos."] para ver detalles sobre un data broker.
+. Selecciona *Sync > Manage Data Brokers*.
+. Seleccione image:screenshot_sync_group_expand.gif["Captura de pantalla del botón que permite ampliar la lista de agentes de datos de un grupo."] para ampliar la lista de agentes de datos de un grupo.
+. Seleccione image:screenshot_sync_group_expand.gif["Captura de pantalla del botón que le permite ampliar los detalles sobre un agente de datos."] para ver detalles sobre un data broker.
 +
 image:screenshot_sync_data_broker_details.gif["Captura de pantalla de información sobre un agente de datos."]
 
@@ -266,13 +266,13 @@ Puede quitar un agente de datos de un grupo si ya no es necesario o si la implem
 
 
 .Pasos
-. Haga clic en *Sincronizar > gestionar agentes de datos*.
-. Haga clic en image:screenshot_sync_group_expand.gif["Captura de pantalla del botón que permite ampliar la lista de agentes de datos de un grupo."] para ampliar la lista de agentes de datos de un grupo.
-. Haga clic en el menú de acción de un agente de datos y seleccione *Quitar agente de datos*.
+. Selecciona *Sync > Manage Data Brokers*.
+. Seleccione image:screenshot_sync_group_expand.gif["Captura de pantalla del botón que permite ampliar la lista de agentes de datos de un grupo."] para ampliar la lista de agentes de datos de un grupo.
+. Seleccione el menú de acción de un broker de datos y seleccione *Eliminar Data Broker*.
 +
 image:screenshot_sync_group_remove.gif["Captura de pantalla del menú de acción disponible para cada grupo de Data broker individual."]
 
-. Haga clic en *Quitar Data Broker*.
+. Selecciona *Remove Data Broker*.
 
 
 .Resultado
@@ -287,12 +287,12 @@ Si un grupo de agentes de datos ya no gestiona ninguna relación de sincronizaci
 Los agentes de datos que eliminan la copia y sincronización de BlueXP solo se eliminan de los registros de la copia y sincronización de BlueXP. Deberá eliminar manualmente la instancia de agente de datos de su proveedor de cloud y los recursos adicionales de cloud.
 
 .Pasos
-. Haga clic en *Sincronizar > gestionar agentes de datos*.
-. Haga clic en el menú de acción y seleccione *Eliminar grupo*.
+. Selecciona *Sync > Manage Data Brokers*.
+. Selecciona el menú de acción y selecciona *Eliminar grupo*.
 +
 image:screenshot_sync_group_add.png["Captura de pantalla del menú de acción disponible para cada agente de datos individual de un grupo."]
 
-. Para confirmar, introduzca el nombre del grupo y haga clic en *Eliminar grupo*.
+. Para confirmar, introduzca el nombre del grupo y seleccione *Eliminar grupo*.
 
 
 .Resultado
