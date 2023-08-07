@@ -171,6 +171,8 @@ Si habilita esta opción, también debe cambiar un parámetro en el archivo loca
 }
 }
 ----
+Después de actualizar el archivo local.json, debe reiniciar: `pm2 restart all`.
+
 --
 Eliminar archivos en destino:: Elija eliminar archivos de la ubicación de destino, si se eliminaron del origen. El valor predeterminado es no eliminar nunca los archivos de la ubicación de destino.
 Tipos de archivo:: Defina los tipos de archivo que se incluirán en cada sincronización: Archivos, directorios, enlaces simbólicos y enlaces físicos.

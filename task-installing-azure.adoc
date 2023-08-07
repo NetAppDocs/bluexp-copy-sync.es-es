@@ -101,6 +101,8 @@ Asegúrese de que la cuenta de usuario de Azure que utilice para implementar el 
                     "Microsoft.Storage/storageAccounts/write"
                     "Microsoft.MarketplaceOrdering/offertypes/publishers/offers/plans/agreements/read"
                     "Microsoft.MarketplaceOrdering/offertypes/publishers/offers/plans/agreements/write"
+                    "Microsoft.Network/networkSecurityGroups/securityRules/read",
+        	        "Microsoft.Network/networkSecurityGroups/read",
 ----
 ....
     ],
@@ -112,7 +114,7 @@ Asegúrese de que la cuenta de usuario de Azure que utilice para implementar el 
 ....
 Nota:
 
-. Los siguientes permisos solo son necesarios si tiene pensado habilitar la configuración de sincronización continua en una relación de sincronización de Azure con otra ubicación de almacenamiento en cloud:
+. Los siguientes permisos solo son necesarios si planea activar el https://docs.netapp.com/us-en/bluexp-copy-sync/task-creating-relationships.html#settings["Ajuste de sincronización continua"] En una relación de sincronización de Azure con otra ubicación de almacenamiento en cloud:
 +
 ** "Microsoft.Storage/storageAccounts/read",
 ** 'Microsoft.EventGrid/systemTopics/eventSubscriptions/Write',
@@ -130,9 +132,13 @@ Nota:
 +
 Además, el ámbito asignable debe definirse en el ámbito de suscripción y el ámbito del grupo de recursos *no* si tiene previsto implementar Continuous Sync en Azure.
 
+. Los siguientes permisos solo son necesarios si planea elegir su propia seguridad para la creación de Data Broker:
++
+** «Microsoft.Network/networkSecurityGroups/securityRules/read"
+** «Microsoft.Network/networkSecurityGroups/read"
 
 
-https://docs.netapp.com/us-en/bluexp-copy-sync/task-creating-relationships.html#settings["Obtenga más información acerca de la configuración de sincronización continua"].
+
 
 
 
@@ -165,7 +171,7 @@ El formulario es propiedad de Microsoft y está alojado en él. Sus credenciales
 
 . Elija una ubicación para el agente de datos e introduzca detalles básicos sobre la máquina virtual.
 +
-image:screenshot_azure_data_broker.gif["Una captura de pantalla de la página de implementación de Azure que muestra los siguientes campos: Suscripción, región de Azure, red, subred, nombre de máquina virtual, nombre de usuario, método de autenticación y grupo de recursos."]
+image:screenshot_azure_data_broker.png["Una captura de pantalla de la página de implementación de Azure que muestra los siguientes campos: Suscripción, región de Azure, red, subred, nombre de máquina virtual, nombre de usuario, método de autenticación y grupo de recursos."]
 
 +
 

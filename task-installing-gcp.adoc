@@ -89,11 +89,14 @@ Al implementar el agente de datos, debe seleccionar una cuenta de servicio que t
 - pubsub.topics.list
 - pubsub.topics.setIamPolicy
 - storage.buckets.update
+- cloudkms.cryptoKeys.list
+- cloudkms.keyRings.list
 ----
 Notas:
 
 . El "permiso iam.serviceAccounts.signJwt" es requerido sólo si usted está planeando establecer el corredor de datos para usar un almacén externo de HashiCorp.
 . Los permisos "pubsub.*" y "Storage.buckets.update" sólo son necesarios si tiene previsto habilitar la configuración de sincronización continua en una relación de sincronización desde Google Cloud Storage a otra ubicación de almacenamiento en la nube. link:task-creating-relationships.html#settings["Obtenga más información acerca de la opción Continuous Sync (sincronización continua)"].
+. Los permisos «cloudkms.cryptoKeys.list» y «cloudkms.keyrings.list» solo son necesarios si planea utilizar una clave KMS gestionada por el cliente en un depósito de Google Cloud Storage de destino.
 
 
 

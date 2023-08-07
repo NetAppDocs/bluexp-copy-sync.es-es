@@ -249,6 +249,7 @@ Cualquiera de estos métodos establece una conexión segura entre sus servidores
 La copia y la sincronización de BlueXP no pueden cifrar los datos de SMB propiamente dichos.
 
 * Cuando un bloque de Amazon S3 es el destino de una relación de sincronización, puede elegir si habilitar el cifrado de datos mediante el cifrado AWS KMS o el cifrado AES-256.
+* Cuando un bucket de Google Storage es el destino en una relación de sincronización, puedes elegir si quieres usar la clave de cifrado predeterminada gestionada por Google o tu propia clave KMS.
 
 
 

@@ -220,6 +220,14 @@ Si el origen de una relación de sincronización es un destino de SnapMirror (qu
 
 
 
+=== Cifrado de un bucket de Google Cloud
+
+Puedes cifrar un bucket de Google Cloud de destino con una clave KMS gestionada por el cliente o la clave gestionada por Google predeterminada. Si el depósito ya tiene un cifrado KMS agregado, anulará el cifrado administrado por Google predeterminado.
+
+Para agregar una clave KMS gestionada por el cliente, deberá utilizar un agente de datos con el https://docs.netapp.com/us-en/bluexp-copy-sync/task-installing-gcp.html#permissions-required-for-the-service-account["corrija los permisos"], y la clave debe estar en la misma región que el cubo.
+
+
+
 == Unidad de Google
 
 Al configurar una relación de sincronización que incluya Google Drive, tendrá que proporcionar lo siguiente:
