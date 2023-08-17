@@ -121,6 +121,37 @@ Si activa esta configuración, afecta a otras funciones de la siguiente manera:
 ** Los siguientes valores se revierten a sus valores predeterminados: Tiempo de espera de sincronización, Archivos modificados recientemente y Fecha de modificación.
 ** Si S3 es el origen, el filtro por tamaño solo estará activo en eventos de copia (no al eliminar eventos).
 ** Una vez creada la relación, solo se puede acelerar o eliminar. No puede cancelar la sincronización, modificar la configuración ni ver informes.
++
+Se puede crear una relación de sincronización continua con un bloque externo. Para hacerlo, siga estos pasos:
+
++
+... Ve a la consola de Google Cloud para ver el proyecto del bucket externo.
+... Vaya a *Almacenamiento en la nube > Configuración > Cuenta de servicio de almacenamiento en la nube*.
+... Actualice el archivo local.json:
++
+[source, json]
+----
+{
+"protocols": {
+    "gcp": {
+        "storage-account-email": <storage account email>
+}
+}
+}
+----
+... Reinicie el agente de datos:
++
+.... sudo pm2 pare todo
+.... sudo pm2 inicie todo
+
+
+... Cree una relación de sincronización continua con el bloque externo relevante.
++
+
+NOTE: Un agente de datos utilizado para crear una relación de sincronización continua con un depósito externo no podrá crear otra relación de sincronización continua con un depósito en su proyecto.
+
+
+
 
 
 --
