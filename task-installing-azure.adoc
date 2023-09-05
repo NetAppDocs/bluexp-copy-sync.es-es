@@ -178,6 +178,7 @@ image:screenshot_azure_data_broker.png["Una captura de pantalla de la página de
 NOTE: Si planea implementar una relación de sincronización continua, debe asignar una función personalizada a su agente de datos. También se puede realizar manualmente después de crear el broker.
 
 . Especifique una configuración de proxy, si se requiere un proxy para el acceso a Internet en la vnet.
+. Seleccione *continuar*. Si desea agregar permisos S3 a su agente de datos, introduzca sus claves secretas y de acceso a AWS.
 . Seleccione *Continuar* y mantenga la página abierta hasta que se complete la implementación.
 +
 El proceso puede tardar hasta 7 minutos.

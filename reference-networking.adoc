@@ -103,7 +103,8 @@ Un agente de datos se pone en contacto con los siguientes extremos:
 | \https://fedoraproject.org | Para instalar 7z en la máquina virtual Data Broker durante la instalación y las actualizaciones. Es necesario enviar mensajes de AutoSupport al soporte técnico de NetApp. 
 
 
-| \https://sts.amazonaws.com | Para verificar las credenciales de AWS cuando el agente de datos se implementa en AWS o cuando está implementado en sus instalaciones, y se proporcionan las credenciales de AWS. El agente de datos se pone en contacto con este extremo durante la implementación, cuando se actualiza y cuando se reinicia. 
+| \https://sts.amazonaws.com
+\https://sts.us-east-1.amazonaws.com | Para verificar las credenciales de AWS cuando el agente de datos se implementa en AWS o cuando está implementado en sus instalaciones, y se proporcionan las credenciales de AWS. El agente de datos se pone en contacto con este extremo durante la implementación, cuando se actualiza y cuando se reinicia. 
 
 
 | \https://console.bluexp.netapp.com/ \https://netapp-cloud-account.auth0.com | Para ponerse en contacto con la clasificación de BlueXP cuando usas la clasificación a fin de seleccionar los archivos de origen de una nueva relación de sincronización. 

@@ -211,10 +211,13 @@ Tipos de archivo:: Defina los tipos de archivo que se incluirán en cada sincron
 NOTE: Los enlaces físicos solo están disponibles para relaciones NFS no seguras con NFS. Los usuarios estarán limitados a un proceso de escáner y a una simultaneidad de escáner, y las exploraciones deben ejecutarse desde un directorio raíz.
 
 --
-Excluir extensiones de archivo:: Especifique las extensiones de archivo que desea excluir de la sincronización escribiendo la extensión de archivo y pulsando *Intro*. Por ejemplo, escriba _log_ o _.log_ para excluir archivos *.log. No es necesario un separador para varias extensiones. El siguiente vídeo proporciona una breve demostración:
+Excluir extensiones de archivo:: Especifique el regex o las extensiones de archivo que desea excluir de la sincronización escribiendo la extensión de archivo y pulsando *Intro*. Por ejemplo, escriba _log_ o _.log_ para excluir archivos *.log. No es necesario un separador para varias extensiones. El siguiente vídeo proporciona una breve demostración:
 +
 --
 video::video_file_extensions.mp4[width=840,height=240]
+
+NOTE: Regex, o expresiones regulares, difieren de comodines o expresiones glob. Esta función *Only* funciona con regex.
+
 --
 Excluir directorios:: Especifique un máximo de 15 directorios para excluir de la sincronización escribiendo su nombre o ruta completa de directorio y pulsando *Intro*. Los directorios .copy-fload, .snapshot, ~snapshot se excluyen de forma predeterminada. Si desea incluirlas en su sincronización, póngase en contacto con nosotros.
 Tamaño de archivo:: Elija sincronizar todos los archivos independientemente de su tamaño o sólo los archivos que se encuentren en un rango de tamaño específico.
