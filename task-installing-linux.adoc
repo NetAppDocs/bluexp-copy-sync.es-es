@@ -27,7 +27,7 @@ Cuando crea un nuevo grupo de agentes de datos, elija la opción On-Prem Data Br
 +
 CentOS Stream no es compatible.
 
-** Red Hat Enterprise Linux 8.0 y 8.5
+** Red Hat Enterprise Linux 8,0, 8,5 y 8,8
 ** Rocky Linux 9
 ** Sistema operativo Ubuntu Server 20.04 LTS
 ** SUSE Linux Enterprise Server 15 SP1
