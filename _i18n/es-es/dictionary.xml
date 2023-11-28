@@ -1698,7 +1698,6 @@
   <block id="bac04a3b125486e43e5adcb9275b0cb7" category="inline-link">Obtenga más información sobre la configuración Copiar para objetos</block>
   <block id="b9101f79b22863de2373d338b3f2fd49" category="paragraph"><block ref="61cd45fc857d1053eae8b58e970eda27" category="inline-link-rx"></block>.</block>
   <block id="b9a11b90960ff803269429887ab4cff3" category="admonition">El usuario debe ser un usuario local. Los usuarios de dominio no son compatibles.</block>
-  <block id="c6d95123ce00e1d2940e9547ed9e800e" category="list-text">*Compatibilidad Node.js*: V20</block>
   <block id="029bf19b5ab4e2409feefba3e8d94200" category="section-title">Configura la copia y sincronización de BlueXP para copiar listas de control de acceso</block>
   <block id="135b308ed83c53f1516b7c754566d1c4" category="paragraph-title">Antes de empezar</block>
   <block id="31bea9e85b096361bd5e056000e559fa" category="list-text">Desde la copia y sincronización de BlueXP, selecciona *Crear nueva sincronización*.</block>
@@ -1711,7 +1710,6 @@
   <block id="7c2e6ea8a3aea68b51b8b85907eabea5" category="section-title">Copie manualmente las ACL entre recursos compartidos de SMB</block>
   <block id="59e767a49496d7be5777e4cf48d4105c" category="list-text">Copie sólo ACL, archivos o ACL y archivos de un servidor SMB mediante la activación de una configuración al crear una relación o después de crear una relación.</block>
   <block id="e0c7c4832f74beb01a9b0b7f4ceb62b9" category="list-text">Compatibilidad con Node.js</block>
-  <block id="8286e09aa759584d6fd8292ccdc241cc" category="list-text">v20</block>
   <block id="e0536b4ae9bb49a9633b77ce78d68e0a" category="section-title">Acelere el rendimiento de sincronización</block>
   <block id="baf8ddab0e1f4d03b84d74129178e3e2" category="section-title">Elementos de actualización</block>
   <block id="11d4a32f12cfcb43ae53ae70017809c1" category="section-title">Configurar notificaciones</block>
@@ -1897,4 +1895,15 @@
   <block id="f6185bb12f5e53c800be8cda7fbca65b" category="paragraph">Para obtener soporte técnico relacionado con un servicio de archivos del proveedor de cloud, su infraestructura o cualquier solución que utilice el servicio, consulte «Obtener ayuda» en la documentación de BlueXP para ese producto.</block>
   <block id="3880ae5df9fdc4d0fc4a6d00a2239530" category="paragraph">Para recibir soporte técnico específico sobre BlueXP y sus soluciones y servicios de almacenamiento, use las opciones de soporte descritas a continuación.</block>
   <block id="78e61c832f461b7daf55a1dcd92749e0" category="list-text">Red Hat Enterprise Linux 8,0, 8,5 y 8,8</block>
+  <block id="a76b69f0eac891a6dad210c8c894f70c" category="section-title">26 de noviembre de 2023</block>
+  <block id="5dbbe39e8d4eedbcb5aafdf7e0e66a80" category="section-title">Soporte de clase de almacenamiento de datos fríos para Azure Blob</block>
+  <block id="2be7473e47d2102f9d51ff1a3cd36305" category="paragraph">El nivel de almacenamiento de datos fríos de Azure Blob ahora está disponible al crear una relación de sincronización.</block>
+  <block id="6e90305f3ad22c32d20c662a0bb06726" category="inline-link">Obtenga más información sobre la creación de una relación de sincronización.</block>
+  <block id="2bfe6803528ed3d1b4758e7bc6eb4cb6" category="paragraph"><block ref="2bfe6803528ed3d1b4758e7bc6eb4cb6" category="inline-link-rx"></block></block>
+  <block id="e35f035cdd0e53d6ac8e57e89c9a3994" category="section-title">Soporte para la región de Tel Aviv en agentes de datos de AWS</block>
+  <block id="bc601240bd77a257f82ad29245da02ee" category="paragraph">Tel Aviv es ahora una región compatible al crear un agente de datos en AWS.</block>
+  <block id="e24f754057dce2d0f9791240fec7d494" category="section-title">Actualizar a la versión del nodo para los agentes de datos</block>
+  <block id="a020a6afcaa5c0d333b5cfb93c8d4d79" category="paragraph">Todos los nuevos agentes de datos utilizarán ahora la versión del nodo 21,2.0. Los agentes de datos que no son compatibles con esta actualización, como CentOS 7,0 y Ubuntu Server 18,0, ya no funcionarán con la copia y sincronización de BlueXP.</block>
+  <block id="067302a61f4ac3cb10bab96cf4753092" category="list-text">v21,2.0</block>
+  <block id="3677e4449a81dc7f1c8db056eade76dd" category="list-text">*Compatibilidad Node.js*: v21,2.0</block>
 </blocks>

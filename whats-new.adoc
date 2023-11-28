@@ -18,6 +18,32 @@ Descubre las novedades en la copia y sincronización de BlueXP.
 
 
 
+== 26 de noviembre de 2023
+
+
+
+=== Soporte de clase de almacenamiento de datos fríos para Azure Blob
+
+El nivel de almacenamiento de datos fríos de Azure Blob ahora está disponible al crear una relación de sincronización.
+
+https://docs.netapp.com/us-en/bluexp-copy-sync/task-creating-relationships.html["Obtenga más información sobre la creación de una relación de sincronización."]
+
+
+
+=== Soporte para la región de Tel Aviv en agentes de datos de AWS
+
+Tel Aviv es ahora una región compatible al crear un agente de datos en AWS.
+
+https://docs.netapp.com/us-en/bluexp-copy-sync/task-installing-aws.html#creating-the-data-broker["Obtenga más información sobre cómo crear un agente de datos en AWS"].
+
+
+
+=== Actualizar a la versión del nodo para los agentes de datos
+
+Todos los nuevos agentes de datos utilizarán ahora la versión del nodo 21,2.0. Los agentes de datos que no son compatibles con esta actualización, como CentOS 7,0 y Ubuntu Server 18,0, ya no funcionarán con la copia y sincronización de BlueXP.
+
+
+
 == 3 de septiembre de 2023
 
 
