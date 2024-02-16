@@ -471,8 +471,6 @@
   <block id="00c5fef3bb9d593ae96bf5d2ee60354a" category="paragraph">Únase a la comunidad de BlueXP para seguir los debates en curso o crear otros nuevos.</block>
   <block id="5b6cf869265c13af8566f192b4ab3d2a" category="list-text">Documentación</block>
   <block id="a4a6c2ea0078252eac2d74ef3e6c917c" category="paragraph">La documentación de BlueXP que está viendo actualmente.</block>
-  <block id="80b1b0d2b1ebf2b3cba2d25759801afd" category="list-text">Correo:ng-cloudmanager-feedback@netapp.com[correo electrónico de comentarios]</block>
-  <block id="6702efec14563f45f1ee2f8c613b8ad8" category="paragraph">Apreciamos sus opiniones. Envíe sus comentarios para ayudarnos a mejorar BlueXP.</block>
   <block id="82812db645b6ff5e9c2a24ddfb66c8d6" category="paragraph">Además de las opciones de autosoporte anteriores, puede trabajar con un especialista de soporte de NetApp para resolver cualquier problema después de activar el soporte de.</block>
   <block id="d63bf50426f4c712554faec55b30c548" category="list-text">*Servicio*: Seleccione el servicio con el que está asociado el problema. Por ejemplo, cuando BlueXP es específico de un problema de soporte técnico con flujos de trabajo o funcionalidades dentro del servicio.</block>
   <block id="2e50c5f85523f0aba9ff2db10f18279c" category="list-text">*Entorno de trabajo*: Si se aplica al almacenamiento, seleccione *Cloud Volumes ONTAP* o *On-Prem* y, a continuación, el entorno de trabajo asociado.</block>
@@ -1286,7 +1284,6 @@
   <block id="328a2c1e7778e9edaf79d90c51409ac4" category="list-text">Si tiene una cuenta de nivel de cliente, puede añadir una o varias cuentas de NSS.</block>
   <block id="e3cd99e4aa330ae6bdfb3754d83ae962" category="list-text">Si tiene una cuenta de partner o distribuidor, puede añadir una o varias cuentas de NSS, pero no se podrán añadir junto con las cuentas de nivel de cliente.</block>
   <block id="b50f0a46135bcb7083b1f2f82032fc26" category="inline-image-macro">Una captura de pantalla del menú Ayuda en el que Soporte es la primera opción de la lista</block>
-  <block id="19d089db572ee6a1e154a0c9c9e57bfd" category="paragraph">NetApp utiliza Microsoft Azure Active Directory como proveedor de identidades para servicios de autenticación específicos para soporte y licencias.</block>
   <block id="465ec6d5eafa3524c948c99d8bfcd306" category="list-text">En la página de inicio de sesión, proporcione su dirección de correo electrónico registrada en el sitio de soporte de NetApp y contraseña para realizar el proceso de autenticación.</block>
   <block id="cbc6cc3bb022583403171b447b2a962c" category="paragraph">Estas acciones permiten a BlueXP utilizar su cuenta NSS para cosas como descargas de licencias, verificación de actualizaciones de software y futuros registros de soporte.</block>
   <block id="1dcb63fd55c4d22e87cb32275b8cc808" category="inline-image-macro">Icono de tres puntos horizontales</block>
@@ -1353,10 +1350,6 @@
   <block id="0b9c6eef4e3d3a222eb04e910d252339" category="sidebar">Licencia</block>
   <block id="1fe917b01f9a3f87fa2d7d3b7643fac1" category="sidebar">PREGUNTAS FRECUENTES</block>
   <block id="0adc03eac86772ad2c75c8f140be417e" category="sidebar">Conocimiento y apoyo</block>
-  <block id="813011e2103649bb71f124adedcc10ea" category="sidebar">Blogs y comunidad</block>
-  <block id="dd490b81914dd945601e442a41cb4222" category="sidebar">Comunidad de NetApp</block>
-  <block id="bd5465eb0e8cf8f303aee7ea9420c8b1" category="sidebar">Blog de BlueXP</block>
-  <block id="ad203e818e0c9d7f42f1c260b33875f3" category="sidebar">Seminarios web sobre el cloud</block>
   <block id="7a45e6298bb69116e2c6db653fb88884" category="sidebar">Toda la documentación de BlueXP</block>
   <block id="edd15fbeb7b2dffa163336ecd4f3e80c" category="section-title">Utilice opciones de soporte automático</block>
   <block id="d88bacf2a9fdcbbc844edcba97c34e30" category="section-title">Cree un caso con el soporte de NetApp</block>
@@ -1399,7 +1392,6 @@
   <block id="36df1b975561708b246ef1801ea416e5" category="list-text">FSX para ONTAP</block>
   <block id="a37b0a91d7c4d8ac6ce924a7f8e1ce5a" category="list-text">ONTAP en las instalaciones</block>
   <block id="9e1b606dc521567131be8e8f6b621511" category="list-text">Excluir directorios</block>
-  <block id="303de3e45b2f15b7f37aa50b2824f981" category="list-text">Especifique un máximo de 15 directorios para excluir de la sincronización escribiendo su nombre o ruta completa de directorio y pulsando *Intro*. Los directorios .copy-fload, .snapshot, ~snapshot se excluyen de forma predeterminada. Si desea incluirlas en su sincronización, póngase en contacto con nosotros.</block>
   <block id="c7326baf2ea51b61fafa4f4680d916c0" category="section-title">2 de abril de 2023</block>
   <block id="9c305cf5f9f8051acc945eda0fc8a1be" category="section-title">Compatibilidad adicional para las relaciones de Gen2 de Azure Data Lake Storage</block>
   <block id="61babc330ca2ea0af752965dd3965d41" category="paragraph">Ahora puede crear relaciones de sincronización con Azure Data Lake Storage Gen2 como origen y destino con lo siguiente:</block>
@@ -1906,4 +1898,11 @@
   <block id="a020a6afcaa5c0d333b5cfb93c8d4d79" category="paragraph">Todos los nuevos agentes de datos utilizarán ahora la versión del nodo 21,2.0. Los agentes de datos que no son compatibles con esta actualización, como CentOS 7,0 y Ubuntu Server 18,0, ya no funcionarán con la copia y sincronización de BlueXP.</block>
   <block id="067302a61f4ac3cb10bab96cf4753092" category="list-text">v21,2.0</block>
   <block id="3677e4449a81dc7f1c8db056eade76dd" category="list-text">*Compatibilidad Node.js*: v21,2.0</block>
+  <block id="d59e0b46782e48a01966e5c7ccc38d17" category="paragraph">NetApp utiliza Microsoft Entra ID como proveedor de identidad para los servicios de autenticación específicos de soporte y licencias.</block>
+  <block id="4b51a8df678b7448fbc55b79ad365ed7" category="section-title">11 de febrero de 2024</block>
+  <block id="66a743c4896414f00b485685ab377a19" category="section-title">Filtra directorios por regex</block>
+  <block id="df5c4f17d479f00c828a9edc617f2277" category="paragraph">Los usuarios ahora tienen la opción de filtrar directorios usando regex.</block>
+  <block id="32d736bf69b032967c9ca2f284cd6218" category="inline-link">Obtenga más información sobre la función *Excluir directorios*.</block>
+  <block id="9afa1c757f9d9c1d7a951ff852629645" category="paragraph"><block ref="9afa1c757f9d9c1d7a951ff852629645" category="inline-link-rx"></block></block>
+  <block id="65f2edc14f4a65d07600885b4ca1a56f" category="list-text">Especifique un máximo de 15 regex o directorios para excluir de la sincronización escribiendo su nombre o directorio de ruta completa y pulsando *Intro*. Los directorios .copy-fload, .snapshot, ~snapshot se excluyen de forma predeterminada.</block>
 </blocks>
