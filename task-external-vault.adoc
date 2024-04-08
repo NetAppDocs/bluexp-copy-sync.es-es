@@ -13,6 +13,7 @@ summary: Cuando creas una relación de sincronización que requiera credenciales
 :imagesdir: ./media/
 
 
+[role="lead"]
 Cuando creas una relación de sincronización que requiera credenciales de Amazon S3, Azure o Google Cloud, tienes que especificar esas credenciales a través de la interfaz de usuario o la API de copia y sincronización de BlueXP. Una alternativa es establecer el grupo de corredores de datos para acceder a las credenciales (o _Secrets_) directamente desde un almacén externo de HashiCorp.
 
 Esta función es compatible con la API de copia y sincronización de BlueXP con relaciones de sincronización que requieren credenciales de Amazon S3, Azure o Google Cloud.

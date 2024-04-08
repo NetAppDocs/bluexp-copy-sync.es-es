@@ -18,6 +18,18 @@ Descubre las novedades en la copia y sincronización de BlueXP.
 
 
 
+== 8 de abril de 2024
+
+
+
+=== Compatibilidad con RHEL 8,9
+
+El agente de datos ahora se admite en hosts que ejecutan Red Hat Enterprise Linux 8,9.
+
+https://docs.netapp.com/us-en/bluexp-copy-sync/task-installing-linux.html#linux-host-requirements["Vea los requisitos del host Linux"].
+
+
+
 == 11 de febrero de 2024
 
 

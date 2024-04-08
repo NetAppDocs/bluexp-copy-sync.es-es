@@ -13,6 +13,7 @@ summary: Si su empresa tiene políticas de seguridad estrictas, sincronice los d
 :imagesdir: ./media/
 
 
+[role="lead"]
 Si su negocio tiene políticas de seguridad estrictas, puede sincronizar datos NFS mediante el cifrado de datos en tránsito. Esta función es compatible desde un servidor NFS a otro servidor NFS y de Azure NetApp Files a Azure NetApp Files.
 
 Por ejemplo, se recomienda sincronizar datos entre dos servidores NFS que se encuentran en redes diferentes. O puede que necesite transferir datos de Azure NetApp Files de manera segura en subredes o regiones.
