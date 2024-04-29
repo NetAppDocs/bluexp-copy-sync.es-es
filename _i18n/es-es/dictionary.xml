@@ -695,7 +695,6 @@
   <block id="f68b92ee815675ae3018eca060b553b7" category="summary">Cree y vea informes para obtener información que puede usar con la ayuda del personal de NetApp para ajustar la configuración de un agente de datos y mejorar el rendimiento.</block>
   <block id="66a57cf55e06ad77b01c27e38766b83a" category="doc">Creación y visualización de informes para ajustar la configuración</block>
   <block id="428c9ca45dc8f0b8e1eda231aef5b08f" category="paragraph">Cree y vea informes para obtener información que puede usar con la ayuda del personal de NetApp para ajustar la configuración de un agente de datos y mejorar el rendimiento.</block>
-  <block id="d065612e0b27393ca9ed8b8e18bc869f" category="paragraph">Cada informe proporciona detalles en profundidad sobre una ruta en una relación de sincronización. Por ejemplo, el informe de un sistema de archivos muestra cuántos directorios y archivos hay, la distribución del tamaño de los archivos, la profundidad y el ancho de los directorios y mucho más.</block>
   <block id="0389649d1c6e65625a57cd6c84149999" category="section-title">Crear informes</block>
   <block id="26126443d44ba2723fb7a7ede8dda75c" category="paragraph">Las rutas (origen o destino) de cada una de las relaciones de sincronización se muestran en una tabla.</block>
   <block id="94954fba60bab7206fb4f66c4a7750cb" category="paragraph">Aquí tiene un informe de ejemplo para una ruta de acceso al sistema de archivos.</block>
@@ -1350,7 +1349,6 @@
   <block id="0b9c6eef4e3d3a222eb04e910d252339" category="sidebar">Licencia</block>
   <block id="1fe917b01f9a3f87fa2d7d3b7643fac1" category="sidebar">PREGUNTAS FRECUENTES</block>
   <block id="0adc03eac86772ad2c75c8f140be417e" category="sidebar">Conocimiento y apoyo</block>
-  <block id="7a45e6298bb69116e2c6db653fb88884" category="sidebar">Toda la documentación de BlueXP</block>
   <block id="edd15fbeb7b2dffa163336ecd4f3e80c" category="section-title">Utilice opciones de soporte automático</block>
   <block id="d88bacf2a9fdcbbc844edcba97c34e30" category="section-title">Cree un caso con el soporte de NetApp</block>
   <block id="08d96fdd1a845d80db99e6e1dffb8bc7" category="list-text">En la página *Recursos*, elija una de las opciones disponibles en Soporte técnico:</block>
@@ -1483,7 +1481,6 @@
   <block id="ba1c1b5e23e3b5a8fddd3f7c246ef506" category="list-text">Elija eliminar los archivos de la ubicación de origen después de que BlueXP copie y sincronice los archivos en la ubicación de destino. Esta opción incluye el riesgo de pérdida de datos porque los archivos de origen se eliminan una vez copiados.</block>
   <block id="d00f5267d50bd8fc291109206d3ad858" category="list-text">Defina los tipos de archivo que se incluirán en cada sincronización: Archivos, directorios, enlaces simbólicos y enlaces físicos.</block>
   <block id="e6bb715f6ce6607fa13566339effdb48" category="admonition">Los enlaces físicos solo están disponibles para relaciones NFS no seguras con NFS. Los usuarios estarán limitados a un proceso de escáner y a una simultaneidad de escáner, y las exploraciones deben ejecutarse desde un directorio raíz.</block>
-  <block id="c81b15466cc89faa99024d734f63d070" category="paragraph">La copia y la sincronización de BlueXP comienzan a sincronizar datos entre el origen y el destino.</block>
   <block id="4a8110d7baed5bb188d9ea48ab78e0e6" category="summary">NetApp no tiene acceso a ninguna credencial que proporcione mientras utiliza el servicio de copia y sincronización de BlueXP. Las credenciales se almacenan directamente en el equipo de Data broker, que reside en la red.</block>
   <block id="bad5b485fd3620e21ec885f8037708e8" category="paragraph">Según la configuración que elija, la copia y sincronización de BlueXP pueden solicitarle las credenciales al crear una nueva relación. Por ejemplo, cuando se configura una relación que incluye un servidor SMB o cuando se implementa el agente de datos en AWS.</block>
   <block id="48fdd045e3712fe8b8bf348baef2a5e3" category="summary">Al crear un nuevo agente de datos, elija la opción Google Cloud Data Broker para implementar el software de agente de datos en una nueva instancia de máquina virtual en un VPC. La copia y sincronización de BlueXP te guía por el proceso de instalación, pero los requisitos y los pasos se repiten en esta página para ayudarte a preparar la instalación.</block>
@@ -1910,4 +1907,13 @@
   <block id="403a870c3777a3434883cf3338197e1e" category="inline-link">Vea los requisitos del host Linux</block>
   <block id="33437394afeba112bc78a89e1164345e" category="paragraph"><block ref="bddca2b75222059ea164cace70f493c0" category="inline-link-rx"></block>.</block>
   <block id="62839d4e5d5a9de91b6f7d896439934b" category="list-text">Red Hat Enterprise Linux 8,5, 8,8 y 8,9</block>
+  <block id="0d76b6f5f7ef4feb4ba34ba4dc8a3356" category="section-title">¿Qué tipos de relaciones de sincronización conservan los metadatos del almacenamiento de objetos?</block>
+  <block id="b0f6c5b9e24f06b742cf40691ecda0a1" category="section-title">¿Qué tipos de metadatos se replican durante las sincronizaciones donde NFS o SMB son el origen?</block>
+  <block id="fca3645c4b9c57a087d67f345e46b21a" category="paragraph">Los metadatos como el ID de usuario, la hora de modificación, la hora de acceso y GID se replican de forma predeterminada. Los usuarios pueden optar por replicar ACL de CIFS marcándola como sea necesario al crear una relación de sincronización.</block>
+  <block id="7051698c4825bdf5a52d58a440b9a6da" category="inline-link">relaciones de sincronización</block>
+  <block id="5c4c20a350a01bcba51403b5971c1e55" category="inline-link">gestione sus agentes de datos</block>
+  <block id="81671387dfc9496bbb584683131ed0ba" category="inline-link">cree informes para optimizar el rendimiento y la configuración</block>
+  <block id="67eba5ff5953726e26983c2f64f794dc" category="paragraph">La copia y la sincronización de BlueXP comienzan a sincronizar datos entre el origen y el destino. Sincronizar estadísticas sobre cuánto tiempo tardó la sincronización, si se detuvo y cuántos archivos se copiaron, escanearon o eliminaron están disponibles. A continuación, puede administrar su<block ref="036850536ef01bc8377a10d87d2c60f6" category="inline-link-rx"></block>,<block ref="afaf0e8700f6eb5774590916b99650a2" category="inline-link-rx"></block>, o.<block ref="04f03004f9e0603b9348762faa7e67f2" category="inline-link-rx"></block>.</block>
+  <block id="b9f1a0da291ab3c6b115c407d28d1ab9" category="inline-link">se ha creado y completado correctamente una sincronización</block>
+  <block id="62ef189d2125efd4e054bda2fe60e56f" category="paragraph">Cada informe proporciona detalles en profundidad sobre una ruta en una relación de sincronización. Incluirá cuántos directorios, archivos y enlaces simbólicos hay, la distribución del tamaño del archivo, la profundidad y amplitud de los directorios, la modificación del tiempo y el tiempo de acceso. Esto difiere de la estática de sincronización, que están disponibles en el panel de control después<block ref="633d339dd1720ad54a63284823a9045d" category="inline-link-rx"></block>.</block>
 </blocks>

@@ -245,7 +245,7 @@ TIP: Esta misma función está disponible cuando se sincroniza datos con Storage
 
 *resultado*
 
-La copia y la sincronización de BlueXP comienzan a sincronizar datos entre el origen y el destino.
+La copia y la sincronización de BlueXP comienzan a sincronizar datos entre el origen y el destino. Sincronizar estadísticas sobre cuánto tiempo tardó la sincronización, si se detuvo y cuántos archivos se copiaron, escanearon o eliminaron están disponibles. A continuación, puede administrar su https://docs.netapp.com/us-en/bluexp-copy-sync/task-managing-relationships.html["relaciones de sincronización"], https://docs.netapp.com/us-en/bluexp-copy-sync/task-managing-data-brokers.html["gestione sus agentes de datos"], o. https://docs.netapp.com/us-en/bluexp-copy-sync/task-managing-reports.html#creating-reports["cree informes para optimizar el rendimiento y la configuración"].
 
 
 

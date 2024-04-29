@@ -5,21 +5,18 @@ keywords: reports, sync reports, BlueXP copy and sync reports, report errors, pa
 summary: Cree y vea informes para obtener información que puede usar con la ayuda del personal de NetApp para ajustar la configuración de un agente de datos y mejorar el rendimiento. 
 ---
 = Creación y visualización de informes para ajustar la configuración
-:toc: macro
 :hardbreaks:
 :allow-uri-read: 
-:toc: 
 :nofooter: 
 :icons: font
 :linkattrs: 
 :imagesdir: ./media/
-:toc-position: content
 
 
 [role="lead"]
 Cree y vea informes para obtener información que puede usar con la ayuda del personal de NetApp para ajustar la configuración de un agente de datos y mejorar el rendimiento.
 
-Cada informe proporciona detalles en profundidad sobre una ruta en una relación de sincronización. Por ejemplo, el informe de un sistema de archivos muestra cuántos directorios y archivos hay, la distribución del tamaño de los archivos, la profundidad y el ancho de los directorios y mucho más.
+Cada informe proporciona detalles en profundidad sobre una ruta en una relación de sincronización. Incluirá cuántos directorios, archivos y enlaces simbólicos hay, la distribución del tamaño del archivo, la profundidad y amplitud de los directorios, la modificación del tiempo y el tiempo de acceso. Esto difiere de la estática de sincronización, que están disponibles en el panel de control después https://docs.netapp.com/us-en/bluexp-copy-sync/task-creating-relationships.html["se ha creado y completado correctamente una sincronización"].
 
 
 
