@@ -1,0 +1,41 @@
+---
+sidebar: sidebar 
+permalink: task-prepare-object-storage.html 
+keywords: prepare data broker, data broker, object storage, sync, scanner, configure scanner 
+summary: 'Si está planificando sincronizar datos del almacenamiento de objetos en el almacenamiento de objetos (por ejemplo, Amazon S3 a Azure Blob), debe preparar el grupo de agentes de datos antes de crear la relación de sincronización.' 
+---
+= Prepare un agente de datos para sincronizar los datos entre el almacenamiento de objetos
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+Si está planificando sincronizar datos del almacenamiento de objetos en el almacenamiento de objetos (por ejemplo, Amazon S3 a Azure Blob), debe preparar el grupo de agentes de datos antes de crear la relación de sincronización.
+
+.Acerca de esta tarea
+Para preparar el grupo de Data Broker, deberá modificar la configuración del escáner. Si no modifica la configuración, es posible que note problemas de rendimiento para esta relación de sincronización.
+
+.Antes de empezar
+El grupo de agentes de datos que utiliza para sincronizar datos del almacenamiento de objetos al almacenamiento de objetos solo debe gestionar estos tipos de relaciones de sincronización. Si el grupo de agentes de datos gestiona un tipo de relación de sincronización diferente (por ejemplo, NFS a NFS o almacenamiento de objetos a SMB), el rendimiento de esas relaciones de sincronización puede verse afectado de forma negativa.
+
+.Pasos
+. En la copia y sincronización de BlueXP, selecciona *Administrar agentes de datos*.
+. Seleccione image:icon-settings.png["Una captura de pantalla del icono de configuración"]
+. Actualice la configuración del escáner:
++
+.. Cambie *Scanner Concurrency* a *1*.
+.. Cambie *Límite de procesos del escáner* a *1*.
+
+
+. Seleccione *Unify Configuration*.
+
+
+.Resultado
+La copia y sincronización de BlueXP actualiza la configuración del grupo de agentes de datos.
+
+.El futuro
+Ahora puede crear la relación de sincronización entre el almacenamiento de objetos mediante el grupo de agentes de datos que acaba de configurar.

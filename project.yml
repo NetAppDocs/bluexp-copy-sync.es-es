@@ -46,6 +46,9 @@ sidebar:
     entries:
     - title: Sincronice datos entre un origen y un destino
       entries:
+      - title: Prepare un agente de datos para sincronizar los datos entre el almacenamiento
+          de objetos
+        url: "/task-prepare-object-storage.html"
       - title: Crear una relación de sincronización
         url: "/task-creating-relationships.html"
       - title: Copiar ACL de un recurso compartido de SMB

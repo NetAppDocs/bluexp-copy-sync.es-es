@@ -60,7 +60,7 @@ La copia y sincronización de BlueXP añaden el nuevo agente de datos al grupo. 
 
 
 
-== Elementos de actualización
+== Actualizar las credenciales
 
 Puede actualizar el agente de datos con las credenciales más recientes del origen o destino en una relación de sincronización existente. La actualización de las credenciales puede ayudar si las políticas de seguridad requieren que actualice las credenciales de forma periódica.
 

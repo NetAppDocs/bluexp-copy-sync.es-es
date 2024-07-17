@@ -41,7 +41,7 @@ Desea acelerar el rendimiento de la relación 1 para agregar un nuevo agente de 
 
 === Número de agentes de datos en un grupo
 
-En muchos casos, un único agente de datos puede satisfacer los requisitos de rendimiento de una relación de sincronización. De lo contrario, puede acelerar el rendimiento de sincronización añadiendo agentes de datos adicionales al grupo. Pero primero debe comprobar otros factores que pueden afectar al rendimiento de la sincronización. link:faq.html#how-many-data-brokers-are-required-in-a-group["Obtenga más información sobre cómo determinar cuándo es necesario el uso de varios agentes de datos son obligatorios"].
+En muchos casos, un único agente de datos puede satisfacer los requisitos de rendimiento de una relación de sincronización. Si no lo hace, puede acelerar el rendimiento de la sincronización añadiendo agentes de datos adicionales al grupo. Pero primero debe comprobar otros factores que pueden afectar al rendimiento de la sincronización. link:faq.html#how-many-data-brokers-are-required-in-a-group["Obtenga más información sobre cómo determinar cuándo es necesario el uso de varios agentes de datos son obligatorios"].
 
 
 
