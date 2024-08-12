@@ -4,7 +4,7 @@ permalink: task-external-vault.html
 keywords: hashicorp, vault, credentials, secrets, API 
 summary: Cuando creas una relación de sincronización que requiera credenciales de Amazon S3, Azure o Google Cloud, tienes que especificar esas credenciales a través de la interfaz de usuario o la API de copia y sincronización de BlueXP. Una alternativa es establecer el corredor de datos para acceder a las credenciales directamente desde un almacén HashiCorp externo. 
 ---
-= Configuración de un grupo de corredores de datos para usar un almacén externo de HashiCorp
+= Configure un grupo de agentes de datos para utilizar un almacén HashiCorp externo
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 
@@ -32,7 +32,7 @@ Ahora que todo está configurado, puede enviar una llamada a la API para crear u
 
 
 
-== Preparación del almacén
+== Prepare el almacén
 
 Tendrás que proporcionar copia y sincronización de BlueXP con la URL de los secretos de tu almacén. Prepare el almacén configurando esas URL. Debe configurar URL para las credenciales de cada origen y destino en las relaciones de sincronización que desea crear.
 
@@ -68,7 +68,7 @@ La ruta del prefijo es _/my-path/all-Secrets/_, el ID de la solicitud es _n32hcb
 
 
 
-== Preparación del grupo de Data broker
+== Preparar el grupo de Data broker
 
 Prepare el grupo de Data broker para recuperar credenciales del almacén externo modificando el archivo de configuración local de cada agente de datos del grupo.
 
@@ -202,7 +202,7 @@ Espacio de nombres::
 ----
 
 
-=== Configuración de permisos cuando se utiliza la autenticación gcp-iam
+=== Configure los permisos cuando utilice la autenticación gcp-iam
 
 Si está utilizando el método de autenticación _gcp-iam_, el intermediario de datos debe tener el siguiente permiso de GCP:
 

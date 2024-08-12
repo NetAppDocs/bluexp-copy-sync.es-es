@@ -561,7 +561,7 @@ Estas opciones son compatibles cuando Azure Blob es el destino y el origen es Az
 
 Ahora hay disponible un nuevo valor de tiempo de espera de sincronización* para las relaciones de sincronización. Esta configuración le permite definir si Cloud Sync debe cancelar una sincronización de datos si no se ha completado en el número de horas o días especificado.
 
-https://docs.netapp.com/us-en/bluexp-copy-sync/task-managing-relationships.html#changing-the-settings-for-a-sync-relationship["Más información sobre cómo cambiar la configuración de una relación de sincronización"].
+https://docs.netapp.com/us-en/bluexp-copy-sync/task-managing-relationships.html#change-the-settings-for-a-sync-relationship["Más información sobre cómo cambiar la configuración de una relación de sincronización"].
 
 
 
@@ -571,7 +571,7 @@ Ahora hay disponible una nueva configuración de *Notificaciones* para las relac
 
 image:https://raw.githubusercontent.com/NetAppDocs/bluexp-copy-sync/main/media/screenshot-notification-center.png["Una captura de pantalla que muestra el Centro de notificaciones en BlueXP."]
 
-https://docs.netapp.com/us-en/bluexp-copy-sync/task-managing-relationships.html#changing-the-settings-for-a-sync-relationship["Más información sobre cómo cambiar la configuración de una relación de sincronización"].
+https://docs.netapp.com/us-en/bluexp-copy-sync/task-managing-relationships.html#change-the-settings-for-a-sync-relationship["Más información sobre cómo cambiar la configuración de una relación de sincronización"].
 
 
 
@@ -736,7 +736,7 @@ Ahora puede actualizar las licencias de Cloud Sync que ha ampliado.
 
 Si ha ampliado una licencia de Cloud Sync que ha comprado a NetApp, puede volver a añadir la licencia para actualizar la fecha de vencimiento.
 
-link:task-licensing.html#update-a-license["Aprenda a actualizar una licencia"].
+link:task-licensing.html["Aprenda a actualizar una licencia"].
 
 
 
@@ -924,7 +924,7 @@ Ahora hay disponible una nueva configuración de *Comparar por* para cada relaci
 
 Esta configuración avanzada le permite elegir si Cloud Sync debe comparar ciertos atributos al determinar si un archivo o directorio ha cambiado y debe volver a sincronizarse.
 
-link:task-managing-relationships.html#changing-the-settings-for-a-sync-relationship["Más información sobre cómo cambiar la configuración de una relación de sincronización"].
+link:task-managing-relationships.html#change-the-settings-for-a-sync-relationship["Más información sobre cómo cambiar la configuración de una relación de sincronización"].
 
 
 

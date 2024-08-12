@@ -4,7 +4,7 @@ permalink: task-installing-linux.html
 keywords: data broker, install, linux, on-prem data broker, on-prem, on prem, on premises, networking, permissions, os, operating system, rhel, red hat, ram, cpu, disk space, install data broker, installing data broker, install a data broker, data broker installation, linux installation, linux operating system, aws access, aws keys, keys, gcp access, aws permissions, gcp permissions, google permissions 
 summary: Al crear un nuevo agente de datos, elija la opción de Data Broker en las instalaciones para instalar el software de agente de datos en un host Linux local o en un host Linux existente en el cloud. La copia y sincronización de BlueXP te guía por el proceso de instalación, pero los requisitos y los pasos se repiten en esta página para ayudarte a preparar la instalación. 
 ---
-= Instalar el agente de datos en un host Linux
+= Instale el agente de datos en un host Linux
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 
@@ -66,7 +66,7 @@ El software de Data broker se ejecuta automáticamente como root en el host Linu
 
 
 
-== Habilitar el acceso a AWS
+== Permita el acceso a AWS
 
 Si planea utilizar el agente de datos con una relación de sincronización que incluya un bloque de S3, debe preparar el host Linux para el acceso a AWS. Cuando instale el agente de datos, necesitará proporcionar claves AWS para un usuario de AWS que tenga acceso al mismo mediante programación y permisos específicos.
 
@@ -108,13 +108,13 @@ NOTE: Al crear una clave, el archivo se genera y descarga en el equipo.
 
 
 
-== Habilitar el acceso a Microsoft Azure
+== Permita el acceso a Microsoft Azure
 
 El acceso a Azure se define por relación proporcionando una cuenta de almacenamiento y una cadena de conexión en el asistente de relaciones de sincronización.
 
 
 
-== Instalación del Data broker
+== Instale el agente de datos
 
 Puede instalar un agente de datos en un host Linux al crear una relación de sincronización.
 
@@ -163,7 +163,7 @@ En los siguientes pasos se ofrecen detalles sobre cada posible opción de instal
 `curl <URI> -o data_broker_installer.sh -x <proxy_username>:<proxy_password>@<proxy_host>:<proxy_port>`
 
 +
-URI:: La copia y sincronización de BlueXP muestra el URI del archivo de instalación en la página de instrucciones, que se carga cuando sigue las instrucciones para implementar el agente de datos en las instalaciones. Ese URI no se repite aquí porque el enlace se genera dinámicamente y sólo se puede usar una vez. <<Instalación del Data broker,Sigue estos pasos para obtener el URI de copia y sincronización de BlueXP>>.
+URI:: La copia y sincronización de BlueXP muestra el URI del archivo de instalación en la página de instrucciones, que se carga cuando sigue las instrucciones para implementar el agente de datos en las instalaciones. Ese URI no se repite aquí porque el enlace se genera dinámicamente y sólo se puede usar una vez. <<Instale el agente de datos,Sigue estos pasos para obtener el URI de copia y sincronización de BlueXP>>.
 
 
 
@@ -193,8 +193,8 @@ chmod +x data_broker_installer.sh
 ./data_broker_installer.sh -a <aws_access_key> -s <aws_secret_key> -g <absolute_path_to_the_json_file> -h <proxy_host> -p <proxy_port> -u <proxy_username> -w <proxy_password>`
 
 +
-Claves de AWS:: Estas son las claves para el usuario que debería se prepararon <<Habilitar el acceso a AWS,siga estos pasos>>. Las claves de AWS se almacenan en el agente de datos, que se ejecuta en la red local o en el cloud. NetApp no utiliza las claves fuera del agente de datos.
-Archivo JSON:: Este es el archivo JSON que contiene una cuenta de servicio clave que usted debe haber preparado <<Habilitar el acceso a Google Cloud,siga estos pasos>>.
+Claves de AWS:: Estas son las claves para el usuario que debes haber preparado <<Permita el acceso a AWS,siga estos pasos>>. Las claves de AWS se almacenan en el agente de datos, que se ejecuta en la red local o en el cloud. NetApp no utiliza las claves fuera del agente de datos.
+Archivo JSON:: Este es el archivo JSON que contiene una clave de cuenta de servicio que debe haber preparado <<Habilitar el acceso a Google Cloud,siga estos pasos>>.
 
 
 

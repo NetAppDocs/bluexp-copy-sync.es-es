@@ -4,7 +4,7 @@ permalink: task-nfs-encryption.html
 keywords: encryption, in flight, data in flight, in-flight, data-in-flight, nfs, initiator, listener, port 
 summary: Si su empresa tiene políticas de seguridad estrictas, sincronice los datos entre servidores NFS en diferentes redes mediante el cifrado de datos en tránsito. 
 ---
-= Sincronizando los datos NFS mediante el cifrado de datos en tránsito
+= Sincronice datos NFS mediante el cifrado de datos en tránsito
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 
@@ -38,7 +38,7 @@ Así es como funciona el cifrado en tránsito:
 . El agente de datos de destino descifra los datos antes de enviarlos al destino.
 . Después de la copia inicial, el servicio sincroniza los datos modificados cada 24 horas. Si hay datos que sincronizar, el proceso comienza con el iniciador abriendo una conexión cifrada con el otro agente de datos.
 +
-Si prefiere sincronizar datos con mayor frecuencia, link:task-managing-relationships.html#changing-the-settings-for-a-sync-relationship["se puede cambiar la programación después de crear la relación"].
+Si prefiere sincronizar datos con mayor frecuencia, link:task-managing-relationships.html#change-the-settings-for-a-sync-relationship["se puede cambiar la programación después de crear la relación"].
 
 
 
@@ -85,7 +85,7 @@ Si aún no ha implementado un agente de datos, revise los requisitos de Data Bro
 
 
 
-== Sincronizando los datos NFS mediante el cifrado de datos en tránsito
+== Sincronice datos NFS mediante el cifrado de datos en tránsito
 
 Cree una nueva relación de sincronización entre dos servidores NFS o entre Azure NetApp Files, habilite la opción de cifrado en curso y siga las indicaciones.
 

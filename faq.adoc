@@ -206,7 +206,7 @@ Puede programar una relación para que se sincronice datos con una frecuencia de
 
 Un grupo de Data broker no se agotó cuando un solo archivo no se transfiere. En su lugar, el grupo de agentes de datos reintenta 3 veces antes de omitir el archivo. El valor de reintento se puede configurar en la configuración de una relación de sincronización.
 
-link:task-managing-relationships.html#changing-the-settings-for-a-sync-relationship["Aprenda a cambiar la configuración de una relación de sincronización"].
+link:task-managing-relationships.html#change-the-settings-for-a-sync-relationship["Aprenda a cambiar la configuración de una relación de sincronización"].
 
 
 
@@ -360,7 +360,7 @@ El rendimiento de la transferencia de datos puede afectar múltiples factores. E
 
 Por lo tanto, asegúrese de comprobar el rendimiento de la red y del disco en el destino.
 
-A continuación, puede plantearse acelerar el rendimiento de sincronización añadiendo agentes de datos adicionales a un grupo para compartir la carga de dicha relación. link:task-managing-relationships.html#accelerating-sync-performance["Descubra cómo acelerar el rendimiento de la sincronización"].
+A continuación, puede plantearse acelerar el rendimiento de sincronización añadiendo agentes de datos adicionales a un grupo para compartir la carga de dicha relación. link:task-managing-relationships.html#accelerate-sync-performance["Descubra cómo acelerar el rendimiento de la sincronización"].
 
 
 
@@ -380,7 +380,7 @@ Al eliminar una relación se detienen todos los datos futuros y se termina el pa
 
 De forma predeterminada, si tiene una relación de sincronización activa, el elemento eliminado en el servidor de origen no se eliminará del destino durante la siguiente sincronización. Pero hay una opción en la configuración de sincronización para cada relación, donde puedes definir que la copia y sincronización de BlueXP eliminarán los archivos en la ubicación de destino si se eliminaron del origen.
 
-link:task-managing-relationships.html#changing-the-settings-for-a-sync-relationship["Aprenda a cambiar la configuración de una relación de sincronización"].
+link:task-managing-relationships.html#change-the-settings-for-a-sync-relationship["Aprenda a cambiar la configuración de una relación de sincronización"].
 
 
 

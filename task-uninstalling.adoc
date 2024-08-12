@@ -4,7 +4,7 @@ permalink: task-uninstalling.html
 keywords: uninstall, uninstall data broker, remove data broker 
 summary: Si es necesario, ejecute una secuencia de comandos de desinstalación para quitar el agente de datos y los paquetes y directorios que se crearon cuando se instaló el Data broker. 
 ---
-= Desinstalar el Data broker
+= Desinstale el agente de datos
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 

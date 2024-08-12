@@ -18,12 +18,12 @@ Las funcionalidades de copia y sincronización de BlueXP que están disponibles 
 
 
 
-== Primeros pasos
+== Manos a la obra
 
 Para empezar a usar la API de copia y sincronización de BlueXP, necesitas obtener un token de usuario y tu ID de cuenta de BlueXP. Deberá agregar el token y el ID de cuenta al encabezado de autorización cuando realice llamadas a la API.
 
 .Pasos
-. Obtenga un token de usuario de BlueXP de NetApp.
+. Obtener un token de usuario de BlueXP .
 +
 [source, http]
 ----
@@ -39,12 +39,11 @@ Body:
               "password": "<user_password>"
 }
 ----
-
-
++
 
 NOTE: Si utiliza una cuenta de correo electrónico personal sin ID de cliente, puede utilizar el ID de cliente predeterminado "QC3AgHk6qdbmC7Yyr82ApBwaaJLwRrNO".
 
-. Obtenga su ID de cuenta de BlueXp.
+. Obtenga su ID de cuenta de BlueXP.
 +
 [source, http]
 ----
@@ -83,22 +82,14 @@ Body: { "name": "databroker1", "type": "AZURE" }
 ----
 
 
-.¿Qué debo hacer cuando caduca el token?
-****
-El token de usuario de NetApp BlueXp tiene una fecha de vencimiento. Para actualizar el token, debe volver a llamar a la API desde el paso 1.
+.El futuro
+El token de usuario de BlueXP  tiene una fecha de vencimiento. Para actualizar el token, debe volver a llamar a la API desde el paso 1.
 
 La respuesta de la API incluye un campo "expires_in" que indica cuándo caduca el token.
 
-****
 
 
-== Referencia de API
-
-La documentación para cada API de sincronización y copia de BlueXP está disponible en https://api.cloudsync.netapp.com/docs[].
-
-
-
-== Uso de list API
+== Utilizar API de lista
 
 Las API de la lista son API asíncronas, por lo que el resultado no devuelve de inmediato (por ejemplo: `GET /data-brokers/{id}/list-nfs-export-folders` y.. `GET /data-brokers/{id}/list-s3-buckets`). La única respuesta del servidor es el estado HTTP 202. Para obtener el resultado real, debe usar el `GET /messages/client` API.
 
@@ -192,3 +183,8 @@ El resultado es un conjunto de mensajes. Dentro de cada mensaje hay un objeto de
     }
 ]
 ----
+
+
+== Referencia de API
+
+La documentación para cada API de sincronización y copia de BlueXP está disponible en https://api.cloudsync.netapp.com/docs[].

@@ -4,7 +4,7 @@ permalink: task-installing-azure.html
 keywords: data broker, install, azure, networking, permissions, regions, install data broker in azure, install in azure, deploy in azure, deploy data broker in azure, networking requirements, port, ports, 443, port 443, ntp, network time protocol, azure data broker 
 summary: Al crear un nuevo agente de datos, elija la opción de Azure Data Broker para implementar el software de agente de datos en una nueva máquina virtual en un vnet. La copia y sincronización de BlueXP te guía por el proceso de instalación, pero los requisitos y los pasos se repiten en esta página para ayudarte a preparar la instalación. 
 ---
-= Creación de un nuevo agente de datos en Azure
+= Cree un nuevo agente de datos en Azure
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 
@@ -150,7 +150,7 @@ Para obtener ayuda sobre la creación de un par de claves, consulte https://docs
 
 
 
-== Creación del agente de datos
+== Cree el agente de datos
 
 Hay varias formas de crear un nuevo agente de datos. Estos pasos describen cómo instalar un agente de datos en Azure al crear una relación de sincronización.
 

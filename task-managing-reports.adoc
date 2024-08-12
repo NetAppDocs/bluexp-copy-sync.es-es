@@ -4,7 +4,7 @@ permalink: task-managing-reports.html
 keywords: reports, sync reports, BlueXP copy and sync reports, report errors, path reports 
 summary: Cree y vea informes para obtener información que puede usar con la ayuda del personal de NetApp para ajustar la configuración de un agente de datos y mejorar el rendimiento. 
 ---
-= Creación y visualización de informes para ajustar la configuración
+= Cree y vea informes para ajustar la configuración
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 
@@ -47,7 +47,7 @@ image:screenshot_sync_report_object.gif["Informe que muestra el número de eleme
 
 
 
-== Descargando informes
+== Descargar informes
 
 Puede descargar un informe en PDF para poder verlo sin conexión o compartirlo.
 

@@ -4,7 +4,7 @@ permalink: task-licensing.html
 keywords: license, subscription, registering, subscribing, subscribing in aws, subscribing in azure, subscribing to aws, subscribing to azure, aws marketplace, azure marketplace, netapp license, byol license, purchase a license, license settings, pay for relationships, paygo, annual, pay-as-you-go 
 summary: Hay dos formas de pagar las relaciones de sincronización después de que termine su prueba gratuita de 14 días. La primera opción es el pago por uso. La segunda opción consiste en comprar licencias directamente a NetApp. 
 ---
-= Pago de las relaciones de sincronización después de que finalice su prueba gratuita
+= Pague por las relaciones de sincronización una vez que finalice su prueba gratuita
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 
@@ -28,7 +28,7 @@ Las licencias deben gestionarse a través de la copia y sincronización de BlueX
 
 
 
-== [[aws]]Suscribirse a AWS
+== [[aws]]Suscribirse de AWS
 
 AWS le permite pagar anualmente.
 
@@ -52,7 +52,7 @@ video::video_cloud_sync_registering.mp4[width=848,height=480]
 
 
 
-== [[Azure]]suscribirse de Azure
+== [[azure]]Suscribirse de Azure
 
 Azure le permite pagar por uso o anualmente.
 
@@ -78,7 +78,7 @@ video::video_cloud_sync_registering_azure.mp4[width=848,height=480]
 
 
 
-== [[licenses]]Comprar licencias de NetApp y añadirlas a la copia y sincronización de BlueXP
+== [[LICENCIAS]]Adquiera licencias de NetApp y añádalas a la copia y sincronización de BlueXP 
 
 Para pagar por adelantado tus relaciones de sincronización, debes comprar una o más licencias y añadirlas al servicio de copia y sincronización de BlueXP.
 
