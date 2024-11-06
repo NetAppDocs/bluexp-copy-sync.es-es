@@ -1,0 +1,9 @@
+= Corrección de errores
+:allow-uri-read: 
+
+
+
+
+=== Corrección de errores
+
+Actualizamos el servicio de copia y sincronización de BlueXP y el agente de datos para solucionar algunos errores. La nueva versión de Data Broker es 1,0.54.
