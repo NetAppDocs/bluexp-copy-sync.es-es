@@ -11,8 +11,6 @@
   <block id="b4951d06315b1f9ffb6d04ceb4346101" category="list-text">*RAM*: 16 GB</block>
   <block id="53a3e84f8dd7775216fa9eaac8d2ba6d" category="list-text">*CPU*: 4 núcleos</block>
   <block id="1187c6e89712492c48d5d9a1e68f3b42" category="list-text">*espacio libre en disco*: 10 GB</block>
-  <block id="1a3d8802d280d4ec910f54042cd62998" category="inline-link">SELinux</block>
-  <block id="6388693da9b6d4d4012711303b71d780" category="list-text">*SELinux*: Le recomendamos que desactive la función<block ref="59f91e142e660e7d393df4005d7488a3" category="inline-link-rx"></block> en el host.</block>
   <block id="3d64791fb8102a78b642b754f758f4b9" category="paragraph">SELinux aplica una política que bloquea las actualizaciones de software de Data broker y puede bloquear el intermediario de datos de los extremos de contacto necesarios para un funcionamiento normal.</block>
   <block id="bcb9c50efc2e8b1f33257f8dbf32e2ae" category="section-title">Privilegios de usuario raíz</block>
   <block id="04baae6f2bb9072d7883e5f28e54a6c3" category="paragraph">El software de Data broker se ejecuta automáticamente como root en el host Linux. Ejecutar como root es un requisito para las operaciones de data broker. Por ejemplo, para montar recursos compartidos.</block>
@@ -1110,7 +1108,6 @@
   <block id="cabe1b04cc3c96ae849f8fd810dfecdb" category="cell">\https://fedoraproject.org</block>
   <block id="ebd974875888e4cb1567f55e3466cda1" category="cell">Para instalar 7z en la máquina virtual Data Broker durante la instalación y las actualizaciones. Es necesario enviar mensajes de AutoSupport al soporte técnico de NetApp.</block>
   <block id="89100474e7faee0c34727c4b2b471007" category="cell">Para verificar las credenciales de AWS cuando el agente de datos se implementa en AWS o cuando está implementado en sus instalaciones, y se proporcionan las credenciales de AWS. El agente de datos se pone en contacto con este extremo durante la implementación, cuando se actualiza y cuando se reinicia.</block>
-  <block id="e7972d5601badb4c5fcefad96c59c2fc" category="cell">\https://console.bluexp.netapp.com/ \https://netapp-cloud-account.auth0.com</block>
   <block id="8f606ab2764de8092de1ca0d967cfb8d" category="cell">\https://pubsub.googleapis.com</block>
   <block id="df94b5032f4c4edc418da1de5a985935" category="cell">Si crea una relación de sincronización continua desde una cuenta de almacenamiento de Google.</block>
   <block id="cfcdd9e78004b91f8c395165fdb5e282" category="cell"><block ref="e36a49efb19686edd0dc8263877ab168" category="inline-link-rx"></block>\https://management.azure.com/subscriptions/${_subscriptionId_} /ResourceGroups/${_ResourceGroup_}/providers/Microsoft.EventGrid/* donde _Storage-account_ es la cuenta de almacenamiento de origen del usuario, _subscriptionid_ es el identificador de suscripción de origen y _ResourceGroup_ es el grupo de recursos de origen.</block>
@@ -1943,4 +1940,6 @@
   <block id="c81c8e01f5d906ae1ab0c5c606f06b05" category="paragraph">La asociación de credenciales de NSS a la organización de BlueXP  es diferente de la cuenta de NSS asociada con un inicio de sesión de usuario de BlueXP .</block>
   <block id="8166996cb4a59c147200d89a061bb49c" category="paragraph">Estas credenciales de NSS están asociadas con su ID de organización de BlueXP  específico. Los usuarios que pertenecen a la organización BlueXP  pueden acceder a estas credenciales desde *Soporte &gt; Administración de NSS*.</block>
   <block id="2a81eb3b4a7f22fb1fdb159561b71f3f" category="doc">Corrección de errores</block>
+  <block id="60b6724cc91011c88aedcdfe5a1554f0" category="cell">\https://api.BlueXP .NetApp.com \https://NetApp-cloud-account.auth0.com</block>
+  <block id="6a16108e082698a01703a8570c1c83ab" category="list-text">*SELinux*: Te recomendamos desactivar SELinux en el host.</block>
 </blocks>

@@ -107,7 +107,7 @@ Un agente de datos se pone en contacto con los siguientes extremos:
 \https://sts.us-east-1.amazonaws.com | Para verificar las credenciales de AWS cuando el agente de datos se implementa en AWS o cuando está implementado en sus instalaciones, y se proporcionan las credenciales de AWS. El agente de datos se pone en contacto con este extremo durante la implementación, cuando se actualiza y cuando se reinicia. 
 
 
-| \https://console.bluexp.netapp.com/ \https://netapp-cloud-account.auth0.com | Para ponerse en contacto con la clasificación de BlueXP cuando usas la clasificación a fin de seleccionar los archivos de origen de una nueva relación de sincronización. 
+| \https://api.BlueXP .NetApp.com \https://NetApp-cloud-account.auth0.com | Para ponerse en contacto con la clasificación de BlueXP cuando usas la clasificación a fin de seleccionar los archivos de origen de una nueva relación de sincronización. 
 
 
 | \https://pubsub.googleapis.com | Si crea una relación de sincronización continua desde una cuenta de almacenamiento de Google. 
