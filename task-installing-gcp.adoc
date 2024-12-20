@@ -106,6 +106,7 @@ Notas:
 Hay varias formas de crear un nuevo agente de datos. Estos pasos describen cómo instalar un agente de datos en Google Cloud al crear una relación de sincronización.
 
 .Pasos
+. En el menú de navegación de BlueXP , selecciona *Movilidad > Copiar y sincronizar*.
 . Selecciona *Crear nueva sincronización*.
 . En la página *Definir relación de sincronización*, elige un origen y un destino y selecciona *Continuar*.
 +

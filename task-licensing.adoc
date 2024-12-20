@@ -33,15 +33,17 @@ Las licencias deben gestionarse a través de la copia y sincronización de BlueX
 AWS le permite pagar anualmente.
 
 .De pago por uso
-. Selecciona *Sync > Licensing*.
-. Seleccione *AWS*
+. En el menú de navegación de BlueXP , selecciona *Movilidad > Copiar y sincronizar*.
+. Selecciona *Licencias*.
+. Seleccione *AWS*.
 . Seleccione *Suscribirse* y luego seleccione *Continuar*.
 . Suscríbete en AWS Marketplace y, a continuación, vuelve a iniciar sesión en el servicio de copia y sincronización de BlueXP para completar el registro.
 +
 El siguiente vídeo muestra el proceso:
 
 +
-video::video_cloud_sync_registering.mp4[width=848,height=480]
+.Suscríbase a la copia y sincronización de BlueXP  desde AWS Marketplace
+video::796ffd6d-cade-4750-8504-b24c010b225d[panopto]
 
 
 .Pasos a pagar anualmente
@@ -60,7 +62,8 @@ Azure le permite pagar por uso o anualmente.
 Cuenta de usuario de Azure con permisos de colaborador o propietario en la suscripción correspondiente.
 
 .Pasos
-. Selecciona *Sync > Licensing*.
+. En el menú de navegación de BlueXP , selecciona *Movilidad > Copiar y sincronizar*.
+. Selecciona *Licencias*.
 . Seleccione *Azure*.
 . Seleccione *Suscribirse* y luego seleccione *Continuar*.
 . En el portal de Azure, selecciona *Crear*, selecciona tus opciones y luego selecciona *Suscribir*.
@@ -73,7 +76,8 @@ Seleccione *Mensual* para pagar por hora, o *Anual* para pagar por un año antes
 El siguiente vídeo muestra el proceso:
 
 +
-video::video_cloud_sync_registering_azure.mp4[width=848,height=480]
+.Suscríbase a la copia y sincronización de BlueXP  desde Azure Marketplace
+video::a6a39447-b7b1-42f6-9c89-b24c010b21b9[panopto]
 
 
 
@@ -87,7 +91,8 @@ Necesitará el número de serie de su licencia, así como el nombre de usuario y
 
 .Pasos
 . Adquiera una licencia por correo electrónico:ng-cloudsync-contact@netapp.com?Subject=Cloud%20Sync%20Service%20-%20BYOL%20Licencia%20Compra%20Solicite[Contacto con NetApp].
-. En BlueXP, selecciona *Sync > Licensing*.
+. En el menú de navegación de BlueXP , selecciona *Movilidad > Copiar y sincronizar*.
+. Selecciona *Licencias*.
 . Seleccione *Añadir licencia* y agregue la información requerida:
 +
 .. Introduzca el número de serie.
@@ -109,7 +114,8 @@ Necesitará el número de serie de su licencia, así como el nombre de usuario y
 Si ampliaste una licencia de copia y sincronización de BlueXP que compraste a NetApp, la nueva fecha de caducidad no se actualizará automáticamente en la copia y sincronización de BlueXP. Debe volver a agregar la licencia para actualizar la fecha de caducidad. Las licencias deben gestionarse a través de la copia y sincronización de BlueXP o del sitio web correspondiente y *no* a través de una cartera digital.
 
 .Pasos
-. En BlueXP, selecciona *Sync > Licensing*.
+. En el menú de navegación de BlueXP , selecciona *Movilidad > Copiar y sincronizar*.
+. Selecciona *Licencias*.
 . Seleccione *Añadir licencia* y agregue la información requerida:
 +
 .. Introduzca el número de serie.

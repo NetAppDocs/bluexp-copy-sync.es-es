@@ -182,7 +182,8 @@ NOTE: Los enlaces físicos solo están disponibles para relaciones NFS no segura
 Excluir extensiones de archivo:: Especifique el regex o las extensiones de archivo que desea excluir de la sincronización escribiendo la extensión de archivo y pulsando *Intro*. Por ejemplo, escriba _log_ o _.log_ para excluir archivos *.log. No es necesario un separador para varias extensiones. El siguiente vídeo proporciona una breve demostración:
 +
 --
-video::video_file_extensions.mp4[width=840,height=240]
+.Excluir extensiones de archivo para una relación de sincronización
+video::7f957dbf-9215-41ea-a705-b24c010b2212[panopto]
 
 NOTE: Regex, o expresiones regulares, difieren de comodines o expresiones glob. Esta función *Only* funciona con regex.
 

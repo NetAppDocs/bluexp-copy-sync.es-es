@@ -155,6 +155,7 @@ Para obtener ayuda sobre la creación de un par de claves, consulte https://docs
 Hay varias formas de crear un nuevo agente de datos. Estos pasos describen cómo instalar un agente de datos en Azure al crear una relación de sincronización.
 
 .Pasos
+. En el menú de navegación de BlueXP , selecciona *Movilidad > Copiar y sincronizar*.
 . Selecciona *Crear nueva sincronización*.
 . En la página *Definir relación de sincronización*, elige un origen y un destino y selecciona *Continuar*.
 +

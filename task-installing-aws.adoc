@@ -71,6 +71,7 @@ Siga los pasos que se indican a continuación para especificar la función de IA
 Hay varias formas de crear un nuevo agente de datos. Estos pasos describen cómo instalar un agente de datos en AWS al crear una relación de sincronización.
 
 .Pasos
+. En el menú de navegación de BlueXP , selecciona *Movilidad > Copiar y sincronizar*.
 . Selecciona *Crear nueva sincronización*.
 . En la página *Definir relación de sincronización*, elige un origen y un destino y selecciona *Continuar*.
 +
@@ -92,7 +93,8 @@ Si prefiere no proporcionar claves de acceso, seleccione el enlace en la parte i
 [[cft]]en el siguiente vídeo se muestra cómo iniciar la instancia de Data broker mediante una plantilla CloudFormation:
 
 +
-video::video_cloud_sync.mp4[width=848,height=480]
+.Inicie un agente de datos desde una plantilla de AWS CloudFormation
+video::abaf0898-ea15-4f84-938e-b24c010b21e8[panopto]
 . Si introdujo una clave de acceso de AWS, seleccione una ubicación para la instancia, seleccione un par de claves, elija si desea habilitar una dirección IP pública y seleccionar un rol de IAM existente o deje el campo en blanco para que la copia y sincronización de BlueXP creen el rol para usted. También tiene la opción de cifrar el agente de datos con una clave KMS.
 +
 Si elige su propio rol de IAM, <<iam,deberá proporcionar los permisos necesarios>>.

@@ -119,6 +119,7 @@ El acceso a Azure se define por relación proporcionando una cuenta de almacenam
 Puede instalar un agente de datos en un host Linux al crear una relación de sincronización.
 
 .Pasos
+. En el menú de navegación de BlueXP , selecciona *Movilidad > Copiar y sincronizar*.
 . Selecciona *Crear nueva sincronización*.
 . En la página *Definir relación de sincronización*, elige un origen y un destino y selecciona *Continuar*.
 +
