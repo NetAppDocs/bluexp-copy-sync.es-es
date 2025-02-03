@@ -27,9 +27,9 @@ Cuando crea un nuevo grupo de agentes de datos, elija la opción On-Prem Data Br
 +
 CentOS Stream no es compatible.
 
-** Red Hat Enterprise Linux 8,5, 8,8 y 8,9
+** Red Hat Enterprise Linux 8,5, 8,8, 8,9 y 9,4
 ** Rocky Linux 9
-** Sistema operativo Ubuntu Server 20.04 LTS
+** Ubuntu Server 20,04 LTS, 23,04 LTS y 24,04 LTS
 ** SUSE Linux Enterprise Server 15 SP1
 +
 El comando `yum update` debe ejecutarse en el host antes de instalar el agente de datos.
