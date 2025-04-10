@@ -172,9 +172,6 @@
   <block id="9812e4bcf0263cfa80fdd8c8a789a255" category="paragraph">Cambie el nivel de servicio a Premium o Ultra para mejorar el rendimiento de la sincronización.</block>
   <block id="94e12c4a58e36c62d41d5c7ea1f166f7" category="inline-link">Obtenga más información acerca de los niveles de servicio y el rendimiento de Azure NetApp Files</block>
   <block id="8c7b3ed9d7207fdbe57540ab6cd5e1e7" category="paragraph"><block ref="bc692a932f7211cd1ab661879beac160" category="inline-link-rx"></block>.</block>
-  <block id="06dd90f0736ba00a0e3050c043c11683" category="section-title">¿por qué estoy experimentando un bajo rendimiento con Cloud Volumes Service para AWS?</block>
-  <block id="37bbffa966391c253fd64fcdf3509afa" category="paragraph">Al sincronizar datos con un volumen de cloud o desde este, es posible que experimente errores y problemas de rendimiento si el nivel de rendimiento del volumen de cloud es estándar.</block>
-  <block id="305fa2f993292af4e7b31404440f0f2e" category="paragraph">Cambie el nivel de servicio a Premium o Extreme para mejorar el rendimiento de la sincronización.</block>
   <block id="a74feaca0228e843c01e1cc6a5a7a4da" category="section-title">¿Cuántos agentes de datos son necesarios en un grupo?</block>
   <block id="6d0c6fb653b3e1d2a836e0b86dabea25" category="paragraph">Al crear una nueva relación, comienza con un solo agente de datos de un grupo (a menos que haya seleccionado un agente de datos existente que pertenezca a una relación de sincronización acelerada). En muchos casos, un único agente de datos puede satisfacer los requisitos de rendimiento de una relación de sincronización. Si no lo hace, puede acelerar el rendimiento de la sincronización añadiendo agentes de datos adicionales al grupo. Pero primero debe comprobar otros factores que pueden afectar al rendimiento de la sincronización.</block>
   <block id="c6bdda7b88c4f51edb4d0ca671f8c528" category="paragraph">El rendimiento de la transferencia de datos puede afectar múltiples factores. El rendimiento general de la sincronización puede verse afectado debido al ancho de banda de la red, la latencia y la topología de la red, así como las especificaciones del equipo virtual del agente de datos y el rendimiento del sistema de almacenamiento. Por ejemplo, un solo intermediario de datos de un grupo puede alcanzar los 100 MB/s, mientras que el rendimiento de disco en el destino sólo puede permitir 64 MB/s. Como resultado, el grupo de agentes de datos sigue intentando copiar los datos, pero el destino no puede satisfacer el rendimiento del grupo de agentes de datos.</block>
@@ -353,7 +350,6 @@
   <block id="52745271323ee9ea30e3a37d0338d118" category="list-text">Azure Blob</block>
   <block id="7450cfde7058dc5e1f7909d0280fd7ae" category="list-text">Azure NetApp Files</block>
   <block id="117bdbda976fe8b3212bc3b6327a0a1b" category="list-text">Cloud Volumes ONTAP</block>
-  <block id="200b74de2e12f861dad63aa0de84ec6c" category="list-text">Cloud Volumes Service</block>
   <block id="833c2c211a541e50ad94433664e4b5c1" category="list-text">Google Cloud Storage</block>
   <block id="5446a6bee3301e1f52824fc0affa6299" category="list-text">Almacenamiento de objetos en cloud de IBM</block>
   <block id="e83e5674ab295a6613b60f5e12d1bfe3" category="list-text">Servidor NFS</block>
@@ -1361,7 +1357,6 @@
   <block id="58d5764081980d61dc580371a7f7d817" category="paragraph">Hay dos tipos de costes asociados al uso de copia y sincronización de BlueXP: Cargos por servicio y cargos por recursos.</block>
   <block id="d70cc4cc828a890527496d140a0c2410" category="paragraph">Para los precios de pago por uso, los cargos por servicio de copia y sincronización de BlueXP se cobran por hora en función del número de relaciones de sincronización que crees.</block>
   <block id="6de51c73db055b72838083b7da60e27e" category="paragraph">Las licencias de copia y sincronización de BlueXP también están disponibles a través de tu representante de NetApp. Cada licencia activa 20 relaciones de sincronización durante 12 meses.</block>
-  <block id="49f3a6d816929e060637c72d117a2ab1" category="admonition">Las relaciones de sincronización y copia de BlueXP son gratuitas para Cloud Volumes Service y Azure NetApp Files.</block>
   <block id="01396bcd8023631c1f74003124e865f5" category="section-title">¿Cómo se factura la copia y sincronización de BlueXP y cómo gestiono mi suscripción?</block>
   <block id="1c9fb78d365658e23fd1a1120743c672" category="paragraph">Hay dos formas de pagar las relaciones de sincronización después de que termine su prueba gratuita de 14 días. La primera opción es suscribirse a AWS o Azure, lo que le permite pagar por uso o anualmente. La segunda opción consiste en comprar licencias directamente a NetApp. En cada caso, tu suscripción se gestionará a través de tu mercado de proveedores y *no* a través de la interfaz de usuario de copia y sincronización de BlueXP.</block>
   <block id="27092823e2230caab83a388839b4dfeb" category="section-title">¿Puedo usar la copia y sincronización de BlueXP fuera de la nube?</block>
@@ -1951,4 +1946,5 @@
   <block id="87a7ac9f5b2ba3fbc595d73b0c0dc71c" category="list-text">Red Hat Enterprise Linux 8,5, 8,8, 8,9 y 9,4</block>
   <block id="62c1014736e4269f295e55cd59d3a0ec" category="list-text">Ubuntu Server 20,04 LTS, 23,04 LTS y 24,04 LTS</block>
   <block id="723559e2f2e86e612c412da00a435eea" category="section-title">2 de febrero de 2025</block>
+  <block id="3de4ee14f1b1d0abe0ecac5872f26c6c" category="admonition">Las relaciones de sincronización y copia de BlueXP  son gratuitas para Azure NetApp Files.</block>
 </blocks>
