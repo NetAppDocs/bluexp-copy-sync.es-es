@@ -330,7 +330,7 @@ La relación de sincronización muestra el rendimiento del adaptador de red del 
 
 Si tiene archivos muy grandes (múltiples TIBs cada uno), puede tardar mucho tiempo en completar el proceso de transferencia y el rendimiento puede verse afectado.
 
-Limitar el número de transferencias simultáneas puede ser de ayuda. Mailto:ng-cloudsync-support@netapp.com[Contacte con nosotros para obtener ayuda].
+Limitar el número de transferencias simultáneas puede ayudar. link:task-get-help.html["Contáctanos para obtener ayuda"] .
 
 
 
