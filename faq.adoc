@@ -212,7 +212,7 @@ link:task-managing-relationships.html#change-the-settings-for-a-sync-relationshi
 
 === ¿y si tengo un conjunto de datos muy grande?
 
-Si un único directorio contiene 600,000 archivos o más, mailto:ng-cloudsync-support@netapp.com[contact US] para que podamos ayudarle a configurar el grupo de Data broker para manejar la carga útil. Es posible que necesitemos agregar memoria adicional al grupo de intermediarios de datos.
+Si un solo directorio contiene 600.000 archivos o más,link:task-get-help.html["Contáctanos"] para que podamos ayudarle a configurar el grupo de intermediarios de datos para manejar la carga útil.  Es posible que necesitemos agregar memoria adicional al grupo de intermediarios de datos.
 
 Tenga en cuenta que no hay límite en el número total de archivos del punto de montaje. La memoria adicional es necesaria para directorios grandes con 600,000 archivos o más, independientemente de su nivel en la jerarquía (directorio superior o subdirectorio).
 
